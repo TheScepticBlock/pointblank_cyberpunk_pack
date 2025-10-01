@@ -1,0 +1,25 @@
+{
+  "name" : "cp2077_cqo_kanone_mini_mk72",
+  "type": "Attachment",
+  "category": "scope",
+  "groups": [
+    "sights_group",
+    "ar_sightsandscopes",
+    "m16_sightsandscopes",
+    "deagle_sights",
+    "hg_sights",
+    "cp2077_short_scope"
+  ],
+  "features": [
+    {
+      "type": "Aiming",
+      "zoom": 0.3
+    },
+    {
+      "type": "Reticle",
+      "texture": "textures/item/reticle_cqo_kanone_mini_mk72.png",
+      "parallax": true,
+      "maxAngularOffset": 4
+    }
+  ]
+}

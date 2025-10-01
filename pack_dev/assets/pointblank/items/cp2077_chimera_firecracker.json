@@ -1,0 +1,37 @@
+{
+  "name" : "cp2077_chimera_firecracker",
+  "type": "Attachment",
+  "category": "chimera",
+  "groups": [
+    "xm7_skins",
+    "ak47_skins",
+    "citoricxs_skins",
+    "spas12_skins",
+    "gm6lynx_skins",
+    "m590_skins",
+    "m1014_skins",
+    "aa12_skins",
+    "hs12_skins",
+    "m870_skins",
+    "smg_muzzle",
+    "ar_muzzle",
+    "rf_muzzle",
+    "sg_muzzle",
+    "chimera"
+  ],
+  "features": [
+    {
+      "type": "Damage",
+      "hitScanDamageModifier": 1.75
+    },
+    {
+      "type": "MuzzleFlash",
+      "effects": [
+        {
+          "phase": "hit_target",
+          "name": "cp2077_explosion_new_ext_hit"
+        }
+      ]
+    }
+  ]
+}

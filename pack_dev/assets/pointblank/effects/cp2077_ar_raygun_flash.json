@@ -1,0 +1,14 @@
+{
+	"type": "muzzle_flash",
+	"name": "cp2077_ar_raygun_flash",
+	"texture": "textures/effect/cp2077_ar_raygun_flash.png",
+        "blendMode": "ADDITIVE",
+	"width": 0.4,
+	"duration" : 50,
+        "sprites": {
+	  "type": "random",
+	  "rows": 1,
+	  "columns": 3,
+	  "fps": 60
+	}
+}

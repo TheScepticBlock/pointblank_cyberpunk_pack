@@ -1,0 +1,24 @@
+{
+  "name" : "cp2077_gaki",
+  "type": "Attachment",
+  "category": "scope",
+  "groups": [
+    "snipers_sights",
+    "sights_group",
+    "sl8_sights",
+    "deagle_sights",
+    "m16_sightsandscopes"
+  ],
+  "features": [
+    {
+      "type": "Aiming",
+      "zoom": 0.65
+    },
+    {
+      "type": "PIP",
+      "maskTexture": "textures/gui/cp2077_pip_mask_gaki.png",
+      "overlayTexture": "textures/gui/gaki_scope_pip.png",
+      "zoom": 0.65
+    }
+  ]
+}

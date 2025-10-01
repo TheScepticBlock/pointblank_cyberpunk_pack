@@ -1,0 +1,156 @@
+{
+  "name" : "cp2077_ca_unity",
+  "type": "Gun",
+  "compatibleAttachments": [
+    "moa_hg"
+  ],
+  "compatibleAttachmentGroups": [
+    "smg_muzzle",
+    "cp2077_short_scope",
+    "chimera"
+  ],
+  "features": [
+    {
+        "type": "Aiming",
+        "zoom": 0.25,
+        "condition": {
+          "allOf": [
+            {
+              "doesNotHaveAttachment": "moa_hg"
+            },
+            {
+              "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+            },
+            {
+              "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+            }
+          ]
+        }
+    },
+    {
+      "type": "Sound",
+      "fireSound": "unity_fire_silenced",
+      "fireSoundVolume": 1,
+      "condition": {
+        "hasAttachmentGroup": "smg_suppressors"
+      }
+    },
+    {
+      "type": "PartVisibility",
+      "parts": [
+        {
+          "name": "rail",
+          "visible": false,
+          "condition": {
+          "allOf": [
+            {
+              "doesNotHaveAttachment": "moa_hg"
+            },
+            {
+              "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+            },
+            {
+              "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+            }
+          ]
+        }
+        }
+      ]
+    },
+    {
+      "type": "MuzzleFlash",
+      "effects": [
+        {
+          "phase": "firing",
+          "name": "muzzle_flash_small"
+        }
+      ],
+        "condition": {
+          "allOf": [
+            {
+              "isUsingDefaultMuzzle": true
+            },
+            {
+              "doesNotHaveAttachmentGroup": "smg_muzzle"
+            }
+          ]
+        }
+    }
+  ],
+  "maxAmmoCapacity" : 12,
+  "compatibleAmmo" : ["ammo45acp", "ammocreative"],
+  "damage" : 4,
+  "rpm" : 600,
+  "fireModes" : ["SINGLE"],
+  "fireSound" : "unity_fire",
+  "gunRecoilInitialAmplitude" : 0.6,
+  "shakeRecoilAmplitude" : 0.35,
+  "shakeRecoilSpeed" : 1,
+  "viewRecoilAmplitude" : 2.5,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
+  "drawAnimations": [
+    {
+      "name": "animation.model.draw",
+      "duration": 500,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.drawempty",
+      "duration": 500,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "idleAnimations": [
+    {
+      "name": "animation.model.idle",
+      "duration": 0,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.idleempty",
+      "duration": 0,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "inspectAnimations": [
+    {
+      "name": "animation.model.inspect",
+      "duration": 3800,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.inspectempty",
+      "duration": 2400,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "glowingParts": [
+    {
+      "name": "glow"
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash_small"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 2730,
+      "animation": "animation.model.reloadempty"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 1900,
+      "animation": "animation.model.reload"
+    }
+  ]
+}

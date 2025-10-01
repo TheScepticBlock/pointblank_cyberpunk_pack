@@ -1,0 +1,99 @@
+{
+  "name" : "cp2077_tomahawk",
+  "type": "Gun",
+  "features": [
+    {
+      "type": "Sound",
+      "fireSound": "tomahawk_throw",
+      "fireSoundVolume": 1,
+      "condition": {
+        "selectedFireMode": "cp2077_thrown"
+      }
+    },
+    {
+      "type": "Accuracy",
+      "accuracyModifier": 3
+    },
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "cp2077_melee",
+          "displayName": "label.pointblank.fireMode.cp2077_melee",
+          "type": "AUTOMATIC",
+          "rpm": 100,
+          "damage": 9.0,
+          "maxShootingDistance": 3.5,
+          "fireAnimations": [
+            {
+              "name": "animation.model.swing1",
+              "duration": 600,
+              "condition": "random"
+            },
+            {
+              "name": "animation.model.swing2",
+              "duration": 600,
+              "condition": "random"
+            },
+            {
+              "name": "animation.model.swing3",
+              "duration": 600,
+              "condition": "random"
+            }
+          ],
+          "completeFireAnimations": [
+            {
+              "name": "animation.model.draw",
+              "duration": 600
+            }
+          ],
+          "enableFireModeAnimations": [
+            {
+              "name": "animation.model.modechange",
+              "duration": 1000
+            }
+          ]
+        },
+        {
+          "name": "cp2077_thrown",
+          "displayName": "label.pointblank.fireMode.cp2077_thrown",
+          "type": "SINGLE",
+          "rpm": 280,
+          "damage": 12.0,
+          "animationName": "animation.model.throw",
+          "prepareFireAnimations": [
+            {
+              "name": "animation.model.preparethrow",
+              "duration": 830
+            }
+          ],
+          "completeFireAnimations": [
+            {
+              "name": "animation.model.completethrow",
+              "duration": 4270
+            }
+          ],
+          "enableFireModeAnimations": [
+            {
+              "name": "animation.model.modechange",
+              "duration": 1000
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "maxAmmoCapacity" : "infinite",
+  "compatibleAmmo" : ["ammocreative"],
+  "drawCooldownDuration" : 600,
+  "fireSound" : "tomahawk_swing",
+  "damage": 9.0,
+  "rpm": 100,
+  "gunRecoilInitialAmplitude" : 0.0,
+  "shakeRecoilAmplitude" : 0.0,
+  "shakeRecoilSpeed" : 0.0,
+  "viewRecoilAmplitude" : 0,
+  "inspectCooldownDuration": 3700,
+  "firstPersonFallbackAnimations": "cp2077_fpp_tomahawk",
+  "aimingEnabled": false
+}

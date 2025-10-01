@@ -1,0 +1,28 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "pointblank:cp2077_rostovic_db4_igla"
+    },
+    {
+      "count": 10,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 12,
+      "item": "pointblank:gunmetal_ingot"
+    },
+    {
+      "count": 5,
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "count": 12,
+      "tag": "minecraft:planks"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_rostovic_db4_igla_sovereign"
+  }
+}

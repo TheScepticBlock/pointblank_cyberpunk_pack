@@ -1,0 +1,28 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "pointblank:cp2077_budget_arms_slaughtomatic"
+    },
+    {
+      "count": 15,
+      "item": "pointblank:gunmetal_ingot"
+    },
+    {
+      "count": 6,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 3,
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:repeater"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_ha_4grit"
+  }
+}

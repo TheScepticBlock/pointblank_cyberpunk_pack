@@ -1,0 +1,103 @@
+{
+  "name" : "cp2077_project_cynosure_erebus",
+  "type": "Gun",
+  "compatibleAttachmentGroups": [
+    "ar_sightsandscopes",
+    "cp2077_long_scope",
+    "cp2077_short_scope",
+    "chimera"
+  ],
+  "features": [
+    {
+        "type": "Aiming",
+        "zoom": 0.25,
+        "condition": {
+            "allOf": [
+              {
+                "doesNotHaveAttachmentGroup": "ar_sightsandscopes"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+              }
+            ]
+        }
+    }
+  ],
+  "maxAmmoCapacity" : 50,
+  "compatibleAmmo" : ["ammo545", "ammocreative"],
+  "pelletCount": 3,
+  "pelletSpread": 0.001,
+  "damage" : 6.0,
+  "rpm" : 375,
+  "fireModes" : ["AUTOMATIC"],
+  "fireSound" : "erebus_fire",
+  "drawCooldownDuration" : 600,
+  "completeFireCooldownDuration": 50,
+  "gunRecoilInitialAmplitude" : 0.3,
+  "shakeRecoilAmplitude" : 0.8,
+  "shakeRecoilSpeed" : 1.2,
+  "viewRecoilAmplitude" : 2.75,
+  "inspectCooldownDuration": 6500,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_medium",
+  "idleAnimations": [
+    {
+      "name": "animation.model.idle",
+      "duration": 15000,
+      "condition": "random"
+    },
+    {
+      "name": "animation.model.idle",
+      "duration": 15000,
+      "condition": "random"
+    },
+    {
+      "name": "animation.model.idle2",
+      "duration": 2800,
+      "condition": "random"
+    },
+    {
+      "name": "animation.model.idle3",
+      "duration": 4970,
+      "condition": "random"
+    }
+  ],
+  "glowingParts": [
+    {
+      "name": "glow" 
+    },
+    {
+      "name": "glowEye"
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": {
+        "onEmptyReload": true
+      },
+      "duration": 3600,
+      "animation": "animation.model.reloadempty"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": {
+        "onEmptyReload": false
+      },
+      "duration": 2800,
+      "animation": "animation.model.reload"
+    }
+  ]
+}

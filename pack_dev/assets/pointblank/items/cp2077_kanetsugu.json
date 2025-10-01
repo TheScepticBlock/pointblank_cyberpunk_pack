@@ -1,0 +1,40 @@
+{
+  "name" : "cp2077_kanetsugu",
+  "type": "Attachment",
+  "category": "scope",
+  "groups": [
+    "sights_group",
+    "ar_sightsandscopes",
+    "m16_sightsandscopes",
+    "deagle_sights",
+    "hg_sights",
+    "cp2077_short_scope"
+  ],
+  "features": [
+    {
+      "type": "Aiming",
+      "zoom": 0.3
+    },
+    {
+      "type": "Reticle",
+      "texture": "textures/item/reticle_kanetsugu.png",
+      "parallax": true,
+      "maxAngularOffset": 2.5
+    },
+    {
+      "type": "PartVisibility",
+      "parts": [
+        {
+          "name": "kanetsugu_holographic",
+          "visible": true,
+          "condition": { "isGunInHands": false }
+        }
+      ]
+    }
+  ],
+  "glowingParts": [
+    {
+      "name": "kanetsugu_holographic"
+    }
+  ]
+}

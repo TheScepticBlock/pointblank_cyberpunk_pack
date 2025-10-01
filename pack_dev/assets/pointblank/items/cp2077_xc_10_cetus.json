@@ -1,0 +1,28 @@
+{
+  "name" : "cp2077_xc_10_cetus",
+  "type": "Attachment",
+  "category": "muzzle",
+  "groups": [
+    "smg_muzzle",
+    "smg_suppressors",
+    "ar_muzzle",
+    "ar_suppressors",
+    "rf_muzzle",
+    "rf_suppressors"
+  ],
+  "features": [
+    {
+      "type": "Damage",
+      "hitScanDamageModifier": 1.1
+    },
+    {
+      "type": "MuzzleFlash",
+      "effects": [
+        {
+          "phase": "firing",
+          "name": "muzzle_flash_small"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "pointblank:cp2077_techtronika_spt32_grad"
+    },
+    {
+      "count": 15,
+      "item": "pointblank:gunmetal_ingot"
+    },
+    {
+      "count": 5,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 10,
+      "item": "minecraft:fire_charge"
+    },
+    {
+      "count": 5,
+      "item": "minecraft:tnt"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_techtronika_spt32_grad_buck"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "name" : "cp2077_militech_m251s_ajax_moron",
+  "type": "Gun",
+  "compatibleAttachmentGroups": [
+    "ar_sightsandscopes",
+    "ar_suppressors",
+    "ar_muzzle",
+    "cp2077_long_scope",
+    "cp2077_short_scope",
+    "chimera"
+  ],
+  "features": [
+    {
+        "type": "Reticle",
+        "texture": "textures/item/reticledot_new.png",
+        "parallax": true,
+        "maxAngularOffset": 4,
+        "condition": {
+            "allOf": [
+              {
+                "doesNotHaveAttachmentGroup": "ar_sightsandscopes"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+              }
+            ]
+        }
+    },
+    {
+        "type": "Aiming",
+        "zoom": 0.25,
+        "condition": {
+            "allOf": [
+              {
+                "doesNotHaveAttachmentGroup": "ar_sightsandscopes"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+              }
+            ]
+        }
+    },
+    {
+      "type": "PartVisibility",
+      "parts": [
+        {
+          "name": "sight",
+          "visible": true,
+          "condition": {
+              "allOf": [
+              {
+                "doesNotHaveAttachmentGroup": "ar_sightsandscopes"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+              }
+            ]
+          }
+        },
+        {
+          "name": "bullet3",
+          "visible": true,
+          "condition": "ammoCount > 0"
+        },
+        {
+          "name": "bullet2",
+          "visible": true,
+          "condition": "ammoCount > 1"
+        }
+      ]
+    },
+    {
+      "type": "MuzzleFlash",
+      "effects": [
+        {
+          "phase": "firing",
+          "name": "muzzle_flash"
+        }
+      ],
+        "condition": {
+          "allOf": [
+            {
+              "isUsingDefaultMuzzle": true
+            },
+            {
+              "doesNotHaveAttachmentGroup": "ar_muzzle"
+            }
+          ]
+        }
+    },
+    {
+      "type": "Sound",
+      "fireSound": "ajax_fire_suppressed",
+      "fireSoundVolume": 0.5,
+      "condition": {
+      "allOf": [
+          {
+            "hasAttachmentGroup": "ar_suppressors"
+          }
+        ]
+      }
+    }
+  ],
+  "maxAmmoCapacity" : 30,
+  "compatibleAmmo" : ["ammo556", "ammocreative"],
+  "damage" : 5.0,
+  "rpm" : 575,
+  "fireModes" : ["AUTOMATIC", "BURST", "SINGLE"],
+  "fireSound" : "ajax_fire",
+  "drawCooldownDuration" : 600,
+  "gunRecoilInitialAmplitude" : 0.4,
+  "shakeRecoilAmplitude" : 0.35,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 1.0,
+  "inspectCooldownDuration": 7300,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_medium",
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 3000,
+      "animation": "animation.model.reloademptyalt"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 2400,
+      "animation": "animation.model.reload"
+    }
+  ]
+}

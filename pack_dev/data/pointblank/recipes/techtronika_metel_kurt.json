@@ -1,0 +1,20 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "pointblank:cp2077_techtronika_metel"
+    },
+    {
+      "count": 5,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 5,
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_techtronika_metel_kurt"
+  }
+}

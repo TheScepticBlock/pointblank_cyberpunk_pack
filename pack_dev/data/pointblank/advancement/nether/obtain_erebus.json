@@ -1,0 +1,37 @@
+{
+  "parent": "pointblank:nether/decode_cerberus_behavioral_system",
+  "criteria": {
+    "obtain_erebus": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pointblank:cp2077_project_cynosure_erebus"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain a weapon that can send any mob to a digital hell within miliseconds.",
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "id": "pointblank:cp2077_project_cynosure_erebus"
+    },
+    "show_toast": true,
+    "title": "The Same Fate Awaits Your Entire Species"
+  },
+  "requirements": [
+    [
+      "obtain_erebus"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": false
+}

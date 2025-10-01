@@ -1,0 +1,129 @@
+{
+  "name" : "cp2077_militech_ar_lexington",
+  "type": "Gun",
+  "features": [
+    {
+        "type": "Aiming",
+        "zoom": 0.25
+    },
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "automatic",
+          "displayName": "label.pointblank.fireMode.automatic",
+          "type": "AUTOMATIC",
+          "rpm": 450,
+          "damage": 0,
+          "isUsingDefaultMuzzle": true
+        },
+        {
+          "name": "single",
+          "displayName": "label.pointblank.fireMode.single",
+          "type": "SINGLE",
+          "rpm": 550,
+          "damage": 0,
+          "isUsingDefaultMuzzle": true
+        }
+      ]
+    },
+    {
+      "type": "PartVisibility",
+      "parts": [
+        {
+          "name": "rail",
+          "visible": false,
+          "condition": {
+          "allOf": [
+              {
+                "doesNotHaveAttachment": "moa_hg"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "MuzzleFlash",
+      "effects": [
+        {
+          "phase": "firing",
+          "name": "cp2077_ar_raygun_flash"
+        },
+        {
+          "phase": "hit_scan_acquired",
+          "name": "tracer"
+        }
+      ]
+    }
+  ],
+  "maxAmmoCapacity" : 20,
+  "compatibleAmmo" : ["ammo9mm", "ammocreative"],
+  "fireModes" : ["AUTOMATIC"],
+  "fireSound" : "ar_lexington_fire",
+  "rpm": 450,
+  "damage": 0,
+  "gunRecoilInitialAmplitude" : 0.7,
+  "shakeRecoilAmplitude" : 0.35,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 0.7,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
+  "drawAnimations": [
+    {
+      "name": "animation.model.draw",
+      "duration": 630,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.drawempty",
+      "duration": 630,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "idleAnimations": [
+    {
+      "name": "animation.model.idle",
+      "duration": 0,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.idleempty",
+      "duration": 0,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "inspectAnimations": [
+    {
+      "name": "animation.model.inspect",
+      "duration": 5100,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.inspectempty",
+      "duration": 3400,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "glowingParts": [
+    {
+      "name": "glow"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 2700,
+      "animation": "animation.model.reloadempty"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 2200,
+      "animation": "animation.model.reload"
+    }
+  ]
+}

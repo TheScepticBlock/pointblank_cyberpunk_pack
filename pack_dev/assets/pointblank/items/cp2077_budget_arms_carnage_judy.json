@@ -1,0 +1,85 @@
+{
+  "name" : "cp2077_budget_arms_carnage_judy",
+  "type": "Gun",
+  "compatibleAttachmentGroups": [
+    "chimera"
+  ],
+  "features": [
+    {
+        "type": "Aiming",
+        "zoom": 0.25
+    },
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "single",
+          "displayName": "label.pointblank.fireMode.single",
+          "type": "SINGLE",
+          "rpm": 50,
+          "damage": 4.5,
+          "pelletCount": 20,
+          "pelletSpread": 0.1,
+          "fireAnimations": [
+            {
+              "name": "animation.model.fireempty",
+              "duration": 1000,
+              "condition": "ammoCount == 0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "maxAmmoCapacity" : 8,
+  "maxAmmoPerReloadIteration" : 1,
+  "compatibleAmmo" : ["ammo12gauge", "ammocreative"],
+  "damage" : 90.0,
+  "rpm" : 50,
+  "fireSound" : "carnage_fire",
+  "drawCooldownDuration" : 700,
+  "gunRecoilInitialAmplitude" : 0.8,
+  "shakeRecoilAmplitude" : 0.9,
+  "shakeRecoilSpeed" : 3.25,
+  "viewRecoilAmplitude" : 10,
+  "inspectCooldownDuration": 5970,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_medium",
+  "effects": [
+    {
+      "phase": "firing",
+      "name": "cp2077_launcher_muzzle_ext"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "PREPARING",
+      "condition": "reloadIterationIndex == -1",
+      "duration": 870,
+      "animation": "animation.model.preparealt"
+    },
+    {
+      "phase": "PREPARING",
+      "condition": "reloadIterationIndex >= 0",
+      "duration": 400,
+      "animation": "animation.model.prepare"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 1470,
+      "animation": "animation.model.chamberload"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 970,
+      "animation": "animation.model.iterativeload"
+    },
+    {
+      "phase": "COMPLETETING",
+      "condition": "reloadIterationIndex >= 0",
+      "duration": 700,
+      "animation": "animation.model.finish"
+    }
+  ]
+}

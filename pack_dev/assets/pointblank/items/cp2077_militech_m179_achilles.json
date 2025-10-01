@@ -1,0 +1,316 @@
+{
+  "name" : "cp2077_militech_m179_achilles",
+  "type": "Gun",
+  "compatibleAttachments": [
+    "hamr",
+    "specter",
+    "acog",
+    "holographic"
+  ],
+  "compatibleAttachmentGroups": [
+    "cp2077_long_scope",
+    "cp2077_short_scope",
+    "chimera"
+  ],
+  "features": [
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "cp2077_split",
+          "displayName": "label.pointblank.fireMode.cp2077_split",
+          "type": "SINGLE",
+          "rpm": 200,
+          "damage": 3.0,
+          "pelletCount": 5,
+          "pelletSpread": 0.05,
+          "gunRecoilInitialAmplitude" : 1,
+          "shakeRecoilAmplitude" : 1,
+          "shakeRecoilSpeed" : 2,
+          "viewRecoilAmplitude" : 2,
+          "enableFireModeAnimations": [
+            {
+              "name": "animation.model.swapSingle",
+              "duration": 300
+            }
+          ]
+        },
+        {
+          "name": "single",
+          "displayName": "label.pointblank.fireMode.single",
+          "type": "SINGLE",
+          "rpm": 200,
+          "damage": 15.0,
+          "gunRecoilInitialAmplitude" : 1.5,
+          "shakeRecoilAmplitude" : 1,
+          "shakeRecoilSpeed" : 2,
+          "viewRecoilAmplitude" : 3,
+          "animationName": "animation.model.fireAlt",
+          "prepareFireAnimations": [
+            {
+              "name": "animation.model.preparefire",
+              "duration": 1000
+            }
+          ],
+          "enableFireModeAnimations": [
+            {
+              "name": "animation.model.swapSplit",
+              "duration": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Aiming",
+      "zoom": 0.45,
+      "condition": {
+        "allOf": [
+          {
+            "doesNotHaveAttachmentGroup": "snipers_sights"
+          },
+          {
+            "doesNotHaveAttachmentGroup": "sights_group"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Sound",
+      "fireSound": "achilles_firealt",
+      "fireSoundVolume": 1,
+      "condition": {
+        "selectedFireMode": "single"
+      }
+    },
+    {
+      "type": "PartVisibility",
+      "parts": [
+        {
+          "name": "sight",
+          "visible": true,
+          "condition": {
+            "allOf": [
+              {
+                "doesNotHaveAttachmentGroup": "snipers_sights"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "sights_group"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "maxAmmoCapacity" : 9,
+  "compatibleAmmo" : ["ammo762x51", "ammolasercharge",  "ammocreative"],
+  "damage" : 15.0,
+  "rpm" : 200,
+  "fireSound" : "achilles_fire",
+  "drawCooldownDuration" : 800,
+  "aimingZoom" : 0.45,
+  "gunRecoilInitialAmplitude" : 0.4,
+  "shakeRecoilAmplitude" : 1,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 2,
+  "inspectCooldownDuration": 4900,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_medium",
+  "glowingParts": [
+    {
+      "name": "glow" 
+    },
+    {
+      "name": "sightGlow"
+    },
+    {
+      "name": "CHARGEMETER"
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash"
+    }
+  ],
+  "drawAnimations": [
+    {
+      "name": "animation.model.draw",
+      "duration": 800,
+      "condition": {"selectedFireMode": "cp2077_split"}
+    },
+    {
+      "name": "animation.model.draw",
+      "duration": 800,
+      "condition": {
+        "allOf": [
+          {
+            "unselectedFireMode": "cp2077_split"
+          },
+          {
+            "unselectedFireMode": "single"
+          }
+        ]
+      }
+    },
+    {
+      "name": "animation.model.drawAlt",
+      "duration": 800,
+      "condition": {"selectedFireMode": "single"}
+    }
+  ],
+  "idleAnimations": [
+    {
+      "name": "animation.model.idle",
+      "duration": 0,
+      "condition": {"selectedFireMode": "cp2077_split"}
+    },
+    {
+      "name": "animation.model.idle",
+      "duration": 0,
+      "condition": {
+        "allOf": [
+          {
+            "unselectedFireMode": "cp2077_split"
+          },
+          {
+            "unselectedFireMode": "single"
+          }
+        ]
+      }
+    },
+    {
+      "name": "animation.model.idleAlt",
+      "duration": 0,
+      "condition": {"selectedFireMode": "single"}
+    }
+  ],
+  "inspectAnimations": [
+    {
+      "name": "animation.model.inspect",
+      "duration": 4900,
+      "condition": {"selectedFireMode": "cp2077_split"}
+    },
+    {
+      "name": "animation.model.inspect",
+      "duration": 4900,
+      "condition": {
+        "allOf": [
+          {
+            "unselectedFireMode": "cp2077_split"
+          },
+          {
+            "unselectedFireMode": "single"
+          }
+        ]
+      }
+    },
+    {
+      "name": "animation.model.inspectalt",
+      "duration": 4900,
+      "condition": {"selectedFireMode": "single"}
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "duration": 4200,
+      "animation": "animation.model.reloadempty",
+      "condition": {
+        "allOf": [
+          {
+            "onEmptyReload": true
+          },
+          {
+            "selectedFireMode": "cp2077_split"
+          }
+        ]
+      }
+    },
+    {
+      "phase": "RELOADING",
+      "duration": 4200,
+      "animation": "animation.model.reloademptyalt",
+      "condition": {
+        "allOf": [
+          {
+            "onEmptyReload": true
+          },
+          {
+            "selectedFireMode": "single"
+          }
+        ]
+      }
+    },
+    {
+      "phase": "RELOADING",
+      "duration": 3900,
+      "animation": "animation.model.reload",
+      "condition": {
+        "allOf": [
+          {
+            "onEmptyReload": false
+          },
+          {
+            "selectedFireMode": "cp2077_split"
+          }
+        ]
+      }
+    },
+    {
+      "phase": "RELOADING",
+      "duration": 3900,
+      "animation": "animation.model.reloadalt",
+      "condition": {
+        "allOf": [
+          {
+            "onEmptyReload": false
+          },
+          {
+            "selectedFireMode": "single"
+          }
+        ]
+      }
+    },
+    {
+      "phase": "RELOADING",
+      "duration": 4200,
+      "animation": "animation.model.reloadempty",
+      "condition": {
+        "allOf": [
+          {
+            "onEmptyReload": true
+          },
+          {
+            "unselectedFireMode": "cp2077_split"
+          },
+          {
+            "unselectedFireMode": "single"
+          }
+        ]
+      }
+    },
+    {
+      "phase": "RELOADING",
+      "duration": 3900,
+      "animation": "animation.model.reload",
+      "condition": {
+        "allOf": [
+          {
+            "onEmptyReload": false
+          },
+          {
+            "unselectedFireMode": "cp2077_split"
+          },
+          {
+            "unselectedFireMode": "single"
+          }
+        ]
+      }
+    }
+  ]
+}

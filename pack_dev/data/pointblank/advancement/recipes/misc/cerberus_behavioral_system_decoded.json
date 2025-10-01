@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cerberus_behavioral_system": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pointblank:cp2077_cerberus_behavioral_system"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pointblank:cerberus_behavioral_system_decoded"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_cerberus_behavioral_system",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pointblank:cerberus_behavioral_system_decoded"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,28 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 22,
+      "item": "pointblank:gunmetal_ingot"
+    },
+    {
+      "count": 6,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 3,
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:redstone"
+    },
+    {
+      "count": 2,
+      "item": "pointblank:processor"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_arasaka_hjke11_yukimura"
+  }
+}

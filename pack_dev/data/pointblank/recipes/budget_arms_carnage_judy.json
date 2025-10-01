@@ -1,0 +1,20 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "pointblank:cp2077_budget_arms_carnage"
+    },
+    {
+      "count": 8,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 15,
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_budget_arms_carnage_judy"
+  }
+}

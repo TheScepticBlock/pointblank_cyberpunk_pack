@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GI ",
+    "I  ",
+    "   "
+  ],
+  "key": {
+    "G": {
+      "item": "pointblank:guninternals"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "pointblank:cp2077_budget_arms_slaughtomatic"
+  }
+}

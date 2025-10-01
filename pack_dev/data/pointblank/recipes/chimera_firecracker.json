@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pointblank:cp2077_chimera_core"
+    },
+    {
+      "item": "minecraft:tnt"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_chimera_firecracker",
+    "count": 1
+  }
+}

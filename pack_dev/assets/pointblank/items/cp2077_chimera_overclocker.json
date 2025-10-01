@@ -1,0 +1,37 @@
+{
+  "name" : "cp2077_chimera_overclocker",
+  "type": "Attachment",
+  "category": "chimera",
+  "groups": [
+    "xm7_skins",
+    "ak47_skins",
+    "citoricxs_skins",
+    "spas12_skins",
+    "gm6lynx_skins",
+    "m590_skins",
+    "m1014_skins",
+    "aa12_skins",
+    "hs12_skins",
+    "m870_skins",
+    "smg_muzzle",
+    "ar_muzzle",
+    "rf_muzzle",
+    "sg_muzzle",
+    "chimera"
+  ],
+  "features": [
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "chimera_overclocked",
+          "displayName": "label.pointblank.fireMode.chimera_overclocked",
+          "type": "AUTOMATIC",
+          "rpm": 1000,
+          "damage": 15.0,
+          "isUsingDefaultMuzzle": true
+        }
+      ]
+    }
+  ]
+}

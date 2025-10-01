@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "pointblank:item/cp2077_skin_military"
+    }
+}

@@ -1,0 +1,148 @@
+{
+  "name" : "cp2077_ha_4grit_catahoula",
+  "type": "Gun",
+  "compatibleAttachmentGroups": [
+    "chimera"
+  ],
+  "features": [
+    {
+        "type": "Aiming",
+        "zoom": 0.25
+    },
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "single",
+          "displayName": "label.pointblank.fireMode.single",
+          "type": "SINGLE",
+          "rpm": 300,
+          "damage": 12.0,
+          "isUsingDefaultMuzzle": true,
+          "fireAnimations": [
+            {
+              "name": "animation.model.fireempty",
+              "duration": 300,
+              "condition": "ammoCount == 0"
+            }
+          ]
+        },
+        {
+          "name": "automatic",
+          "displayName": "label.pointblank.fireMode.automatic",
+          "type": "AUTOMATIC",
+          "rpm": 350,
+          "damage": 12.0,
+          "isUsingDefaultMuzzle": true,
+          "prepareFireAnimations": [
+            {
+              "name": "animation.model.preparefire",
+              "duration": 1000
+            }
+          ],
+          "fireAnimations": [
+            {
+              "name": "animation.model.fireempty",
+              "duration": 300,
+              "condition": "ammoCount == 0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PartVisibility",
+      "parts": [
+        {
+          "name": "glowslide",
+          "visible": true,
+          "condition": "ammoCount > 0"
+        },
+        {
+          "name": "glowslide2",
+          "visible": true,
+          "condition": "ammoCount == 0"
+        }
+      ]
+    }
+  ],
+  "maxAmmoCapacity" : 36,
+  "compatibleAmmo" : ["ammo45acp", "ammolasercharge",  "ammocreative"],
+  "fireSound" : "grit_fire",
+  "drawCooldownDuration" : 500,
+  "damage": 10.0,
+  "rpm": 300,
+  "gunRecoilInitialAmplitude" : 0.4,
+  "shakeRecoilAmplitude" : 0.35,
+  "shakeRecoilSpeed" : 1,
+  "viewRecoilAmplitude" : 2.5,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
+  "glowingParts": [
+    {
+      "name": "glowslide"
+    },
+    {
+      "name": "glowslide2"
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash"
+    }
+  ],
+  "drawAnimations": [
+    {
+      "name": "animation.model.draw",
+      "duration": 500,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.drawempty",
+      "duration": 500,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "idleAnimations": [
+    {
+      "name": "animation.model.idle",
+      "duration": 0,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.idleempty",
+      "duration": 0,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "inspectAnimations": [
+    {
+      "name": "animation.model.inspect",
+      "duration": 6300,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.inspectempty",
+      "duration": 4100,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 3500,
+      "animation": "animation.model.reloadempty"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 2600,
+      "animation": "animation.model.reload"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name" : "cp2077_katana_wakako",
+  "type": "Gun",
+  "features": [
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "cp2077_melee",
+          "displayName": "label.pointblank.fireMode.cp2077_melee",
+          "type": "AUTOMATIC",
+          "rpm": 220,
+          "damage": 7.0,
+          "maxShootingDistance": 4.5,
+          "prepareFireAnimations": [
+            {
+              "name": "animation.model.prepareswing",
+              "duration": 200
+            }
+          ],
+          "fireAnimations": [
+            {
+              "name": "animation.model.swing1",
+              "duration": 1000,
+              "condition": "random"
+            },
+            {
+              "name": "animation.model.swing2",
+              "duration": 1000,
+              "condition": "random"
+            },
+            {
+              "name": "animation.model.swing3",
+              "duration": 1000,
+              "condition": "random"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "maxAmmoCapacity" : "infinite",
+  "compatibleAmmo" : ["ammocreative"],
+  "drawCooldownDuration" : 700,
+  "fireSound" : "katana_swing",
+  "damage": 7.0,
+  "rpm": 220,
+  "gunRecoilInitialAmplitude" : 0.0,
+  "shakeRecoilAmplitude" : 0.0,
+  "shakeRecoilSpeed" : 0.0,
+  "viewRecoilAmplitude" : 0,
+  "inspectCooldownDuration": 2670,
+  "aimingEnabled": false,
+  "firstPersonFallbackAnimations": "cp2077_fpp_katana"
+}

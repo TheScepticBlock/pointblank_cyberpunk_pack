@@ -1,0 +1,85 @@
+{
+  "name" : "cp2077_rostovic_db4_palica",
+  "type": "Gun",
+  "compatibleAttachmentGroups": [
+    "chimera"
+  ],
+  "features": [
+    {
+        "type": "Aiming",
+        "zoom": 0.25
+    },
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "single",
+          "displayName": "label.pointblank.fireMode.single",
+          "type": "SINGLE",
+          "animationName": "animation.model.fire",
+          "rpm": 150,
+          "damage": 7,
+          "pelletCount": 9,
+          "pelletSpread": 0.15
+        }
+      ]
+    },
+    {
+      "type": "Reticle",
+      "texture": "textures/item/reticle_smartgun.png",
+      "parallax": true
+    }
+  ],
+  "maxAmmoCapacity" : 2,
+  "compatibleAmmo" : ["ammo12gauge", "ammocreative"],
+  "damage" : 63,
+  "rpm" : 150,
+  "fireSound" : "palica_fire",
+  "gunRecoilInitialAmplitude" : 1,
+  "shakeRecoilAmplitude" : 1.5,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 0,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
+  "idleAnimations": [
+    {
+      "name": "animation.model.idle",
+      "duration": 1000
+    }
+  ],
+  "drawAnimations": [
+    {
+      "name": "animation.model.draw",
+      "duration": 700
+    }
+  ],
+  "inspectAnimations": [
+    {
+      "name": "animation.model.inspect",
+      "duration": 5000
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash_big"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 2700,
+      "animation": "animation.model.reloadempty"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 2700,
+      "animation": "animation.model.reload"
+    }
+  ]
+}

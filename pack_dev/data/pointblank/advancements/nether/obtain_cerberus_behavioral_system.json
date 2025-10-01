@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:nether/summon_wither",
+  "criteria": {
+    "cerberus_behavioral_system": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pointblank:cp2077_cerberus_behavioral_system"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "This circuit was pulled from a place that should be burried under a fat layer of concrete.",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "pointblank:cp2077_cerberus_behavioral_system"
+    },
+    "show_toast": true,
+    "title": "That Was Depressingly Easy..."
+  },
+  "requirements": [
+    [
+      "cerberus_behavioral_system"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": false
+}

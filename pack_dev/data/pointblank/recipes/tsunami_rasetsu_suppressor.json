@@ -1,0 +1,20 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 15,
+      "item": "pointblank:gunmetal_ingot"
+    },
+    {
+      "count": 32,
+      "item": "minecraft:redstone"
+    },
+    {
+      "count": 10,
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_tsunami_rasetsu_suppressor"
+  }
+}

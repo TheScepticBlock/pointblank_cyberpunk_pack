@@ -1,0 +1,93 @@
+{
+  "name" : "cp2077_tsunami_rasetsu",
+  "type": "Gun",
+  "compatibleAttachmentGroups": [
+    "rasetsu_suppressor",
+    "chimera"
+  ],
+  "features": [
+    {
+        "type": "Aiming",
+        "zoom": 0.9,
+        "condition": {
+          "allOf": [
+              {
+                "doesNotHaveAttachmentGroup": "chimera"
+              }
+            ]
+        }
+    },
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "cp2077_quickshot",
+          "displayName": "label.pointblank.fireMode.cp2077_quickshot",
+          "type": "SINGLE",
+          "rpm": 65,
+          "damage": 25.0
+        },
+        {
+          "name": "single",
+          "displayName": "label.pointblank.fireMode.single",
+          "type": "SINGLE",
+          "rpm": 65,
+          "damage": 40.0,
+          "prepareFireAnimations": [
+            {
+              "name": "animation.model.preparefire",
+              "duration": 1500
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "maxAmmoCapacity" : 3,
+  "compatibleAmmo" : ["ammo50bmg", "ammolasercharge",  "ammocreative"],
+  "damage" : 40.0,
+  "rpm" : 65,
+  "fireModes" : ["SINGLE"],
+  "fireSound" : "rasetsu_fire",
+  "drawCooldownDuration" : 1100,
+  "bobbingOnAim" : 0.1,
+  "gunRecoilInitialAmplitude" : 0.4,
+  "shakeRecoilAmplitude" : 1,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 3,
+  "inspectCooldownDuration": 7500,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_heavy",
+  "scopeOverlay" : "textures/gui/rasetsu_scope.png",
+  "glowingParts": [
+    {
+      "name": "glow"
+    },
+    {
+      "name": "glow2"
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash_big"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 6700,
+      "animation": "animation.model.reloadempty"
+    },
+     {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 6700,
+      "animation": "animation.model.reload"
+    }
+  ]
+}

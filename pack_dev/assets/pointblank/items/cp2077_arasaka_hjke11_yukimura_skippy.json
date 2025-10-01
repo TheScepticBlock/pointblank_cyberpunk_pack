@@ -1,0 +1,144 @@
+{
+  "name" : "cp2077_arasaka_hjke11_yukimura_skippy",
+  "type": "Gun",
+  "compatibleAttachmentGroups": [
+    "chimera"
+  ],
+  "features": [
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "automatic",
+          "displayName": "label.pointblank.fireMode.automatic",
+          "type": "AUTOMATIC",
+          "rpm": 400,
+          "damage": 4.0,
+          "isUsingDefaultMuzzle": true,
+          "fireAnimations": [
+            {
+              "name": "animation.model.fireempty",
+              "duration": 330,
+              "condition": "ammoCount == 0"
+            }
+          ],
+          "completeFireAnimations": [
+            {
+              "name": "animation.model.completefire",
+              "duration": 40
+            }
+          ]
+        },
+        {
+          "name": "burst",
+          "displayName": "label.pointblank.fireMode.burst",
+          "type": "BURST",
+          "rpm": 700,
+          "damage": 4.0,
+          "isUsingDefaultMuzzle": true,
+          "fireAnimations": [
+            {
+              "name": "animation.model.fireempty",
+              "duration": 330,
+              "condition": "ammoCount == 0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Reticle",
+      "texture": "textures/item/reticle_smartgun.png",
+      "parallax": true
+    }
+  ],
+  "maxAmmoCapacity" : 30,
+  "compatibleAmmo" : ["ammo9mm", "ammocreative"],
+  "fireSound" : "yukimura_fire",
+  "aimingZoom" : 0.25,
+  "damage": 4.0,
+  "gunRecoilInitialAmplitude" : 0.2,
+  "shakeRecoilAmplitude" : 0.25,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 1.5,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
+  "drawAnimations": [
+    {
+      "name": "animation.model.drawSkippy",
+      "duration": 530,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.drawemptySkippy",
+      "duration": 530,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "idleAnimations": [
+    {
+      "name": "animation.model.idle",
+      "duration": 0,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.idleempty",
+      "duration": 0,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "inspectAnimations": [
+    {
+      "name": "animation.model.inspectemptySkippy",
+      "duration": 3770,
+      "condition": "ammoCount == 0"
+    },
+    {
+      "name": "animation.model.inspectSkippy",
+      "duration": 5000,
+      "condition": "random"
+    },
+    {
+      "name": "animation.model.inspectSkippyAlt",
+      "duration": 5000,
+      "condition": "random"
+    }
+  ],
+  "glowingParts": [
+    {
+      "name": "skippy1"
+    },
+    {
+      "name": "skippy2"
+    },
+    {
+      "name": "flash"
+    },
+    {
+      "name": "glow"
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash_small"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 3300,
+      "animation": "animation.model.reloademptySkippy"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 2900,
+      "animation": "animation.model.reloadSkippy"
+    }
+  ]
+}

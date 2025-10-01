@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "obtain_skippy": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pointblank:cp2077_arasaka_hjke11_yukimura_skippy"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain a uhh... very interesting gun.",
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "id": "pointblank:cp2077_arasaka_hjke11_yukimura_skippy"
+    },
+    "show_toast": true,
+    "title": "A Talkative Gun!"
+  },
+  "requirements": [
+    [
+      "obtain_skippy"
+    ]
+  ],
+  "rewards": {
+    "experience": 25
+  },
+  "sends_telemetry_event": false
+}

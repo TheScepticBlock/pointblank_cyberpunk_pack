@@ -1,0 +1,28 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 40,
+      "item": "pointblank:gunmetal_ingot"
+    },
+    {
+      "count": 8,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 9,
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "count": 25,
+      "item": "minecraft:redstone"
+    },
+    {
+      "count": 12,
+      "item": "minecraft:repeater"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_rostovic_db2_satara"
+  }
+}

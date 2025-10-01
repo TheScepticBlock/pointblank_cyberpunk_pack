@@ -1,0 +1,120 @@
+{
+  "name" : "cp2077_techtronika_metel",
+  "type": "Gun",
+  "compatibleAttachmentGroups": [
+    "smg_muzzle",
+    "chimera"
+  ],
+  "features": [
+    {
+        "type": "Aiming",
+        "zoom": 0.25
+    },
+    {
+      "type": "Sound",
+      "fireSound": "overture_fire_suppressed",
+      "fireSoundVolume": 1,
+      "condition": {
+        "hasAttachmentGroup": "smg_suppressors"
+      }
+    },
+    {
+      "type": "MuzzleFlash",
+      "effects": [
+        {
+          "phase": "firing",
+          "name": "muzzle_flash_small"
+        }
+      ],
+        "condition": {
+          "allOf": [
+            {
+              "isUsingDefaultMuzzle": true
+            },
+            {
+              "doesNotHaveAttachment": "smg_muzzle"
+            }
+          ]
+        }
+    }
+  ],
+  "maxAmmoCapacity" : 8,
+  "compatibleAmmo" : ["ammo357", "ammocreative"],
+  "damage" : 8.0,
+  "rpm" : 155,
+  "fireModes" : ["SINGLE"],
+  "fireSound" : "metel_fire",
+  "gunRecoilInitialAmplitude" : 0.8,
+  "shakeRecoilAmplitude" : 0.35,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 2,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
+  "drawAnimations": [
+    {
+      "name": "animation.model.draw",
+      "duration": 630,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.drawempty",
+      "duration": 630,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "idleAnimations": [
+    {
+      "name": "animation.model.idle",
+      "duration": 0,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.idleempty",
+      "duration": 0,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "inspectAnimations": [
+    {
+      "name": "animation.model.inspect",
+      "duration": 5300,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.inspectempty",
+      "duration": 5300,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "fireAnimations": [
+    {
+      "name": "animation.model.fireempty",
+      "duration": 500,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "glowingParts": [
+    {
+      "name": "glow"
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 3700,
+      "animation": "animation.model.reloadempty"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 2500,
+      "animation": "animation.model.reload"
+    }
+  ]
+}

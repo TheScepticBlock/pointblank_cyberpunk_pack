@@ -1,0 +1,15 @@
+{
+  "name" : "cp2077_tsunami_rasetsu_suppressor",
+  "type": "Attachment",
+  "category": "suppressor",
+  "groups": [
+    "rasetsu_suppressor"
+  ],
+  "features": [
+    {
+        "type": "Sound",
+        "fireSound": "rasetsu_fire_suppressed",
+        "fireSoundVolume": 1
+    }
+  ]
+}

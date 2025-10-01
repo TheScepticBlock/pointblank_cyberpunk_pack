@@ -1,0 +1,28 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "pointblank:cp2077_budget_arms_carnage"
+    },
+    {
+      "count": 5,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 20,
+      "item": "minecraft:cyan_dye"
+    },
+    {
+      "count": 10,
+      "item": "minecraft:pink_dye"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_budget_arms_carnage_guts"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "recipe_chimera_core",
+  "ingredients": [
+    {
+      "item": "pointblank:cp2077_chimera_focus"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_chimera_core",
+    "count": 1
+  }
+}

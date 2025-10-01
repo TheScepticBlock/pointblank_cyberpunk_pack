@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_chimera_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pointblank:cp2077_chimera_core"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "pointblank:chimera_firecracker"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_chimera_core",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pointblank:chimera_firecracker",
+      "pointblank:chimera_focus",
+      "pointblank:chimera_sharpshooter",
+      "pointblank:chimera_overclocker",
+      "pointblank:chimera_firecracker_disassemble",
+      "pointblank:chimera_focus_disassemble",
+      "pointblank:chimera_sharpshooter_disassemble",
+      "pointblank:chimera_overclocker_disassemble",
+      "pointblank:chimera_core_disassemble"
+    ]
+  },
+  "sends_telemetry_event": false
+}

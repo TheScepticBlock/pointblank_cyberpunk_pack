@@ -1,0 +1,151 @@
+{
+  "name" : "cp2077_malorian_arms_overture_river",
+  "type": "Gun",
+  "compatibleAttachments": [
+    "moa_hg"
+  ],
+  "compatibleAttachmentGroups": [
+    "smg_muzzle",
+    "cp2077_short_scope",
+    "cp2077_long_scope",
+    "chimera"
+  ],
+  "features": [
+    {
+        "type": "Aiming",
+        "zoom": 0.25,
+        "condition": {
+          "allOf": [
+            {
+              "doesNotHaveAttachment": "moa_hg"
+            },
+            {
+              "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+            },
+            {
+              "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+            }
+          ]
+        }
+    },
+    {
+      "type": "Sound",
+      "fireSound": "overture_fire_suppressed",
+      "fireSoundVolume": 1,
+      "condition": {
+        "hasAttachmentGroup": "smg_suppressors"
+      }
+    },
+    {
+      "type": "PartVisibility",
+      "parts": [
+        {
+          "name": "rail",
+          "visible": false,
+          "condition": {
+          "allOf": [
+              {
+                "doesNotHaveAttachment": "moa_hg"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "MuzzleFlash",
+      "effects": [
+        {
+          "phase": "firing",
+          "name": "muzzle_flash_small"
+        }
+      ],
+        "condition": {
+          "allOf": [
+            {
+              "isUsingDefaultMuzzle": true
+            },
+            {
+              "doesNotHaveAttachmentGroup": "smg_muzzle"
+            }
+          ]
+        }
+    },
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "single",
+          "displayName": "label.pointblank.fireMode.single",
+          "type": "SINGLE",
+          "rpm": 130,
+          "damage": 9.0,
+          "gunRecoilInitialAmplitude" : 1,
+          "shakeRecoilAmplitude" : 1,
+          "shakeRecoilSpeed" : 2,
+          "viewRecoilAmplitude" : 2
+        },
+        {
+          "name": "automatic",
+          "displayName": "label.pointblank.fireMode.automatic",
+          "type": "AUTOMATIC",
+          "rpm": 169,
+          "damage": 7.0,
+          "gunRecoilInitialAmplitude" : 0.8,
+          "shakeRecoilAmplitude" : 0.8,
+          "shakeRecoilSpeed" : 2,
+          "viewRecoilAmplitude" : 1,
+          "prepareFireAnimations": [
+            {
+              "name": "animation.model.preparefire",
+              "duration": 300
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "maxAmmoCapacity" : 6,
+  "compatibleAmmo" : ["ammo357", "ammocreative"],
+  "damage" : 10.0,
+  "rpm" : 130,
+  "fireSound" : "overture_fire",
+  "drawCooldownDuration" : 830,
+  "gunRecoilInitialAmplitude" : 0.8,
+  "shakeRecoilAmplitude" : 0.35,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 2,
+  "inspectCooldownDuration": 6170,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
+  "glowingParts": [
+    {
+      "name": "glow"
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 3200,
+      "animation": "animation.model.reloadempty"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 2630,
+      "animation": "animation.model.reload"
+    }
+  ]
+}

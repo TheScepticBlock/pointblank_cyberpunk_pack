@@ -1,0 +1,11 @@
+In this pack, the following languages are available:
+
+- English (en_us)
+- European French (fr_fr)
+- Canadian French (fr_ca)
+- Simplified Chinese (zh_cn)
+
+Unfortunately, the translations from English are NOT complete. If you would like to contribute translations for any of the existing
+languages or an entirely new language, please contact me over Discord from the Point Blank server (my handle is thescepticblock).
+
+I will make sure to credit you for your translations if you do contribute.

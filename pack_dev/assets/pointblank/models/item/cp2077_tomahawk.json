@@ -1,0 +1,129 @@
+{
+"loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "base": 
+{
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    64,
+    64
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0.25,
+        -4.75,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0.25,
+        -4.75,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        0,
+        3.5
+      ],
+      "translation": [
+        6.5,
+        -21,
+        -20
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        0,
+        3.5
+      ],
+      "translation": [
+        6.5,
+        -21,
+        -20
+      ]
+    },
+    "ground": {
+      "rotation": [
+        90,
+        90,
+        0
+      ],
+      "translation": [
+        -1,
+        -1.75,
+        -6.5
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "gui": {
+      "rotation": [
+        -90,
+        0,
+        -90
+      ],
+      "translation": [
+        -11,
+        -1,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "scale": [
+        0,
+        0,
+        0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        0.75,
+        -13.25,
+        -0.25
+      ],
+      "scale": [
+        0.62,
+        0.62,
+        0.62
+      ]
+    }
+  }
+},
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "pointblank:item/cp2077_tomahawk.icon"
+      }
+    }
+  }
+}

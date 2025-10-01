@@ -1,0 +1,125 @@
+{
+  "name" : "cp2077_rostovic_kolac_mike",
+  "type": "Gun",
+  "compatibleAttachmentGroups": [
+    "snipers_sights",
+    "sights_group",
+    "rf_muzzle",
+    "cp2077_long_scope",
+    "cp2077_short_scope",
+    "chimera"
+  ],
+  "compatibleAttachments": [
+    "cp2077_hypercritical_red_skin"
+  ],
+  "features": [
+    {
+        "type": "Aiming",
+        "zoom": 0.45,
+        "condition": {
+          "allOf": [
+              {
+                "doesNotHaveAttachmentGroup": "sights_group"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "snipers_sights"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+              }
+            ]
+        }
+    },
+    {
+      "type": "Sound",
+      "fireSound": "kolac_fire_suppressed",
+      "fireSoundVolume": 1,
+      "condition": {
+        "hasAttachmentGroup": "rf_suppressors"
+      }
+    },
+    {
+      "type": "PartVisibility",
+      "parts": [
+        {
+          "name": "bullet",
+          "visible": true,
+          "condition": "ammoCount >= 1"
+        }
+      ]
+    },
+    {
+      "type": "Skin",
+      "texture": "textures/item/cp2077_rostovic_kolac_mike_red.png",
+      "condition": {
+        "anyOf": [
+          {
+            "hasAttachmentGroup": "snipers_sights"
+          },
+          {
+            "hasAttachmentGroup": "sights_group"
+          },
+          {
+            "hasAttachmentGroup": "rf_muzzle"
+          },
+          {
+            "hasAttachmentGroup": "cp2077_long_scope"
+          },
+          {
+            "hasAttachmentGroup": "cp2077_short_scope"
+          }
+        ]
+      }
+    }
+  ],
+  "glowingParts": [
+    {
+      "name": "glow"
+    }
+  ],
+  "maxAmmoCapacity" : 6,
+  "compatibleAmmo" : ["ammo50bmg", "ammocreative"],
+  "damage" : 35.0,
+  "rpm" : 100,
+  "fireModes" : ["SINGLE"],
+  "fireSound" : "kolac_fire",
+  "drawCooldownDuration" : 1000,
+  "bobbingOnAim" : 0.1,
+  "gunRecoilInitialAmplitude" : 0.4,
+  "shakeRecoilAmplitude" : 1,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 6,
+  "inspectCooldownDuration": 5470,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_heavy",
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash_big"
+    },
+    {
+      "phase": "hit_target",
+      "name": "cp2077_explosion_new_ext_hit"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 6970,
+      "animation": "animation.model.reloadempty"
+    },
+     {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 5400,
+      "animation": "animation.model.reload"
+    }
+  ]
+}

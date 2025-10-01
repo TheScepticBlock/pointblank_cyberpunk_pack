@@ -1,0 +1,20 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "pointblank:gunmetal_ingot"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:redstone"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:glass_pane"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_type_2067"
+  }
+}

@@ -1,0 +1,83 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 8,
+				"visible_bounds_height": 7,
+				"visible_bounds_offset": [0, 2.5, 0]
+			},
+			"bones": [
+				{
+					"name": "main",
+					"pivot": [0, 20, 0],
+					"rotation": [12.5, 0, 0]
+				},
+				{
+					"name": "sword",
+					"parent": "main",
+					"pivot": [0, 13.21374, 3.55626],
+					"cubes": [
+						{"origin": [-1, 0.69253, 1.82234], "size": [2, 23, 3], "pivot": [0, 12.19253, 3.32234], "rotation": [21.5, 0, 0], "uv": [33, 0]}
+					]
+				},
+				{
+					"name": "blade",
+					"parent": "sword",
+					"pivot": [0.001, 24.59304, -2.29763],
+					"cubes": [
+						{"origin": [-0.201, 22.25396, -4.70138], "size": [0.402, 8, 2.5], "inflate": -0.2, "pivot": [0, 28.75396, -3.20138], "rotation": [21.5, 0, 0], "uv": [36, 41]},
+						{
+							"origin": [-0.201, 22.25396, -2.90138],
+							"size": [0.402, 8, 1],
+							"inflate": -0.198,
+							"pivot": [0, 28.75396, -3.20138],
+							"rotation": [21.5, 0, 0],
+							"uv": {
+								"north": {"uv": [44, 0], "uv_size": [1, 8]},
+								"east": {"uv": [44, 8], "uv_size": [1, 8]},
+								"south": {"uv": [44, 16], "uv_size": [1, 8]},
+								"west": {"uv": [44, 24], "uv_size": [1, 8]},
+								"up": {"uv": [45, 32], "uv_size": [1, 1]},
+								"down": {"uv": [45, 34], "uv_size": [1, -1]}
+							}
+						},
+						{"origin": [-0.201, 29.32514, -7.48679], "size": [0.402, 5.4, 2.5], "inflate": -0.2, "pivot": [0, 35.82514, -5.98679], "rotation": [21.5, 0, 0], "uv": [40, 41]},
+						{"origin": [-0.201, 33.90249, -6.91292], "size": [0.402, 13, 2.5], "inflate": -0.2, "pivot": [0, 34.10249, -6.81292], "rotation": [17.5, 0, 0], "uv": [36, 26]},
+						{"origin": [-0.201, 45.92436, -10.70326], "size": [0.402, 19, 2.5], "inflate": -0.2, "pivot": [0, 46.12436, -10.60326], "rotation": [15.5, 0, 0], "uv": [32, 26]},
+						{"origin": [-0.201, 63.84789, -15.67389], "size": [0.402, 13.9, 2.5], "inflate": -0.2, "pivot": [0, 64.04789, -15.57389], "rotation": [13, 0, 0], "uv": [40, 26]}
+					]
+				},
+				{
+					"name": "bladeGlow",
+					"parent": "sword",
+					"pivot": [0.001, 24.59304, -2.29763]
+				},
+				{
+					"name": "rightarm",
+					"parent": "main",
+					"pivot": [-4.3, 8.8, 21.8],
+					"rotation": [-101.81106, -12.40003, -2.46982],
+					"cubes": [
+						{"origin": [-8.3, -15.2, 17.8], "size": [8, 24, 8], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "leftarm",
+					"pivot": [22.7, 4.3, 12.4],
+					"rotation": [-51.17547, 69.31123, 48.39778],
+					"cubes": [
+						{"origin": [18.7, -19.7, 8.4], "size": [8, 24, 8], "uv": [0, 32]}
+					]
+				},
+				{
+					"name": "_camera_",
+					"pivot": [14.3, 28.15, 31.5]
+				}
+			]
+		}
+	]
+}

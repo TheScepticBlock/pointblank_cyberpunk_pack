@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "obtain_her_majesty": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pointblank:cp2077_ca_unity_iconic"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain a special suppressed variant of the Unity, owned by a former FIA agent.",
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "pointblank:cp2077_ca_unity_iconic"
+    },
+    "show_toast": true,
+    "title": "Fit For An FIA Agent!"
+  },
+  "requirements": [
+    [
+      "obtain_her_majesty"
+    ]
+  ],
+  "rewards": {
+    "experience": 20
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,95 @@
+{
+  "name" : "cp2077_militech_hercules_3ax",
+  "type": "Gun",
+  "compatibleAttachmentGroups": [
+    "chimera"
+  ],
+  "features": [
+    {
+        "type": "Aiming",
+        "zoom": 0.25
+    },
+    {
+      "type": "PIP",
+      "maskTexture": "textures/gui/cp2077_pip_mask_hercules.png",
+      "overlayTexture": "textures/gui/hercules_scope_pip.png",
+      "zoom": 0.25
+    },
+    {
+      "type": "PartVisibility",
+      "parts": [
+        {
+          "name": "bullet",
+          "visible": true,
+          "condition": "ammoCount >= 1"
+        }
+      ]
+    },
+    {
+      "type": "MuzzleFlash",
+      "effects": [
+        {
+          "phase": "firing",
+          "name": "muzzle_flash"
+        },
+        {
+          "phase": "hit_scan_acquired",
+          "name": "tracer"
+        }
+      ]
+    },
+	{
+		"type": "FireMode",
+		"fireModes": [
+			{
+				"name": "automatic",
+				"displayName": "label.pointblank.fireMode.automatic",
+				"type": "AUTOMATIC",
+				"rpm": 800,
+				"damage": 6.0
+			},
+			{
+				"name": "burst",
+				"displayName": "label.pointblank.fireMode.cp2077_split",
+				"type": "BURST",
+				"rpm": 400,
+				"damage": 3.0,
+				"pelletCount": 3,
+                "pelletSpread": 0.1,
+				"burstShots": 90
+			}
+		]
+	}
+  ],
+  "glowingParts": [
+    {
+      "name": "glow"
+    }
+  ],
+  "maxAmmoCapacity" : 90,
+  "compatibleAmmo" : ["ammo762", "ammocreative"],
+  "damage" : 6.0,
+  "rpm" : 800,
+  "fireSound" : "hercules_fire",
+  "drawCooldownDuration" : 800,
+  "gunRecoilInitialAmplitude" : 0.2,
+  "shakeRecoilAmplitude" : 0.35,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 2,
+  "inspectCooldownDuration": 5930,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_heavy",
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 5800,
+      "animation": "animation.model.reloadempty"
+    },
+     {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 5800,
+      "animation": "animation.model.reload"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "name" : "cp2077_rostovic_db4_igla_sovereign",
+  "type": "Gun",
+  "compatibleAttachmentGroups": [
+    "sights_group",
+    "cp2077_short_scope",
+    "cp2077_long_scope",
+    "chimera"
+  ],
+  "features": [
+    {
+        "type": "Aiming",
+        "zoom": 0.25,
+        "condition": {
+          "allOf": [
+            {
+              "doesNotHaveAttachmentGroup": "sights_group"
+            },
+            {
+              "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+            },
+            {
+              "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+            }
+          ]
+        }
+    },
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "burst",
+          "displayName": "label.pointblank.fireMode.burst",
+          "type": "BURST",
+          "animationName": "animation.model.fire2",
+          "burstShots": 2,
+          "rpm": 900,
+          "damage": 3.0,
+          "pelletCount": 30,
+          "pelletSpread": 0.15
+        }
+      ]
+    }
+  ],
+  "maxAmmoCapacity" : 2,
+  "compatibleAmmo" : ["ammo12gauge", "ammocreative"],
+  "rpm": 900,
+  "damage": 90.0,
+  "fireSound" : "igla_fire",
+  "gunRecoilInitialAmplitude" : 1,
+  "shakeRecoilAmplitude" : 1.5,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 7,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_medium",
+  "drawAnimations": [
+    {
+      "name": "animation.model.draw",
+      "duration": 700
+    }
+  ],
+  "inspectAnimations": [
+    {
+      "name": "animation.model.inspect",
+      "duration": 8300
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash_big"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 2700,
+      "animation": "animation.model.reloadempty"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 2700,
+      "animation": "animation.model.reload"
+    }
+  ]
+}

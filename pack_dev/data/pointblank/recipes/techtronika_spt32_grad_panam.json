@@ -1,0 +1,28 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "pointblank:cp2077_techtronika_spt32_grad"
+    },
+    {
+      "count": 12,
+      "item": "pointblank:gunmetal_ingot"
+    },
+    {
+      "count": 3,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "count": 5,
+      "item": "minecraft:yellow_dye"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_techtronika_spt32_grad_panam"
+  }
+}

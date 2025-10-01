@@ -1,0 +1,126 @@
+{
+  "name" : "cp2077_rostovic_db2_satara_brick",
+  "type": "Gun",
+  "compatibleAttachmentGroups": [
+    "chimera"
+  ],
+  "features": [
+    {
+        "type": "Aiming",
+        "zoom": 0.25
+    },
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "cp2077_quickshot",
+          "displayName": "label.pointblank.fireMode.cp2077_quickshot",
+          "type": "SINGLE",
+          "animationName": "animation.model.fire_order",
+          "rpm": 80,
+          "damage": 2.0,
+          "pelletCount": 60,
+          "pelletSpread": 0.15
+        },
+        {
+          "name": "single",
+          "displayName": "label.pointblank.fireMode.single",
+          "type": "SINGLE",
+          "animationName": "animation.model.fire_order",
+          "rpm": 80,
+          "damage": 4.0,
+          "pelletCount": 60,
+          "pelletSpread": 0.15,
+          "prepareFireAnimations": [
+            {
+              "name": "animation.model.preparefire_order",
+              "duration": 3000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PartVisibility",
+      "parts": [
+        {
+          "name": "TWO",
+          "visible": true,
+          "condition": "ammoCount >= 1"
+        },
+        {
+          "name": "ONE",
+          "visible": false
+        },
+        {
+          "name": "ZERO",
+          "visible": true,
+          "condition": "ammoCount == 0"
+        }
+      ]
+    }
+  ],
+  "glowingParts": [
+    {
+      "name": "TWO"
+    },
+    {
+      "name": "ONE"
+    },
+    {
+      "name": "ZERO"
+    },
+    {
+      "name": "CHARGE"
+    },
+    {
+      "name": "DECAL"
+    }
+  ],
+  "maxAmmoCapacity" : 1,
+  "compatibleAmmo" : ["ammo12gauge", "ammolasercharge", "ammocreative"],
+  "damage" : 240,
+  "rpm" : 80,
+  "fireSound" : "satara_fire",
+  "gunRecoilInitialAmplitude" : 1.5,
+  "shakeRecoilAmplitude" : 2,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 0,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_medium",
+  "drawAnimations": [
+    {
+      "name": "animation.model.draw",
+      "duration": 900
+    }
+  ],
+  "inspectAnimations": [
+    {
+      "name": "animation.model.inspect",
+      "duration": 9700
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "cp2077_launcher_muzzle_ext"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 3100,
+      "animation": "animation.model.reloadempty"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 3100,
+      "animation": "animation.model.reload"
+    }
+  ]
+}

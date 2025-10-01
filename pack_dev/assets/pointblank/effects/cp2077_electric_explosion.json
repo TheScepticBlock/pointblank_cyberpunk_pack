@@ -1,0 +1,17 @@
+{
+	"type": "impact",
+	"name": "cp2077_electric_explosion",
+	"texture": "textures/effect/cp2077_electric_explosion.png",
+	"blendMode": "ADDITIVE",
+	"width": 2,
+	"duration" : 600,
+	"brightness" : 1,
+	"glow" : true,
+	"depthTest": true,
+	"sprites": {
+	  "type": "play_once",
+	  "rows": 6,
+	  "columns": 6,
+	  "fps": 60
+	}
+}

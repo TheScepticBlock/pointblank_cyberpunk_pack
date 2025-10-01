@@ -1,0 +1,51 @@
+{
+  "name" : "cp2077_budget_arms_slaughtomatic",
+  "type": "Gun",
+  "features": [
+    {
+      "type": "PartVisibility",
+      "parts": [
+        {
+          "name": "bullet",
+          "visible": true,
+          "condition": "ammoCount > 0"
+        }
+      ]
+    },
+    {
+        "type": "Aiming",
+        "zoom": 0.25
+    }
+  ],
+  "maxAmmoCapacity" : 36,
+  "compatibleAmmo" : ["ammo9mm", "ammocreative"],
+  "damage" : 1,
+  "rpm" : 400,
+  "fireModes" : ["AUTOMATIC"],
+  "fireSound" : "slaughtomatic_fire",
+  "drawCooldownDuration" : 500,
+  "gunRecoilInitialAmplitude" : 0.4,
+  "shakeRecoilAmplitude" : 0.35,
+  "shakeRecoilSpeed" : 1,
+  "viewRecoilAmplitude" : 2.5,
+  "inspectCooldownDuration": 4100,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash_small"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex >= 0",
+      "duration": 3600,
+      "animation": "animation.model.reload"
+    }
+  ]
+}

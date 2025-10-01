@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "kurt_hansen_set": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pointblank:cp2077_fang"
+            ]
+          },
+          {
+            "items": [
+              "pointblank:cp2077_ca_m2067_defender_kurt"
+            ]
+          },
+          {
+            "items": [
+              "pointblank:cp2077_techtronika_metel_kurt"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain all three weapons owned by Dogtown's former leader, Kurt Hansen",
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "id": "pointblank:cp2077_fang"
+    },
+    "show_toast": true,
+    "title": "Dogtown Alpha Hound, My..."
+  },
+  "requirements": [
+    [
+      "kurt_hansen_set"
+    ]
+  ],
+  "rewards": {
+    "experience": 25
+  },
+  "sends_telemetry_event": false
+}

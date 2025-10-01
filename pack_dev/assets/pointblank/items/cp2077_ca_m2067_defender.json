@@ -1,0 +1,153 @@
+{
+  "name" : "cp2077_ca_m2067_defender",
+  "type": "Gun",
+  "compatibleAttachmentGroups": [
+    "ar_sightsandscopes",
+    "ar_muzzle",
+    "cp2077_long_scope",
+    "chimera"
+  ],
+  "features": [
+    {
+        "type": "Aiming",
+        "zoom": 0.35,
+        "condition": {
+            "allOf": [
+              {
+                "doesNotHaveAttachmentGroup": "ar_sightsandscopes"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+              }
+            ]
+        }
+    },
+    {
+      "type": "PartVisibility",
+      "parts": [
+        {
+          "name": "rear_sight",
+          "visible": true,
+          "condition": {
+              "allOf": [
+              {
+                "doesNotHaveAttachmentGroup": "ar_sightsandscopes"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+              }
+            ]
+          }
+        },
+        {
+          "name": "rear_sight_flipped",
+          "visible": false,
+          "condition": {
+              "allOf": [
+              {
+                "doesNotHaveAttachmentGroup": "ar_sightsandscopes"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+              }
+            ]
+          }
+        },
+        {
+          "name": "belt4",
+          "visible": true,
+          "condition": "ammoCount >= 4"
+        },
+        {
+          "name": "belt3",
+          "visible": true,
+          "condition": "ammoCount >= 3"
+        },
+        {
+          "name": "belt2",
+          "visible": true,
+          "condition": "ammoCount >= 2"
+        },
+        {
+          "name": "belt",
+          "visible": true,
+          "condition": "ammoCount >= 1"
+        }
+      ]
+    },
+    {
+      "type": "MuzzleFlash",
+      "effects": [
+        {
+          "phase": "firing",
+          "name": "muzzle_flash",
+          "condition": {
+            "allOf": [
+              {
+                "isUsingDefaultMuzzle": true
+              },
+              {
+                "doesNotHaveAttachmentGroup": "ar_muzzle"
+              }
+            ]
+          }
+        },
+        {
+          "phase": "hit_scan_acquired",
+          "name": "tracerminigun"
+        }
+      ]
+    },
+    {
+      "type": "Sound",
+      "fireSound": "defender_fire_suppressed",
+      "fireSoundVolume": 1,
+      "condition": {
+      "allOf": [
+          {
+            "hasAttachmentGroup": "ar_suppressors"
+          }
+        ]
+      }
+    }
+  ],
+  "glowingParts": [
+    {
+      "name": "glow1"
+    },
+    {
+      "name": "glow2"
+    },
+    {
+      "name": "glow3"
+    }
+  ],
+  "maxAmmoCapacity" : 80,
+  "compatibleAmmo" : ["ammo68", "ammocreative"],
+  "damage" : 6.0,
+  "rpm" : 630,
+  "fireModes" : ["AUTOMATIC"],
+  "fireSound" : "defender_fire",
+  "drawCooldownDuration" : 1300,
+  "prepareFireCooldownDuration": 150,
+  "gunRecoilInitialAmplitude" : 0.4,
+  "shakeRecoilAmplitude" : 0.35,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 2,
+  "inspectCooldownDuration": 5500,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_heavy",
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 5100,
+      "animation": "animation.model.reloadempty"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 4000,
+      "animation": "animation.model.reload"
+    }
+  ]
+}

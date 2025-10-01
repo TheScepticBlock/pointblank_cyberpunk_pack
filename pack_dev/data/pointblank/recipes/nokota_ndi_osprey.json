@@ -1,0 +1,28 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 40,
+      "item": "pointblank:gunmetal_ingot"
+    },
+    {
+      "count": 20,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 15,
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "count": 5,
+      "item": "minecraft:diamond"
+    },
+    {
+      "count": 1,
+      "item": "pointblank:processor"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_nokota_ndi_osprey"
+  }
+}

@@ -1,0 +1,17 @@
+{
+	"type": "muzzle_flash",
+	"name": "cp2077_launcher_muzzle_ext",
+	"texture": "textures/effect/launcher_muzzle.png",
+        "blendMode": "ADDITIVE",
+	"width": 1,
+	"duration" : 1100,
+	"brightness" : 1,
+	"glow" : true,
+	"depthTest": true,
+	"sprites": {
+	  "type": "play_once",
+	  "rows": 8,
+	  "columns": 8,
+	  "fps": 90
+	}
+}

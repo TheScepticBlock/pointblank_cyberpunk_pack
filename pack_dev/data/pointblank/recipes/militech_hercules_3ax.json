@@ -1,0 +1,36 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 30,
+      "item": "pointblank:gunmetal_ingot"
+    },
+    {
+      "count": 17,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 15,
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "count": 10,
+      "item": "minecraft:leather"
+    },
+    {
+      "count": 5,
+      "item": "minecraft:diamond"
+    },
+    {
+      "count": 1,
+      "item": "pointblank:processor"
+    },
+    {
+      "count": 10,
+      "item": "minecraft:fermented_spider_eye"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_militech_hercules_3ax"
+  }
+}

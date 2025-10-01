@@ -1,0 +1,27 @@
+{
+  "name" : "cp2077_mk2x_grandstand",
+  "type": "Attachment",
+  "category": "scope",
+  "groups": [
+    "sights_group",
+    "ar_sightsandscopes",
+    "m16_sightsandscopes",
+    "deagle_sights",
+    "hg_sights",
+    "cp2077_long_scope"
+  ],
+  "features": [
+    {
+      "type": "Aiming",
+      "zoom": 0.40
+    },
+    {
+      "type": "PIP",
+      "maskTexture": "textures/gui/cp2077_pip_mask_generic.png",
+      "overlayTexture": "textures/gui/grandstand_scope_pip.png",
+      "zoom": 0.70,
+      "parallax": true,
+      "maxAngularOffset": 5
+    }
+  ]
+}

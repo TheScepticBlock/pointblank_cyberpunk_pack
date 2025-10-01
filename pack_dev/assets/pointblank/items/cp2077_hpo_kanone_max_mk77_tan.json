@@ -1,0 +1,26 @@
+{
+  "name" : "cp2077_hpo_kanone_max_mk77_tan",
+  "type": "Attachment",
+  "category": "scope",
+  "groups": [
+    "snipers_sights",
+    "sights_group",
+    "sl8_sights",
+    "deagle_sights",
+    "m16_sightsandscopes"
+  ],
+  "features": [
+    {
+      "type": "Aiming",
+      "zoom": 0.6
+    },
+    {
+      "type": "PIP",
+      "maskTexture": "textures/gui/cp2077_pip_mask_kanone.png",
+      "overlayTexture": "textures/gui/hpo_kanone_max_mk77_scope_pip.png",
+      "zoom": 0.45,
+      "parallax": true,
+      "maxAngularOffset": 5
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name" : "cp2077_hypercritical_red_skin",
+  "type": "Attachment",
+  "category": "skin",
+  "groups": [
+    "cp2077_hypercritical_red_skin"
+  ],
+  "features": [
+    {
+      "type": "Skin",
+      "texture": "textures/item/cp2077_rostovic_kolac_mike_red.png"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "name" : "cp2077_rostovic_kolac",
+  "type": "Gun",
+  "compatibleAttachmentGroups": [
+    "snipers_sights",
+    "sights_group",
+    "rf_muzzle",
+    "cp2077_long_scope",
+    "cp2077_short_scope",
+    "chimera",
+    "cp2077_skin"
+  ],
+  "features": [
+    {
+        "type": "Aiming",
+        "zoom": 0.45,
+        "condition": {
+          "allOf": [
+              {
+                "doesNotHaveAttachmentGroup": "sights_group"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "snipers_sights"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+              }
+            ]
+        }
+    },
+    {
+      "type": "Sound",
+      "fireSound": "kolac_fire_suppressed",
+      "fireSoundVolume": 1,
+      "condition": {
+        "hasAttachmentGroup": "rf_suppressors"
+      }
+    },
+    {
+      "type": "PartVisibility",
+      "parts": [
+        {
+          "name": "bullet",
+          "visible": true,
+          "condition": "ammoCount >= 1"
+        }
+      ]
+    }
+  ],
+  "glowingParts": [
+    {
+      "name": "glow"
+    }
+  ],
+  "maxAmmoCapacity" : 6,
+  "compatibleAmmo" : ["ammo50bmg", "ammocreative"],
+  "damage" : 30.0,
+  "rpm" : 100,
+  "fireModes" : ["SINGLE"],
+  "fireSound" : "kolac_fire",
+  "drawCooldownDuration" : 1000,
+  "bobbingOnAim" : 0.1,
+  "gunRecoilInitialAmplitude" : 0.4,
+  "shakeRecoilAmplitude" : 1,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 6,
+  "inspectCooldownDuration": 5470,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_heavy",
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash_big"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 6970,
+      "animation": "animation.model.reloadempty"
+    },
+     {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 5400,
+      "animation": "animation.model.reload"
+    }
+  ]
+}

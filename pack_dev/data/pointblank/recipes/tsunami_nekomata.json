@@ -1,0 +1,28 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 30,
+      "item": "pointblank:gunmetal_ingot"
+    },
+    {
+      "count": 15,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 20,
+      "item": "minecraft:redstone"
+    },
+    {
+      "count": 6,
+      "item": "minecraft:repeater"
+    },
+    {
+      "count": 1,
+      "item": "pointblank:processor"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_tsunami_nekomata"
+  }
+}

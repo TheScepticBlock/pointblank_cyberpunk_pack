@@ -1,0 +1,24 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "pointblank:cp2077_malorian_arms_overture"
+    },
+    {
+      "count": 4,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 10,
+      "item": "pointblank:gunmetal_ingot"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_malorian_arms_overture_dodger"
+  }
+}

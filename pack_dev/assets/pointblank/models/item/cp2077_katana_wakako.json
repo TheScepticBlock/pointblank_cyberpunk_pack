@@ -1,0 +1,129 @@
+{
+"loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "base": 
+{
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    64,
+    64
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0.25,
+        -5.25,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0.25,
+        -5.25,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        0,
+        3.5
+      ],
+      "translation": [
+        7,
+        -23,
+        -25
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        0,
+        3.5
+      ],
+      "translation": [
+        7,
+        -23,
+        -25
+      ]
+    },
+    "ground": {
+      "rotation": [
+        90,
+        90,
+        0
+      ],
+      "translation": [
+        2.5,
+        0,
+        -9.75
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "gui": {
+      "rotation": [
+        -90,
+        -34,
+        -90
+      ],
+      "translation": [
+        -6.5,
+        -2.25,
+        0
+      ],
+      "scale": [
+        0.19999999999999998,
+        0.19999999999999998,
+        0.19999999999999998
+      ]
+    },
+    "head": {
+      "scale": [
+        0,
+        0,
+        0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        180,
+        -90,
+        180
+      ],
+      "translation": [
+        -5.5,
+        -10.25,
+        -1
+      ],
+      "scale": [
+        0.62,
+        0.62,
+        0.62
+      ]
+    }
+  }
+},
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "pointblank:item/cp2077_katana_wakako.icon"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "pointblank:cp2077_militech_m251s_ajax"
+    },
+    {
+      "count": 6,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 10,
+      "item": "minecraft:bone_meal"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_militech_m251s_ajax_moron"
+  }
+}

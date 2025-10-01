@@ -1,0 +1,192 @@
+{
+  "name" : "cp2077_arasaka_senkoh_lx_proto",
+  "type": "Gun",
+  "compatibleAttachmentGroups": [
+    "hg_sights",
+    "cp2077_long_scope",
+    "cp2077_short_scope",
+    "chimera"
+  ],
+  "features": [
+    {
+        "type": "Aiming",
+        "zoom": 0.25,
+        "condition": {
+            "allOf": [
+              {
+                "doesNotHaveAttachmentGroup": "hg_sights"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+              }
+            ]
+        }
+    },
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "burst",
+          "displayName": "label.pointblank.fireMode.burst",
+          "type": "BURST",
+          "rpm": 1500,
+          "damage": 4.0,
+          "burstShots": 5,
+          "isUsingDefaultMuzzle": true,
+          "completeFireAnimations": [
+            {
+              "name": "animation.model.completefire1",
+              "duration": 100
+            }
+          ]
+        },
+        {
+          "name": "automatic",
+          "displayName": "label.pointblank.fireMode.automatic",
+          "type": "AUTOMATIC",
+          "rpm": 600,
+          "damage": 4.0,
+          "isUsingDefaultMuzzle": true,
+          "prepareFireAnimations": [
+            {
+              "name": "animation.model.preparefire",
+              "duration": 800
+            }
+          ],
+          "completeFireAnimations": [
+            {
+              "name": "animation.model.completefire2",
+              "duration": 400
+            }
+          ]
+        }
+      ]
+    },
+     {
+      "type": "PartVisibility",
+      "parts": [
+        {
+          "name": "sight_front_unflipped",
+          "visible": true,
+          "condition": {
+              "allOf": [
+              {
+                "doesNotHaveAttachmentGroup": "hg_sights"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+              }
+            ]
+          }
+        },
+        {
+          "name": "sight_rear_unflipped",
+          "visible": true,
+          "condition": {
+              "allOf": [
+              {
+                "doesNotHaveAttachmentGroup": "hg_sights"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+              }
+            ]
+          }
+        },
+        {
+          "name": "sight_front_flipped",
+          "visible": true,
+          "condition": {
+              "anyOf": [
+              {
+                "hasAttachmentGroup": "hg_sights"
+              },
+              {
+                "hasAttachmentGroup": "cp2077_short_scope"
+              },
+              {
+                "hasAttachmentGroup": "cp2077_long_scope"
+              }
+            ]
+          }
+        },
+        {
+          "name": "sight_rear_flipped",
+          "visible": true,
+          "condition": {
+              "anyOf": [
+              {
+                "hasAttachmentGroup": "hg_sights"
+              },
+              {
+                "hasAttachmentGroup": "cp2077_short_scope"
+              },
+              {
+                "hasAttachmentGroup": "cp2077_long_scope"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "maxAmmoCapacity" : 30,
+  "compatibleAmmo" : ["ammo9mm", "ammolasercharge",  "ammocreative"],
+  "fireSound" : "senkoh_fire",
+  "drawCooldownDuration" : 800,
+  "rpm": 1500,
+  "damage": 4.0,
+  "gunRecoilInitialAmplitude" : 0.3,
+  "shakeRecoilAmplitude" : 0.25,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 0.8,
+  "inspectCooldownDuration": 4930,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
+  "glowingParts": [
+    {
+      "name": "sight_front_glow"
+    },
+    {
+      "name": "sight_front_glow2"
+    },
+    {
+      "name": "sight_rear_glow"
+    },
+    {
+      "name": "sight_rear_glow2"
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash_small"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 2830,
+      "animation": "animation.model.reloadempty"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 2830,
+      "animation": "animation.model.reload"
+    }
+  ]
+}

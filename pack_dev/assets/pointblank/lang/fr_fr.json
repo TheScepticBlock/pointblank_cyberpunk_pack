@@ -1,0 +1,29 @@
+{
+  "itemGroup.pointblank-cyberpunk-guns.items": "Pack d'armes Cyberpunk 2077",
+  "item.pointblank.cp2077_ca_unity_iconic": "§6Sa Majesté",
+  "item.pointblank.cp2077_malorian_arms_overture_cassidy": "§6Amnesty",
+  "item.pointblank.cp2077_malorian_arms_overture_dante": "§6Vieille Branche",
+  "item.pointblank.cp2077_rostovic_kolac_mike": "§6Hypercritique",
+  "item.pointblank.cp2077_fang": "§6Croc",
+  "item.pointblank.cp2077_techtronika_metel_kurt": "§6Pygargue",
+  "item.pointblank.cp2077_ca_m2067_defender_kurt": "§6Dingo",
+  
+  "item.pointblank.cp2077_chimera_core": "§6Noyau de Chimera",
+  "item.pointblank.cp2077_chimera_overclocker": "§6Overclocké",
+  "item.pointblank.cp2077_chimera_firecracker": "§6Pétard",
+  "item.pointblank.cp2077_chimera_focus": "§6Concentrer",
+  "item.pointblank.cp2077_chimera_sharpshooter": "§6Tireur d'élite",
+  "item.pointblank.cp2077_e305_prospecta": "Prospecta E305",
+  "item.pointblank.cp2077_hpo_kanone_max_mk77": "Kanone MAX HPO Mk.77",
+  "item.pointblank.cp2077_hpo_kanone_max_mk77_tan": "Kanone MAX HPO Mk.77 (Tan)",
+  "item.pointblank.cp2077_so21_saika": "Saika SO-21",
+  "item.pointblank.cp2077_tsunami_rasetsu_suppressor": "§6Système de Suppression Intégrale Rasetsu",
+  "item.pointblank.cp2077_hypercritical_red_skin": "§6(Skin) Rouge Hypercritique",
+  "item.pointblank.cp2077_cqo_kanone_mini_mk72": "Kanone MINI CQO Mk.72",
+  
+  "item.pointblank.cp2077_cerberus_behavioral_system": "§4§kComposant de Système Comportemental",
+  "item.pointblank.cp2077_cerberus_behavioral_system_decoded": "§4Composant de Système Comportemental Décodé du Cerberus",
+  
+  "label.pointblank.fireMode.chimera_overclocked": "CHIMERA OVERCLOCKÉ",
+  "label.pointblank.fireMode.cp2077_quickmelee": "MÊLÉE RAPIDE"
+}

@@ -1,0 +1,218 @@
+{
+  "name" : "cp2077_malorian_arms_3516",
+  "type": "Gun",
+  "compatibleAttachmentGroups": [
+    "chimera"
+  ],
+  "features": [
+    {
+      "type": "Sound",
+      "fireSound": "malorian_arms_fire_alt",
+      "fireSoundVolume": 1,
+      "condition": {
+        "selectedFireMode": "cp2077_quickmelee"
+      }
+    },
+    {
+      "type": "Accuracy",
+      "accuracyModifier": 2
+    },
+    {
+      "type": "MuzzleFlash",
+      "effects": [
+        {
+          "phase": "firing",
+          "name": "cp2077_explosion_new_ext",
+          "condition": {
+            "selectedFireMode": "cp2077_quickmelee"
+          }
+        },
+        {
+          "phase": "firing",
+          "name": "muzzle_flash",
+          "condition": {
+            "unselectedFireMode": "cp2077_quickmelee"
+          }
+        },
+        {
+          "phase": "hit_scan_acquired",
+          "name": "tracer",
+          "condition": {
+            "unselectedFireMode": "cp2077_quickmelee"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "single",
+          "displayName": "label.pointblank.fireMode.single",
+          "type": "SINGLE",
+          "rpm": 150,
+          "damage": 12.0
+        },
+        {
+          "name": "cp2077_quickmelee",
+          "displayName": "label.pointblank.fireMode.cp2077_quickmelee",
+          "type": "SINGLE",
+          "rpm": 50,
+          "damage": 20.0,
+          "animationName": "animation.model.firemelee",
+          "maxShootingDistance": 4.0,
+          "prepareFireAnimations": [
+            {
+              "name": "animation.model.preparefire",
+              "duration": 230
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "maxAmmoCapacity" : 10,
+  "compatibleAmmo" : ["ammo50ae", "ammocreative"],
+  "damage" : 12.0,
+  "rpm" : 150,
+  "fireModes" : ["SINGLE"],
+  "fireSound" : "malorian_arms_fire",
+  "drawCooldownDuration" : 800,
+  "aimingZoom" : 0.25,
+  "gunRecoilInitialAmplitude" : 0.125,
+  "shakeRecoilAmplitude" : 0.35,
+  "shakeRecoilSpeed" : 2.5,
+  "viewRecoilAmplitude" : 3.25,
+  "inspectCooldownDuration": 7930,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
+  
+  "glowingParts": [
+    {
+      "name": "glow_turn"
+    },
+    {
+      "name": "glow_sight_rear"
+    },
+    {
+      "name": "glow_sight_front"
+    },
+    {
+      "name": "glow_laser"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 3730,
+      "animation": "animation.model.reloadempty",
+      "shakeEffects": [
+        {
+          "start": 300,
+          "duration": 1000,
+          "initialAmplitude": 0.1,
+          "rateOfAmplitudeDecay": 0.3
+        },
+        {
+          "start": 630,
+          "duration": 800,
+          "initialAmplitude": 0.4,
+          "rateOfAmplitudeDecay": 0.8
+        },
+        {
+          "start": 1070,
+          "duration": 1000,
+          "initialAmplitude": 0.1,
+          "rateOfAmplitudeDecay": 0.3
+        },
+        {
+          "start": 1430,
+          "duration": 400,
+          "initialAmplitude": 0.1,
+          "rateOfAmplitudeDecay": 0.5
+        },
+        {
+          "start": 2000,
+          "duration": 1000,
+          "initialAmplitude": 0.1,
+          "rateOfAmplitudeDecay": 0.3
+        },
+        {
+          "start": 2130,
+          "duration": 700,
+          "initialAmplitude": 0.1,
+          "rateOfAmplitudeDecay": 0.5
+        },
+        {
+          "start": 2500,
+          "duration": 500,
+          "initialAmplitude": 0.2,
+          "rateOfAmplitudeDecay": 0.7
+        },
+        {
+          "start": 2930,
+          "duration": 800,
+          "initialAmplitude": 0.1,
+          "rateOfAmplitudeDecay": 0.3
+        },
+        {
+          "start": 3470,
+          "duration": 500,
+          "initialAmplitude": 0.2,
+          "rateOfAmplitudeDecay": 0.5
+        }
+      ]
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 2770,
+      "animation": "animation.model.reload",						
+      "shakeEffects": [
+        {
+          "start": 300,
+          "duration": 1000,
+          "initialAmplitude": 0.1,
+          "rateOfAmplitudeDecay": 0.3
+        },
+        
+        {
+          "start": 630,
+          "duration": 800,
+          "initialAmplitude": 0.4,
+          "rateOfAmplitudeDecay": 0.8
+        },
+        {
+          "start": 1070,
+          "duration": 1000,
+          "initialAmplitude": 0.1,
+          "rateOfAmplitudeDecay": 0.3
+        },
+        {
+          "start": 1430,
+          "duration": 400,
+          "initialAmplitude": 0.1,
+          "rateOfAmplitudeDecay": 0.5
+        },
+        {
+          "start": 1530,
+          "duration": 700,
+          "initialAmplitude": 0.2,
+          "rateOfAmplitudeDecay": 0.5
+        },
+        {
+          "start": 2000,
+          "duration": 1000,
+          "initialAmplitude": 0.1,
+          "rateOfAmplitudeDecay": 0.3
+        },
+        {
+          "start": 2500,
+          "duration": 500,
+          "initialAmplitude": 0.3,
+          "rateOfAmplitudeDecay": 0.5
+        }
+      ]
+    }
+  ]
+}

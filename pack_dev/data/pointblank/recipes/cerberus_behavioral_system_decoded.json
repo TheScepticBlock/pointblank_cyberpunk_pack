@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PHP",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "item": "pointblank:processor"
+    },
+    "H":{
+      "item": "pointblank:cp2077_cerberus_behavioral_system"
+    }
+  },
+  "result": {
+    "item": "pointblank:cp2077_cerberus_behavioral_system_decoded"
+  }
+}

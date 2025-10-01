@@ -1,0 +1,20 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 2,
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:cyan_dye"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:magenta_dye"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_skin_neon"
+  }
+}

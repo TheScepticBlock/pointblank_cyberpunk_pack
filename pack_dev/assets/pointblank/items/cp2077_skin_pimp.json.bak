@@ -1,0 +1,23 @@
+{
+  "name" : "cp2077_skin_pimp",
+  "type": "Attachment",
+  "category": "skin",
+  "groups": [
+    "cp2077_skin"
+  ],
+  "features": [
+    {
+      "type": "Skin",
+      "skins": [
+        {
+          "gunId": "cp2077_rostovic_kolac",
+          "texture": "textures/item/cp2077_rostovic_kolac_pimp.png"
+        },
+        {
+          "gunId": "cp2077_arasaka_senkoh_lx",
+          "texture": "textures/item/cp2077_arasaka_senkoh_lx_pimp.png"
+        }
+      ]
+    }
+  ]
+}

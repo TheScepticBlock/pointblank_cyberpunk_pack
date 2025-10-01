@@ -1,0 +1,124 @@
+{
+  "loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "base": 
+{
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    256,
+    256
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        -5.25,
+        0.5
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        -5.25,
+        0.5
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        0,
+        3.5
+      ],
+      "translation": [
+        6.5,
+        -32,
+        5
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        0,
+        3.5
+      ],
+      "translation": [
+        6.5,
+        -32,
+        5
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        -1.5,
+        2.75
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "gui": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        -2.25,
+        -5.5,
+        0
+      ],
+      "scale": [
+        0.21,
+        0.21,
+        0.21
+      ]
+    },
+    "head": {
+      "scale": [
+        0,
+        0,
+        0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        3.25,
+        -7.25,
+        0
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    }
+  }
+},
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "pointblank:item/militech_hercules_3ax.icon"
+      }
+    }
+  }
+}

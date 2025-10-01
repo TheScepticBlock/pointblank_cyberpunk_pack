@@ -1,0 +1,22 @@
+{
+  "name" : "cp2077_type_2067",
+  "type": "Attachment",
+  "category": "scope",
+  "groups": [
+    "sights_group",
+    "hg_sights",
+    "cp2077_short_scope"
+  ],
+  "features": [
+    {
+      "type": "Aiming",
+      "zoom": 0.3
+    },
+    {
+      "type": "Reticle",
+      "texture": "textures/item/reticle_type_2067.png",
+      "parallax": true,
+      "maxAngularOffset": 1.75
+    }
+  ]
+}

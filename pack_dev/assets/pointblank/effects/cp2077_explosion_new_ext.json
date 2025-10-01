@@ -1,0 +1,17 @@
+{
+	"type": "muzzle_flash",
+	"name": "cp2077_explosion_new_ext",
+	"texture": "textures/effect/explosion_new.png",
+	"blendMode": "ADDITIVE",
+	"width": 1,
+	"duration" : 675,
+	"brightness" : 1,
+	"glow" : true,
+	"depthTest": true,
+	"sprites": {
+	  "type": "play_once",
+	  "rows": 9,
+	  "columns": 9,
+	  "fps": 120
+	}
+}

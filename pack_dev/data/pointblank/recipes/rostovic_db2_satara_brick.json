@@ -1,0 +1,32 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "pointblank:cp2077_rostovic_db2_satara"
+    },
+    {
+      "count": 30,
+      "item": "pointblank:gunmetal_ingot"
+    },
+    {
+      "count": 10,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 5,
+      "item": "minecraft:diamond"
+    },
+    {
+      "count": 15,
+      "item": "minecraft:redstone"
+    },
+    {
+      "count": 6,
+      "item": "minecraft:repeater"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_rostovic_db2_satara_brick"
+  }
+}
