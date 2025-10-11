@@ -2546,6 +2546,7 @@
         "sounds": [
             {
                 "name": "pointblank:kyubi_fire_suppressed",
+                "volume": 2.5,
                 "stream": false
             }
         ]
