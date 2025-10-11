@@ -7,7 +7,7 @@
 #Also this script was written for Linux. Windows users might have to use WSL to get this to work or port it to Powershell somehow.
 
 # Change this to whatever you want the pack version to be
-pack_version="1.17-Add-Kyubi"
+pack_version="1.17-WIP2"
 
 # Name of the zip file (include .zip at the end!)
 zip_name="Cyberpunk_2077_Guns_Pack_${pack_version}.zip"
