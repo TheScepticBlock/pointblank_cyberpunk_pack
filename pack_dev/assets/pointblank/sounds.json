@@ -2605,5 +2605,105 @@
                 "stream": false
             }
         ]
+    },
+    "copperhead_stockunfold": {
+        "sounds": [
+            {
+                "name": "pointblank:copperhead_stockunfold",
+                "stream": false
+            }
+        ]
+    },
+    "copperhead_charge": {
+        "sounds": [
+            {
+                "name": "pointblank:copperhead_charge",
+                "stream": false
+            }
+        ]
+    },
+    "copperhead_chargeback": {
+        "sounds": [
+            {
+                "name": "pointblank:copperhead_chargeback",
+                "stream": false
+            }
+        ]
+    },
+    "copperhead_chargeforward": {
+        "sounds": [
+            {
+                "name": "pointblank:copperhead_chargeforward",
+                "stream": false
+            }
+        ]
+    },
+    "copperhead_fire": {
+        "sounds": [
+            {
+                "name": "pointblank:copperhead_fire",
+                "stream": false
+            }
+        ]
+    },
+    "copperhead_fire_psalm": {
+        "sounds": [
+            {
+                "name": "pointblank:copperhead_fire_psalm",
+                "stream": false
+            }
+        ]
+    },
+    "copperhead_fire_suppressed": {
+        "sounds": [
+            {
+                "name": "pointblank:copperhead_fire_suppressed",
+                "stream": false
+            }
+        ]
+    },
+    "copperhead_foley": {
+        "sounds": [
+            {
+                "name": "pointblank:copperhead_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:copperhead_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:copperhead_foley3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:copperhead_foley4",
+                "stream": false
+            }
+        ]
+    },
+    "copperhead_maggrab": {
+        "sounds": [
+            {
+                "name": "pointblank:copperhead_maggrab",
+                "stream": false
+            }
+        ]
+    },
+    "copperhead_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:copperhead_magin",
+                "stream": false
+            }
+        ]
+    },
+    "copperhead_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:copperhead_magout",
+                "stream": false
+            }
+        ]
     }
 }

@@ -3,7 +3,7 @@
 	"animations": {
 		"animation.model.fire": {
 			"loop": true,
-			"animation_length": 0.0667,
+			"animation_length": 0.1,
 			"bones": {
 				"slide1": {
 					"position": {
