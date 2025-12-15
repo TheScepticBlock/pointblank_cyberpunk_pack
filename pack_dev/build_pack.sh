@@ -1,13 +1,15 @@
 #!/bin/bash
 
-#This script was made so that the items in the content pack are properly sorted in its creative tab. You can easily compress the files without using this script and have the pack working as intended, though the items in the creative inventory will be horribly unorganized
+# This script was made so that the items in the content pack are properly sorted in its creative tab. You can easily compress the files without using this script and have the pack working as intended, though the items in the creative inventory will be horribly unorganized.
 
-#Yes, the base of this was written by ChatGPT because I couldn't be bothered to learn enough bash to write this myself.
+# Unfortunately, this script might not help with item sorting in Point Blank: Jelly as there seems to be some changes that cause the items to show up in a different order in the creative tab.
 
-#Also this script was written for Linux. Windows users might have to use WSL to get this to work or port it to Powershell somehow.
+# Yes, the base of this was originally written by ChatGPT because I couldn't be bothered to learn enough bash (at the time of creation) to write this myself.
+
+# Also this script was written for Linux. Windows users might have to use WSL to get this to work or port it to Powershell somehow.
 
 # Change this to whatever you want the pack version to be
-pack_version="1.17-WIP2"
+pack_version="1.17-WIP4"
 
 # Name of the zip file (include .zip at the end!)
 zip_name="Cyberpunk_2077_Guns_Pack_${pack_version}.zip"
@@ -16,9 +18,9 @@ zip_name="Cyberpunk_2077_Guns_Pack_${pack_version}.zip"
 folder_to_zip="$HOME/Documents/pointblankpacks/cyberpunk_2077_guns/pack_dev"
 
 # Array of weapons to be added (in the order you want) (you don't need to add .json at the end, the script already does this when putting together the archive file)
-pistols=("cp2077_arasaka_hjke11_yukimura" "cp2077_arasaka_hjke11_yukimura_genjiroh" "cp2077_arasaka_hjke11_yukimura_skippy" "cp2077_budget_arms_slaughtomatic" "cp2077_ca_liberty" "cp2077_ca_liberty_dex" "cp2077_ca_liberty_padre" "cp2077_ca_liberty_rogue" "cp2077_ca_liberty_yori" "cp2077_ca_unity" "cp2077_ca_unity_angelica" "cp2077_ca_unity_iconic" "cp2077_ha_4grit" "cp2077_ha_4grit_catahoula" "cp2077_malorian_arms_3516" "cp2077_malorian_arms_overture" "cp2077_malorian_arms_overture_cassidy" "cp2077_malorian_arms_overture_dante" "cp2077_malorian_arms_overture_dodger" "cp2077_malorian_arms_overture_kerry" "cp2077_malorian_arms_overture_river" "cp2077_militech_m10af_lexington" "cp2077_militech_m10af_lexington_rook" "cp2077_militech_m10af_lexington_wilson" "cp2077_militech_m10af_lexington_xmod2" "cp2077_militech_ar_lexington" "cp2077_techtronika_metel" "cp2077_techtronika_metel_kurt")
+pistols=("cp2077_arasaka_hjke11_yukimura" "cp2077_arasaka_hjke11_yukimura_genjiroh" "cp2077_arasaka_hjke11_yukimura_skippy" "cp2077_budget_arms_slaughtomatic" "cp2077_ca_liberty" "cp2077_ca_liberty_dex" "cp2077_ca_liberty_padre" "cp2077_ca_liberty_rogue" "cp2077_ca_liberty_yori" "cp2077_ca_unity" "cp2077_ca_unity_angelica" "cp2077_ca_unity_iconic" "cp2077_ha_4grit" "cp2077_ha_4grit_catahoula" "cp2077_malorian_arms_3516" "cp2077_malorian_arms_overture" "cp2077_malorian_arms_overture_cassidy" "cp2077_malorian_arms_overture_dante" "cp2077_malorian_arms_overture_dodger" "cp2077_malorian_arms_overture_kerry" "cp2077_malorian_arms_overture_river" "cp2077_militech_m10af_lexington" "cp2077_militech_m10af_lexington_rook" "cp2077_militech_m10af_lexington_wilson" "cp2077_militech_m10af_lexington_xmod2" "cp2077_militech_ar_lexington" "cp2077_techtronika_metel" "cp2077_techtronika_metel_kurt" "cp2077_techtronika_metel_taigan")
 
-assault_rifles=("cp2077_arasaka_hjsh18_masamune" "cp2077_arasaka_hjsh18_masamune_rogue" "cp2077_arasaka_nowaki" "cp2077_militech_hercules_3ax" "cp2077_militech_m251s_ajax" "cp2077_militech_m251s_ajax_barghest" "cp2077_militech_m251s_ajax_moron" "cp2077_nokota_d5_copperhead" "cp2077_nokota_d5_copperhead_psalm" "cp2077_tsunami_kyubi" "cp2077_tsunami_kyubi_chinook" "cp2077_tsunami_kyubi_myers" "cp2077_tsunami_kyubi_xmod2")
+assault_rifles=("cp2077_arasaka_hjsh18_masamune" "cp2077_arasaka_hjsh18_masamune_rogue" "cp2077_arasaka_nowaki" "cp2077_militech_hercules_3ax" "cp2077_militech_m251s_ajax" "cp2077_militech_m251s_ajax_barghest" "cp2077_militech_m251s_ajax_moron" "cp2077_nokota_d5_copperhead" "cp2077_nokota_d5_copperhead_psalm" "cp2077_nokota_d5_sidewinder" "cp2077_nokota_d5_sidewinder_dws" "cp2077_tsunami_kyubi" "cp2077_tsunami_kyubi_chinook" "cp2077_tsunami_kyubi_myers" "cp2077_tsunami_kyubi_xmod2")
 
 smgs=("cp2077_arasaka_senkoh_lx" "cp2077_arasaka_senkoh_lx_proto" "cp2077_kang_tao_g58_dian" "cp2077_kang_tao_g58_dian_yinglong" "cp2077_project_cynosure_erebus")
 
@@ -164,4 +166,6 @@ for file in "${misc[@]}"; do
     fi
 done
 
+echo "WARNING: Item order may not work in Point Blank: Jelly!"
+echo ""
 echo "Done! Output file should be named $zip_name and placed in the same spot as this script."

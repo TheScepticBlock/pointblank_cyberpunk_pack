@@ -2706,5 +2706,45 @@
                 "stream": false
             }
         ]
+    },
+    "sidewinder_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:sidewinder_magout",
+                "stream": false
+            }
+        ]
+    },
+    "sidewinder_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:sidewinder_magin",
+                "stream": false
+            }
+        ]
+    },
+    "sidewinder_chargeback": {
+        "sounds": [
+            {
+                "name": "pointblank:sidewinder_chargeback",
+                "stream": false
+            }
+        ]
+    },
+    "sidewinder_chargeforward": {
+        "sounds": [
+            {
+                "name": "pointblank:sidewinder_chargeforward",
+                "stream": false
+            }
+        ]
+    },
+    "sidewinder_fire": {
+        "sounds": [
+            {
+                "name": "pointblank:sidewinder_fire",
+                "stream": false
+            }
+        ]
     }
 }

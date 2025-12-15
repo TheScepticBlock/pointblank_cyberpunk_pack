@@ -1,0 +1,5 @@
+Most of the models in this folder DO NOT work with the current version of Blockbench!
+
+There was an update to both Blockbench and GeckoLib that breaks everything related to these models.
+
+Here be cyber dragons!
