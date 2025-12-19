@@ -1,13 +1,8 @@
 {
-  "name" : "cp2077_nokota_d5_copperhead",
+  "name" : "cp2077_darra_da8_umbra",
   "type": "Gun",
   "compatibleAttachmentGroups": [
-    "ar_sightsandscopes",
-    "ar_suppressors",
-    "ar_muzzle",
-    "cp2077_long_scope",
-    "cp2077_short_scope",
-    "chimera"
+    "ar_muzzle"
   ],
   "features": [
     {
@@ -31,24 +26,7 @@
       "type": "PartVisibility",
       "parts": [
         {
-          "name": "sights_up",
-          "visible": true,
-          "condition": {
-              "allOf": [
-              {
-                "doesNotHaveAttachmentGroup": "ar_sightsandscopes"
-              },
-              {
-                "doesNotHaveAttachmentGroup": "cp2077_short_scope"
-              },
-              {
-                "doesNotHaveAttachmentGroup": "cp2077_long_scope"
-              }
-            ]
-          }
-        },
-        {
-          "name": "sights_down",
+          "name": "RAIL",
           "visible": false,
           "condition": {
               "allOf": [
@@ -60,17 +38,6 @@
               },
               {
                 "doesNotHaveAttachmentGroup": "cp2077_long_scope"
-              }
-            ]
-          }
-        },
-        {
-          "name": "barrel2D",
-          "visible": true,
-          "condition": {
-              "allOf": [
-              {
-                "doesNotHaveAttachmentGroup": "ar_muzzle"
               }
             ]
           }
@@ -108,7 +75,7 @@
     },
     {
       "type": "Sound",
-      "fireSound": "copperhead_fire_suppressed",
+      "fireSound": "umbra_fire_suppressed",
       "fireSoundVolume": 0.5,
       "condition": {
       "allOf": [
@@ -119,17 +86,17 @@
       }
     }
   ],
-  "maxAmmoCapacity" : 30,
+  "maxAmmoCapacity" : 40,
   "compatibleAmmo" : ["ammo556", "ammocreative"],
-  "damage" : 4.0,
+  "damage" : 2.0,
   "rpm" : 600,
   "fireModes" : ["AUTOMATIC", "BURST", "SINGLE"],
-  "fireSound" : "copperhead_fire",
+  "fireSound" : "umbra_fire",
   "drawCooldownDuration" : 1000,
-  "gunRecoilInitialAmplitude" : 0.4,
-  "shakeRecoilAmplitude" : 0.35,
+  "gunRecoilInitialAmplitude" : 0.3,
+  "shakeRecoilAmplitude" : 0.25,
   "shakeRecoilSpeed" : 2,
-  "viewRecoilAmplitude" : 2,
+  "viewRecoilAmplitude" : 1.75,
   "inspectCooldownDuration": 6670,
   "firstPersonFallbackAnimations": "cp2077_fpp_weapon_medium",
   "effects": [
@@ -140,23 +107,20 @@
   ],
   "glowingParts": [
     {
-      "name": "glow_copperhead"
-    },
-    {
-      "name": "glow_copperhead2"
+      "name": "glow"
     }
   ],
   "phasedReloads": [
     {
       "phase": "RELOADING",
       "condition": "reloadIterationIndex == 0",
-      "duration": 2900,
+      "duration": 2600,
       "animation": "animation.model.reloadempty"
     },
     {
       "phase": "RELOADING",
       "condition": "reloadIterationIndex > 0",
-      "duration": 2330,
+      "duration": 2000,
       "animation": "animation.model.reload"
     }
   ]

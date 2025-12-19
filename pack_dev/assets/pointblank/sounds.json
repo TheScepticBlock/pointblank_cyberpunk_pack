@@ -2746,5 +2746,81 @@
                 "stream": false
             }
         ]
+    },
+    "umbra_stockunfold": {
+        "sounds": [
+            {
+                "name": "pointblank:umbra_stockunfold",
+                "stream": false
+            }
+        ]
+    },
+    "umbra_charge": {
+        "sounds": [
+            {
+                "name": "pointblank:umbra_charge",
+                "stream": false
+            }
+        ]
+    },
+    "umbra_fire": {
+        "sounds": [
+            {
+                "name": "pointblank:umbra_fire",
+                "stream": false
+            }
+        ]
+    },
+    "umbra_fire_suppressed": {
+        "sounds": [
+            {
+                "name": "pointblank:umbra_fire_suppressed",
+                "stream": false
+            }
+        ]
+    },
+    "umbra_foley": {
+        "sounds": [
+            {
+                "name": "pointblank:umbra_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:umbra_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:umbra_foley3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:umbra_foley4",
+                "stream": false
+            }
+        ]
+    },
+    "umbra_maggrab": {
+        "sounds": [
+            {
+                "name": "pointblank:umbra_maggrab",
+                "stream": false
+            }
+        ]
+    },
+    "umbra_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:umbra_magin",
+                "stream": false
+            }
+        ]
+    },
+    "umbra_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:umbra_magout",
+                "stream": false
+            }
+        ]
     }
 }
