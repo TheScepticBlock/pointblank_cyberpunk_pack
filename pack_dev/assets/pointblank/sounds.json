@@ -981,14 +981,6 @@
             }
         ]
     },
-    "masamune_draw": {
-        "sounds": [
-            {
-                "name": "pointblank:masamune_draw",
-                "stream": false
-            }
-        ]
-    },
     "masamune_fire": {
         "sounds": [
             {
@@ -1013,14 +1005,6 @@
             }
         ]
     },
-    "masamune_inspect": {
-        "sounds": [
-            {
-                "name": "pointblank:masamune_inspect",
-                "stream": false
-            }
-        ]
-    },
     "masamune_magin": {
         "sounds": [
             {
@@ -1033,6 +1017,26 @@
         "sounds": [
             {
                 "name": "pointblank:masamune_magout",
+                "stream": false
+            }
+        ]
+    },
+    "masamune_foley": {
+        "sounds": [
+            {
+                "name": "pointblank:masamune_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:masamune_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:masamune_foley3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:masamune_foley4",
                 "stream": false
             }
         ]

@@ -42,8 +42,8 @@
       ],
       "translation": [
         2.5,
-        -30,
-        -18
+        -28,
+        -8
       ]
     },
     "firstperson_lefthand": {
@@ -54,8 +54,8 @@
       ],
       "translation": [
         2.5,
-        -30,
-        -18
+        -28,
+        -8
       ]
     },
     "ground": {
@@ -96,9 +96,9 @@
     },
     "fixed": {
       "rotation": [
-        180,
+        -180,
         -90,
-        180
+        -180
       ],
       "translation": [
         -1,

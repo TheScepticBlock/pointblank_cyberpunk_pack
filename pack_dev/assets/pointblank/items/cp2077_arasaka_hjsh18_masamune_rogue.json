@@ -19,7 +19,26 @@
           "rpm": 700,
           "damage": 5.0,
           "burstShots": 3,
-          "isUsingDefaultMuzzle": true
+          "isUsingDefaultMuzzle": true,
+          "fireAnimations": [
+            {
+              "name": "animation.model.fireempty",
+              "duration": 100,
+              "condition": "ammoCount == 0"
+            }
+          ],
+          "completeFireAnimations": [
+            {
+              "name": "animation.model.completefire",
+              "duration": 100,
+              "condition": "ammoCount > 0"
+            },
+            {
+              "name": "animation.model.completefireempty",
+              "duration": 100,
+              "condition": "ammoCount == 0"
+            }
+          ]
         }
       ]
     },
@@ -161,13 +180,10 @@
   "compatibleAmmo" : ["ammo556", "ammocreative"],
   "fireSound" : "masamune_fire",
   "damage": 7.0,
-  "drawCooldownDuration" : 800,
-  "completeFireCooldownDuration": 100,
   "gunRecoilInitialAmplitude" : 0.2,
   "shakeRecoilAmplitude" : 0.35,
   "shakeRecoilSpeed" : 2,
   "viewRecoilAmplitude" : 2,
-  "inspectCooldownDuration": 8000,
   "firstPersonFallbackAnimations": "cp2077_fpp_weapon_medium",
   "glowingParts": [
     {
@@ -183,6 +199,18 @@
       "name": "tracer"
     }
   ],
+  "drawAnimations": [
+    {
+      "name": "animation.model.draw",
+      "duration": 700,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.drawempty",
+      "duration": 700,
+      "condition": "ammoCount == 0"
+    }
+  ],
   "idleAnimations": [
     {
       "name": "animation.model.idle",
@@ -195,10 +223,15 @@
       "condition": "ammoCount == 0"
     }
   ],
-  "fireAnimations": [
+  "inspectAnimations": [
     {
-      "name": "animation.model.fireempty",
-      "duration": 70,
+      "name": "animation.model.inspect",
+      "duration": 7900,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.inspectempty",
+      "duration": 7900,
       "condition": "ammoCount == 0"
     }
   ],
@@ -206,13 +239,13 @@
     {
       "phase": "RELOADING",
       "condition": "reloadIterationIndex == 0",
-      "duration": 4430,
+      "duration": 3400,
       "animation": "animation.model.reloadempty"
     },
     {
       "phase": "RELOADING",
       "condition": "reloadIterationIndex > 0",
-      "duration": 3570,
+      "duration": 2700,
       "animation": "animation.model.reload"
     }
   ]
