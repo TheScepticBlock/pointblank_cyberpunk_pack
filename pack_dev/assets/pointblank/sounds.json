@@ -15,26 +15,78 @@
             }
         ]
     },
-    "malorian_arms_draw": {
+    "malorian_arms_foley": {
         "sounds": [
             {
-                "name": "pointblank:malorian_arms_draw",
+                "name": "pointblank:malorian_arms_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:malorian_arms_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:malorian_arms_foley3",
                 "stream": false
             }
         ]
     },
-    "malorian_arms_flip1": {
+    "malorian_arms_rotatingbitstart": {
         "sounds": [
             {
-                "name": "pointblank:malorian_arms_flip1",
+                "name": "pointblank:malorian_arms_rotatingbitstart",
                 "stream": false
             }
         ]
     },
-    "malorian_arms_flip2": {
+    "malorian_arms_rotatingbitend": {
         "sounds": [
             {
-                "name": "pointblank:malorian_arms_flip2",
+                "name": "pointblank:malorian_arms_rotatingbitend",
+                "stream": false
+            }
+        ]
+    },
+    "malorian_arms_flipstart": {
+        "sounds": [
+            {
+                "name": "pointblank:malorian_arms_flipstart1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:malorian_arms_flipstart2",
+                "stream": false
+            }
+        ]
+    },
+    "malorian_arms_flipend": {
+        "sounds": [
+            {
+                "name": "pointblank:malorian_arms_flipend1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:malorian_arms_flipend2",
+                "stream": false
+            }
+        ]
+    },
+    "malorian_arms_flipfoley": {
+        "sounds": [
+            {
+                "name": "pointblank:malorian_arms_flipfoley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:malorian_arms_flipfoley2",
+                "stream": false
+            }
+        ]
+    },
+    "malorian_arms_flipfoley_special": {
+        "sounds": [
+            {
+                "name": "pointblank:malorian_arms_flipfoley_special",
                 "stream": false
             }
         ]
@@ -50,8 +102,12 @@
     "malorian_arms_magout": {
         "sounds": [
             {
-                "name": "pointblank:malorian_arms_magout",
+                "name": "pointblank:malorian_arms_magout1",
                 "stream": false
+            },
+            {
+                "name": "pointblank:malorian_arms_magout2",
+                "steam": false
             }
         ]
     },

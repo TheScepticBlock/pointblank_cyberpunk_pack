@@ -95,6 +95,11 @@
               }
             ]
           }
+        },
+        {
+          "name": "bullet2",
+          "visible": true,
+          "condition": "ammoCount > 0"
         }
       ]
     },
