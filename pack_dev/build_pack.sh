@@ -6,13 +6,13 @@
 
 # Yes, the base of this was originally written by ChatGPT because I couldn't be bothered to learn enough bash (at the time of creation) to write this myself.
 
-# Also this script was written for Linux. Windows users might have to use WSL to get this to work or port it to Powershell somehow.
+# This script was written for Linux. Windows users might have to use WSL to get this to work or port it to Powershell somehow.
 
 # Change this to whatever you want the pack version to be
-pack_version="1.17-RC1"
+pack_version="1.17"
 
-# Name of the zip file (include .zip at the end!)
-zip_name="Cyberpunk_2077_Guns_Pack_${pack_version}.zip"
+# Name of the zip file (Do NOT include any file extensions! That will be handled by the script, mainly because I wanted to be able to build .jar files as well for Pointblank: Jelly)
+zip_name="Cyberpunk_2077_Guns_Pack"
 
 # Folder to be zipped (example: "$HOME/Documents/MyVPBPack")
 folder_to_zip="$HOME/Documents/pointblankpacks/cyberpunk_2077_guns/pack_dev"
@@ -38,10 +38,13 @@ attachments=("cp2077_cqo_kanone_mini_mk72" "cp2077_kanetsugu" "cp2077_os1_gimlet
 
 misc=("cp2077_cerberus_behavioral_system" "cp2077_cerberus_behavioral_system_decoded")
 
-# File extension the script will look for (I RECOMMENDED YOU DON'T TOUCH THIS!)
+# Full name of the new archive (I RECOMMEND YOU DON'T TOUCH THIS!)
+zip_full_name="${zip_name}_${pack_version}.zip"
+
+# File extension the script will look for (I RECOMMEND YOU DON'T TOUCH THIS!)
 file_extension=".json"
 
-# Directory inside the zip where new files will be added (I RECOMMENDED YOU DON'T TOUCH THIS!)
+# Directory inside the zip where new files will be added (I RECOMMEND YOU DON'T TOUCH THIS!)
 zip_directory="assets/pointblank/items"
 
 # The directory of the subfolder that will be used to re-insert the item files (I RECOMMENDED YOU DON'T TOUCH THIS!)
@@ -49,11 +52,11 @@ folder_subdir="$folder_to_zip/$zip_directory"
 
 # Zip everything together
 echo "Zipping pack together..."
-(cd "$folder_to_zip" && zip -urq "$zip_name" ./* -x '*.zip' '*.sh') # Exclude zip files and the build script itself
+(cd "$folder_to_zip" && zip -urq "$zip_full_name" ./* -x '*.zip' '*.sh' 'fabric.mod.json' 'META-INF' 'icon.png') # Exclude zip files and the build script itself (also exclude some PB:J related JAR files)
 
 # Gets rid of everything inside "assets/pointblank/items" so the items can be re-inserted into the right order
 echo "Deleting the items because they are unorganized... (Don't worry, they'll be re-inserted back into the archive in the order you specified!)"
-zip --delete -q "$zip_name" "$zip_directory/*"
+zip --delete -q "$zip_full_name" "$zip_directory/*"
 
 # Re-insert all of the weapons back into the archive
 echo "Re-inserting Pistols..."
@@ -61,9 +64,9 @@ for file in "${pistols[@]}"; do
     full_file_name="${folder_subdir}/${file}${file_extension}"
     if [ -f "$full_file_name" ]; then
         echo "  Zipping $file..."
-        zip -urq "$zip_name" "$zip_directory/${file}${file_extension}"
+        zip -urq "$zip_full_name" "$zip_directory/${file}${file_extension}"
     else
-        echo "Warning: the pistol \"${file}${file_extension}\" does not exist!"
+        echo "WARNING: the pistol \"${file}${file_extension}\" does not exist!"
     fi
 done
 
@@ -72,9 +75,9 @@ for file in "${assault_rifles[@]}"; do
     full_file_name="${folder_subdir}/${file}${file_extension}"
     if [ -f "$full_file_name" ]; then
         echo "  Zipping $file..."
-        zip -urq "$zip_name" "$zip_directory/${file}${file_extension}"
+        zip -urq "$zip_full_name" "$zip_directory/${file}${file_extension}"
     else
-        echo "Warning: the assault rifle \"${file}${file_extension}\" does not exist!"
+        echo "WARNING: the assault rifle \"${file}${file_extension}\" does not exist!"
     fi
 done
 
@@ -83,9 +86,9 @@ for file in "${smgs[@]}"; do
     full_file_name="${folder_subdir}/${file}${file_extension}"
     if [ -f "$full_file_name" ]; then
         echo "  Zipping $file..."
-        zip -urq "$zip_name" "$zip_directory/${file}${file_extension}"
+        zip -urq "$zip_full_name" "$zip_directory/${file}${file_extension}"
     else
-        echo "Warning: the SMG \"${file}${file_extension}\" does not exist!"
+        echo "WARNING: the SMG \"${file}${file_extension}\" does not exist!"
     fi
 done
 
@@ -94,9 +97,9 @@ for file in "${rifles[@]}"; do
     full_file_name="${folder_subdir}/${file}${file_extension}"
     if [ -f "$full_file_name" ]; then
         echo "  Zipping $file..."
-        zip -urq "$zip_name" "$zip_directory/${file}${file_extension}"
+        zip -urq "$zip_full_name" "$zip_directory/${file}${file_extension}"
     else
-        echo "Warning: the rifle \"${file}${file_extension}\" does not exist!"
+        echo "WARNING: the rifle \"${file}${file_extension}\" does not exist!"
     fi
 done
 
@@ -105,9 +108,9 @@ for file in "${snipers[@]}"; do
    full_file_name="${folder_subdir}/${file}${file_extension}"
     if [ -f "$full_file_name" ]; then
         echo "  Zipping $file..."
-        zip -urq "$zip_name" "$zip_directory/${file}${file_extension}"
+        zip -urq "$zip_full_name" "$zip_directory/${file}${file_extension}"
     else
-        echo "Warning: the sniper rifle \"${file}${file_extension}\" does not exist!"
+        echo "WARNING: the sniper rifle \"${file}${file_extension}\" does not exist!"
     fi
 done
 
@@ -116,9 +119,9 @@ for file in "${shotguns[@]}"; do
     full_file_name="${folder_subdir}/${file}${file_extension}"
     if [ -f "$full_file_name" ]; then
         echo "  Zipping $file..."
-        zip -urq "$zip_name" "$zip_directory/${file}${file_extension}"
+        zip -urq "$zip_full_name" "$zip_directory/${file}${file_extension}"
     else
-        echo "Warning: the shotgun \"${file}${file_extension}\" does not exist!"
+        echo "WARNING: the shotgun \"${file}${file_extension}\" does not exist!"
     fi
 done
 
@@ -127,9 +130,9 @@ for file in "${lmgs[@]}"; do
     full_file_name="${folder_subdir}/${file}${file_extension}"
     if [ -f "$full_file_name" ]; then
         echo "  Zipping $file..."
-        zip -urq "$zip_name" "$zip_directory/${file}${file_extension}"
+        zip -urq "$zip_full_name" "$zip_directory/${file}${file_extension}"
     else
-        echo "Warning: the LMG \"${file}${file_extension}\" does not exist!"
+        echo "WARNING: the LMG \"${file}${file_extension}\" does not exist!"
     fi
 done
 
@@ -138,9 +141,9 @@ for file in "${melees[@]}"; do
     full_file_name="${folder_subdir}/${file}${file_extension}"
     if [ -f "$full_file_name" ]; then
         echo "  Zipping $file..."
-        zip -urq "$zip_name" "$zip_directory/${file}${file_extension}"
+        zip -urq "$zip_full_name" "$zip_directory/${file}${file_extension}"
     else
-        echo "Warning: the melee weapon \"${file}${file_extension}\" does not exist!"
+        echo "WARNING: the melee weapon \"${file}${file_extension}\" does not exist!"
     fi
 done
 
@@ -149,9 +152,9 @@ for file in "${attachments[@]}"; do
     full_file_name="${folder_subdir}/${file}${file_extension}"
     if [ -f "$full_file_name" ]; then
         echo "  Zipping $file..."
-        zip -urq "$zip_name" "$zip_directory/${file}${file_extension}"
+        zip -urq "$zip_full_name" "$zip_directory/${file}${file_extension}"
     else
-        echo "Warning: the attachment \"${file}${file_extension}\" does not exist!"
+        echo "WARNING: the attachment \"${file}${file_extension}\" does not exist!"
     fi
 done
 
@@ -160,12 +163,30 @@ for file in "${misc[@]}"; do
     full_file_name="${folder_subdir}/${file}${file_extension}"
     if [ -f "$full_file_name" ]; then
         echo "  Zipping $file..."
-        zip -urq "$zip_name" "$zip_directory/${file}${file_extension}"
+        zip -urq "$zip_full_name" "$zip_directory/${file}${file_extension}"
     else
-        echo "Warning: the misc item \"${file}${file_extension}\" does not exist!"
+        echo "WARNING: the misc item \"${file}${file_extension}\" does not exist!"
     fi
 done
 
+# My abominable attempt at making the .jar file while keeping the modloader stuff out of the regular zip archive
+if [ $1 == "-jar" ]; then
+    echo "INFO: Creating .jar file for use with Pointblank: Jelly."
+    zip -urq "$zip_full_name" "fabric.mod.json"
+    zip -urq "$zip_full_name" "icon.png"
+    zip -urq "$zip_full_name" "META-INF"
+    zip -urq "$zip_full_name" "META-INF/neoforge.mods.toml"
+    cp "$folder_to_zip"/"$zip_full_name" "$folder_to_zip"/"$zip_name""_PBJ.jar"
+    zip -d "$zip_full_name" "fabric.mod.json"
+    zip -d "$zip_full_name" "icon.png"
+    zip -d "$zip_full_name" "META-INF/neoforge.mods.toml"
+    zip -d "$zip_full_name" "META-INF"
+fi
+    
 echo "WARNING: Item order may not work in Point Blank: Jelly!"
 echo ""
-echo "Done! Output file should be named $zip_name and placed in the same spot as this script."
+echo "Done! Output file should be named \"$zip_full_name\" and placed in the same spot as this script."
+if [ $1 == "-jar" ]; then
+    echo ""
+    echo "Additionally, the .jar version of the archive \"$zip_name.jar\" has been created in the same space."
+fi

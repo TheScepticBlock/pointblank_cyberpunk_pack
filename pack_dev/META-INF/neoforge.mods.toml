@@ -1,0 +1,41 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+issueTrackerURL="https://github.com/TheScepticBlock/pointblank_cyberpunk_pack/issues"
+
+[[mods]]
+modId="pbj_cp2077"
+version="1.17"
+displayName="Cyberpunk 2077 Guns (Pointblank: Jelly)"
+displayURL="https://modrinth.com/user/TheScepticBlock" 
+logoFile="icon.png"
+authors="TheScepticBlock"
+description='''Wake the nether up, samurai. This is a content pack for Pointblank: Jelly that adds over 50 weapons from Cyberpunk 2077 into Minecraft, all with unique animations and completely survival friendly.'''
+
+[[dependencies.pbj_cp2077]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.0,)"
+    ordering="AFTER"
+    side="BOTH"
+    
+[[dependencies.pbj_cp2077]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.pbj_cp2077]]
+    modId="geckolib"
+    type="required"
+    versionRange="[4.7.6,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.pbj_cp2077]]
+    modId="pointblank"
+    type="required"
+    versionRange="[2.1.0,)"
+    ordering="NONE"
+    side="BOTH"
