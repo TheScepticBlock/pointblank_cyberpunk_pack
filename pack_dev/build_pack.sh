@@ -9,7 +9,7 @@
 # This script was written for Linux. Windows users might have to use WSL to get this to work or port it to Powershell somehow.
 
 # Change this to whatever you want the pack version to be
-pack_version="1.17"
+pack_version="1.17.1"
 
 # Name of the zip file (Do NOT include any file extensions! That will be handled by the script, mainly because I wanted to be able to build .jar files as well for Pointblank: Jelly)
 zip_name="Cyberpunk_2077_Guns_Pack"
@@ -188,5 +188,5 @@ echo ""
 echo "Done! Output file should be named \"$zip_full_name\" and placed in the same spot as this script."
 if [ $1 == "-jar" ]; then
     echo ""
-    echo "Additionally, the .jar version of the archive \"$zip_name.jar\" has been created in the same space."
+    echo "Additionally, the .jar version of the archive \"$zip_name""_PBJ.jar\" has been created in the same space."
 fi

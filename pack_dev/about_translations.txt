@@ -7,5 +7,6 @@ In this pack, the following languages are available:
 
 Unfortunately, the translations from English are NOT complete. If you would like to contribute translations for any of the existing
 languages or an entirely new language, please contact me over Discord from the Point Blank server (my handle is thescepticblock).
+Alternatively, you can also contribute translations to the pack's GitHub repository here: https://github.com/TheScepticBlock/pointblank_cyberpunk_pack
 
 I will make sure to credit you for your translations if you do contribute.
