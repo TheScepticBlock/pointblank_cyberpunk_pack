@@ -30,7 +30,7 @@
     {
       "type": "Sound",
       "fireSound": "liberty_fire_suppressed",
-      "fireSoundVolume": 1,
+      "fireSoundVolume": 0.5,
       "condition": {
         "hasAttachmentGroup": "smg_suppressors"
       }

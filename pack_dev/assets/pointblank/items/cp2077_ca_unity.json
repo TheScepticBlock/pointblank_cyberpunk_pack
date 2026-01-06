@@ -30,7 +30,7 @@
     {
       "type": "Sound",
       "fireSound": "unity_fire_silenced",
-      "fireSoundVolume": 1,
+      "fireSoundVolume": 0.5,
       "condition": {
         "hasAttachmentGroup": "smg_suppressors"
       }
