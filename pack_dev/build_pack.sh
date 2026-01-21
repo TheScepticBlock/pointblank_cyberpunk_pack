@@ -170,7 +170,7 @@ for file in "${misc[@]}"; do
 done
 
 # My abominable attempt at making the .jar file while keeping the modloader stuff out of the regular zip archive
-if [ $1 == "-jar" ]; then
+if [ $1 == "-jar" ] 2> /dev/null; then
     echo "INFO: Creating .jar file for use with Pointblank: Jelly."
     zip -urq "$zip_full_name" "fabric.mod.json"
     zip -urq "$zip_full_name" "icon.png"
@@ -182,11 +182,13 @@ if [ $1 == "-jar" ]; then
     zip -d "$zip_full_name" "META-INF/neoforge.mods.toml"
     zip -d "$zip_full_name" "META-INF"
 fi
-    
+
+echo ""
 echo "WARNING: Item order may not work in Point Blank: Jelly!"
 echo ""
 echo "Done! Output file should be named \"$zip_full_name\" and placed in the same spot as this script."
-if [ $1 == "-jar" ]; then
+
+if [ $1 == "-jar" ] 2> /dev/null; then
     echo ""
     echo "Additionally, the .jar version of the archive \"$zip_name""_PBJ.jar\" has been created in the same space."
 fi
