@@ -15,7 +15,7 @@ pack_version="1.17.3"
 zip_name="Cyberpunk_2077_Guns_Pack"
 
 # Folder to be zipped (example: "$HOME/Documents/MyVPBPack")
-folder_to_zip="$HOME/Documents/pointblankpacks/cyberpunk_2077_guns/pack_dev"
+folder_to_zip="$(pwd)"
 
 # Array of weapons to be added (in the order you want) (you don't need to add .json at the end, the script already does this when putting together the archive file)
 pistols=("cp2077_arasaka_hjke11_yukimura" "cp2077_arasaka_hjke11_yukimura_genjiroh" "cp2077_arasaka_hjke11_yukimura_skippy" "cp2077_budget_arms_slaughtomatic" "cp2077_ca_liberty" "cp2077_ca_liberty_dex" "cp2077_ca_liberty_padre" "cp2077_ca_liberty_rogue" "cp2077_ca_liberty_yori" "cp2077_ca_unity" "cp2077_ca_unity_angelica" "cp2077_ca_unity_iconic" "cp2077_ha_4grit" "cp2077_ha_4grit_catahoula" "cp2077_malorian_arms_3516" "cp2077_malorian_arms_overture" "cp2077_malorian_arms_overture_cassidy" "cp2077_malorian_arms_overture_dante" "cp2077_malorian_arms_overture_dodger" "cp2077_malorian_arms_overture_kerry" "cp2077_malorian_arms_overture_river" "cp2077_militech_m10af_lexington" "cp2077_militech_m10af_lexington_rook" "cp2077_militech_m10af_lexington_wilson" "cp2077_militech_m10af_lexington_xmod2" "cp2077_militech_ar_lexington" "cp2077_techtronika_metel" "cp2077_techtronika_metel_kurt" "cp2077_techtronika_metel_taigan")
