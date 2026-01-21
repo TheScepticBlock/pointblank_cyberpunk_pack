@@ -18,9 +18,10 @@
       "type": "PIP",
       "maskTexture": "textures/gui/cp2077_pip_mask_kanone.png",
       "overlayTexture": "textures/gui/hpo_kanone_max_mk77_scope_pip.png",
-      "zoom": 0.45,
+      "zoom": 0.4,
       "parallax": true,
-      "maxAngularOffset": 5
+      "maxAngularOffset": 5,
+      "altZoom": 0.775
     }
   ]
 }

@@ -18,7 +18,8 @@
       "type": "PIP",
       "maskTexture": "textures/gui/cp2077_pip_mask_gaki.png",
       "overlayTexture": "textures/gui/gaki_scope_pip.png",
-      "zoom": 0.65
+      "zoom": 0.65,
+      "altZoom": 0.8
     }
   ]
 }

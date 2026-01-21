@@ -21,7 +21,8 @@
       "overlayTexture": "textures/gui/clearvue_mk8_scope_pip.png",
       "zoom": 0.70,
       "parallax": true,
-      "maxAngularOffset": 5
+      "maxAngularOffset": 5,
+      "altZoom": 0.575
     }
   ]
 }

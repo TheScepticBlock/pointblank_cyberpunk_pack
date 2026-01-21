@@ -18,9 +18,10 @@
       "type": "PIP",
       "maskTexture": "textures/gui/cp2077_pip_mask_generic.png",
       "overlayTexture": "textures/gui/e305_prospecta_pip.png",
-      "zoom": 0.65,
+      "zoom": 0.7,
       "parallax": true,
-      "maxAngularOffset": 5
+      "maxAngularOffset": 5,
+      "altZoom": 0.83
     }
   ]
 }
