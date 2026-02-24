@@ -117,7 +117,7 @@
     "gui": {
       "parent": "item/generated",
       "textures": {
-        "layer0": "pointblank:item/kang_tao_g58_dian.icon"
+        "layer0": "pointblank:item/cp2077_kang_tao_g58_dian.icon"
       }
     }
   }

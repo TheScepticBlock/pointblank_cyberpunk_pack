@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "pointblank:item/cerberus_behavioral_system_decoded.icon"
+        "layer0": "pointblank:item/cp2077_cerberus_behavioral_system_decoded.icon"
     }
 }

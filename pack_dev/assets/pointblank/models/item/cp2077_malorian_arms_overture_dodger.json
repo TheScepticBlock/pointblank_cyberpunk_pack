@@ -117,7 +117,7 @@
     "gui": {
       "parent": "item/generated",
       "textures": {
-        "layer0": "pointblank:item/malorian_arms_overture_dodger.icon"
+        "layer0": "pointblank:item/cp2077_malorian_arms_overture_dodger.icon"
       }
     }
   }

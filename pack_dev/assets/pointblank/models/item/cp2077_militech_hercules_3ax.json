@@ -117,7 +117,7 @@
     "gui": {
       "parent": "item/generated",
       "textures": {
-        "layer0": "pointblank:item/militech_hercules_3ax.icon"
+        "layer0": "pointblank:item/cp2077_militech_hercules_3ax.icon"
       }
     }
   }

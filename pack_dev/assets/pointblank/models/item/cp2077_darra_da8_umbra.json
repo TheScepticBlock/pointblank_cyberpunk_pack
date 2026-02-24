@@ -117,7 +117,7 @@
     "gui": {
       "parent": "item/generated",
       "textures": {
-        "layer0": "pointblank:item/darra_da8_umbra.icon"
+        "layer0": "pointblank:item/cp2077_darra_da8_umbra.icon"
       }
     }
   }

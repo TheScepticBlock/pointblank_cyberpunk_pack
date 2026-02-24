@@ -117,7 +117,7 @@
     "gui": {
       "parent": "item/generated",
       "textures": {
-        "layer0": "pointblank:item/militech_m251s_ajax_moron.icon"
+        "layer0": "pointblank:item/cp2077_militech_m251s_ajax_moron.icon"
       }
     }
   }

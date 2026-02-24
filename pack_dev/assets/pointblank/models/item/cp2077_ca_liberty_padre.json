@@ -117,7 +117,7 @@
     "gui": {
       "parent": "item/generated",
       "textures": {
-        "layer0": "pointblank:item/ca_liberty_padre.icon"
+        "layer0": "pointblank:item/cp2077_ca_liberty_padre.icon"
       }
     }
   }

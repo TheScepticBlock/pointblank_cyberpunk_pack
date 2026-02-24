@@ -117,7 +117,7 @@
     "gui": {
       "parent": "item/generated",
       "textures": {
-        "layer0": "pointblank:item/arasaka_hjsh18_masamune.icon"
+        "layer0": "pointblank:item/cp2077_arasaka_hjsh18_masamune.icon"
       }
     }
   }

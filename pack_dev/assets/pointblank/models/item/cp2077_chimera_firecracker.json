@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "pointblank:item/chimera_firecracker"
+        "layer0": "pointblank:item/cp2077_chimera_firecracker"
     }
 }

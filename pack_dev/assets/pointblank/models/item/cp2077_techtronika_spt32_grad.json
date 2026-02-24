@@ -117,7 +117,7 @@
     "gui": {
       "parent": "item/generated",
       "textures": {
-        "layer0": "pointblank:item/techtronika_spt32_grad.icon"
+        "layer0": "pointblank:item/cp2077_techtronika_spt32_grad.icon"
       }
     }
   }

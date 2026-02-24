@@ -117,7 +117,7 @@
     "gui": {
       "parent": "item/generated",
       "textures": {
-        "layer0": "pointblank:item/tsunami_kyubi_myers.icon"
+        "layer0": "pointblank:item/cp2077_tsunami_kyubi_myers.icon"
       }
     }
   }
