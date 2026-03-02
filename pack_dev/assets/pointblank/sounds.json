@@ -1758,18 +1758,18 @@
             }
         ]
     },
-    "defender_charge": {
+    "defender_chargeback": {
         "sounds":[
             {
-                "name": "pointblank:defender_charge",
+                "name": "pointblank:defender_chargeback",
                 "stream": false
             }
         ]
     },
-    "defender_draw": {
+    "defender_chargeforward": {
         "sounds":[
             {
-                "name": "pointblank:defender_draw",
+                "name": "pointblank:defender_chargeforward",
                 "stream": false
             }
         ]
@@ -1806,18 +1806,46 @@
             }
         ]
     },
-    "defender_move1": {
+    "defender_foley": {
         "sounds":[
             {
-                "name": "pointblank:defender_move1",
+                "name": "pointblank:defender_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:defender_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:defender_foley3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:defender_foley4",
                 "stream": false
             }
         ]
     },
-    "defender_move2": {
+    "ma70_fire": {
         "sounds":[
             {
-                "name": "pointblank:defender_move2",
+                "name": "pointblank:ma70_fire",
+                "stream": false
+            }
+        ]
+    },
+    "ma70_magin": {
+        "sounds":[
+            {
+                "name": "pointblank:ma70_magin",
+                "stream": false
+            }
+        ]
+    },
+    "ma70_magout": {
+        "sounds":[
+            {
+                "name": "pointblank:ma70_magout",
                 "stream": false
             }
         ]
