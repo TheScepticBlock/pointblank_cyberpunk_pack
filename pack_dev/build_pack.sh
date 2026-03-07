@@ -9,7 +9,7 @@
 # This script was written for Linux. Windows users might have to use WSL to get this to work or port it to Powershell somehow.
 
 # Change this to whatever you want the pack version to be
-pack_version="1.18-WIP1"
+pack_version="1.18-WIP2"
 
 # Name of the zip file (Do NOT include any file extensions! That will be handled by the script, mainly because I wanted to be able to build .jar files as well for Pointblank: Jelly)
 zip_name="Cyberpunk_2077_Guns_Pack"
@@ -30,7 +30,7 @@ snipers=("cp2077_nokota_ndi_osprey" "cp2077_techtronika_spt32_grad" "cp2077_tech
 
 shotguns=("cp2077_budget_arms_carnage" "cp2077_budget_arms_carnage_guts" "cp2077_budget_arms_carnage_judy" "cp2077_rostovic_db2_satara" "cp2077_rostovic_db2_satara_brick" "cp2077_rostovic_db2_testera" "cp2077_rostovic_db2_testera_leon" "cp2077_rostovic_db4_igla" "cp2077_rostovic_db4_igla_sovereign" "cp2077_rostovic_db4_palica")
 
-lmgs=("cp2077_ca_m2067_defender" "cp2077_ca_m2067_defender_kurt")
+lmgs=("cp2077_ca_m2067_defender" "cp2077_ca_m2067_defender_kurt" "cp2077_ma_ma70_hb" "cp2077_ma_ma70_hb_xmod2")
 
 melees=("cp2077_fang" "cp2077_katana" "cp2077_katana_e3" "cp2077_katana_saburo" "cp2077_katana_wakako" "cp2077_tomahawk" "cp2077_tomahawk_agaou")
 
