@@ -1,11 +1,14 @@
 {
-  "name" : "cp2077_ca_m2067_defender",
+  "name" : "cp2077_ma_ma70_hb_xmod2",
   "type": "Gun",
   "compatibleAttachmentGroups": [
     "ar_sightsandscopes",
-    "ar_muzzle",
-    "cp2077_long_scope",
+    "cp2077_short_scope",
+    "cp2077_short_scope",
     "chimera"
+  ],
+  "defaultAttachments": [
+    "cp2077_kanetsugu"
   ],
   "features": [
     {
@@ -17,6 +20,9 @@
                 "doesNotHaveAttachmentGroup": "ar_sightsandscopes"
               },
               {
+                "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+              },
+              {
                 "doesNotHaveAttachmentGroup": "cp2077_long_scope"
               }
             ]
@@ -26,7 +32,7 @@
       "type": "PartVisibility",
       "parts": [
         {
-          "name": "rear_sight",
+          "name": "sights",
           "visible": true,
           "condition": {
               "allOf": [
@@ -40,18 +46,14 @@
           }
         },
         {
-          "name": "rear_sight_flipped",
-          "visible": false,
-          "condition": {
-              "allOf": [
-              {
-                "doesNotHaveAttachmentGroup": "ar_sightsandscopes"
-              },
-              {
-                "doesNotHaveAttachmentGroup": "cp2077_long_scope"
-              }
-            ]
-          }
+          "name": "belt6",
+          "visible": true,
+          "condition": "ammoCount >= 6"
+        },
+        {
+          "name": "belt5",
+          "visible": true,
+          "condition": "ammoCount >= 5"
         },
         {
           "name": "belt4",
@@ -113,27 +115,21 @@
   ],
   "glowingParts": [
     {
-      "name": "glow1"
-    },
-    {
-      "name": "glow2"
-    },
-    {
-      "name": "glow3"
+      "name": "glow_ma70"
     }
   ],
-  "maxAmmoCapacity" : 80,
+  "maxAmmoCapacity" : 50,
   "compatibleAmmo" : ["ammo68", "ammocreative"],
-  "damage" : 6.0,
-  "rpm" : 800,
+  "damage" : 9.0,
+  "rpm" : 350,
   "fireModes" : ["AUTOMATIC"],
-  "fireSound" : "defender_fire",
+  "fireSound" : "ma70_fire",
   "drawCooldownDuration" : 1300,
   "prepareFireCooldownDuration": 150,
-  "gunRecoilInitialAmplitude" : 0.4,
-  "shakeRecoilAmplitude" : 0.35,
+  "gunRecoilInitialAmplitude" : 0.2,
+  "shakeRecoilAmplitude" : 0.15,
   "shakeRecoilSpeed" : 2,
-  "viewRecoilAmplitude" : 2,
+  "viewRecoilAmplitude" : 1.25,
   "inspectCooldownDuration": 5800,
   "firstPersonFallbackAnimations": "cp2077_fpp_weapon_heavy",
   "phasedReloads": [

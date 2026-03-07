@@ -134,7 +134,7 @@
   "shakeRecoilAmplitude" : 0.35,
   "shakeRecoilSpeed" : 2,
   "viewRecoilAmplitude" : 1.25,
-  "inspectCooldownDuration": 5500,
+  "inspectCooldownDuration": 5800,
   "firstPersonFallbackAnimations": "cp2077_fpp_weapon_heavy",
   "phasedReloads": [
     {
