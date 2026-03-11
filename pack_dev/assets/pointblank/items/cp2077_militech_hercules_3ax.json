@@ -72,7 +72,7 @@
   "damage" : 6.0,
   "rpm" : 800,
   "fireSound" : "hercules_fire",
-  "drawCooldownDuration" : 800,
+  "drawCooldownDuration" : 700,
   "gunRecoilInitialAmplitude" : 0.2,
   "shakeRecoilAmplitude" : 0.35,
   "shakeRecoilSpeed" : 2,

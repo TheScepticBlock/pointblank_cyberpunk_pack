@@ -1,0 +1,36 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 64,
+      "item": "pointblank:gunmetal_ingot"
+    },
+    {
+      "count": 32,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 48,
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "count": 16,
+      "item": "minecraft:diamond"
+    },
+    {
+      "count": 48,
+      "item": "minecraft:redstone"
+    },
+    {
+      "count": 5,
+      "item": "pointblank:processor"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_militech_mk31_hmg"
+  }
+}

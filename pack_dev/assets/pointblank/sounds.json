@@ -2910,5 +2910,37 @@
                 "stream": false
             }
         ]
+    },
+    "mk31_hmg_close": {
+        "sounds": [
+            {
+                "name": "pointblank:mk31_hmg_close",
+                "stream": false
+            }
+        ]
+    },
+    "mk31_hmg_open": {
+        "sounds": [
+            {
+                "name": "pointblank:mk31_hmg_open",
+                "stream": false
+            }
+        ]
+    },
+    "mk31_hmg_fire": {
+        "sounds": [
+            {
+                "name": "pointblank:mk31_hmg_fire",
+                "stream": false
+            }
+        ]
+    },
+    "mk31_hmg_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:mk31_hmg_magout",
+                "stream": false
+            }
+        ]
     }
 }
