@@ -21,7 +21,7 @@
       "overlayTexture": "textures/gui/percipient_scope_pip.png",
       "zoom": 0.70,
       "parallax": true,
-      "maxAngularOffset": 5,
+      "maxAngularOffset": 45,
       "altZoom": 0.575
     }
   ]

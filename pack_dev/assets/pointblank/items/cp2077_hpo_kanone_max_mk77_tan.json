@@ -20,7 +20,7 @@
       "overlayTexture": "textures/gui/hpo_kanone_max_mk77_scope_pip.png",
       "zoom": 0.4,
       "parallax": true,
-      "maxAngularOffset": 5,
+      "maxAngularOffset": 180,
       "altZoom": 0.775
     }
   ]
