@@ -21,7 +21,6 @@
       "overlayTexture": "textures/gui/grandstand_scope_pip.png",
       "zoom": 0.70,
       "parallax": true,
-      "maxAngularOffset": 45,
       "altZoom": 0.575
     }
   ]

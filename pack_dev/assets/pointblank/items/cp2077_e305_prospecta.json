@@ -20,7 +20,7 @@
       "overlayTexture": "textures/gui/e305_prospecta_pip.png",
       "zoom": 0.7,
       "parallax": true,
-      "maxAngularOffset": 5,
+      "maxAngularOffset": 20,
       "altZoom": 0.83
     }
   ]

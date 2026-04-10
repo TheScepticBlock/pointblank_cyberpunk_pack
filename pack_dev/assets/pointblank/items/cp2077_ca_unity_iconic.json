@@ -87,6 +87,28 @@
   "shakeRecoilSpeed" : 1,
   "viewRecoilAmplitude" : 2.5,
   "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
+  "fireAnimations": [
+    {
+      "name": "animation.model.fireempty",
+      "duration": 500,
+      "condition": "ammoCount == 0"
+    },
+    {
+      "name": "animation.model.fire",
+      "duration": 500,
+      "condition": "random"
+    },
+    {
+      "name": "animation.model.fire2",
+      "duration": 500,
+      "condition": "random"
+    },
+    {
+      "name": "animation.model.fire3",
+      "duration": 500,
+      "condition": "random"
+    }
+  ],
   "drawAnimations": [
     {
       "name": "animation.model.draw",

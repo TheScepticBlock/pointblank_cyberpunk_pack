@@ -129,7 +129,7 @@
   "maxAmmoCapacity" : 16,
   "compatibleAmmo" : ["ammo556", "ammocreative"],
   "damage" : 5.0,
-  "rpm" : 250,
+  "rpm" : 300,
   "fireModes" : ["SINGLE"],
   "fireSound" : "kyubi_fire",
   "drawCooldownDuration" : 600,
@@ -148,6 +148,9 @@
   "glowingParts": [
     {
       "name": "glow_kyubi"
+    },
+    {
+      "name": "sights"
     }
   ],
   "phasedReloads": [

@@ -66,7 +66,24 @@
           "displayName": "label.pointblank.fireMode.single",
           "type": "SINGLE",
           "rpm": 180,
-          "damage": 12.0
+          "damage": 12.0,
+          "fireAnimations": [
+            {
+              "name": "animation.model.fire",
+              "duration": 700,
+              "condition": "random"
+            },
+            {
+              "name": "animation.model.fire2",
+              "duration": 700,
+              "condition": "random"
+            },
+            {
+              "name": "animation.model.fire3",
+              "duration": 700,
+              "condition": "random"
+            }
+          ]
         },
         {
           "name": "cp2077_quickmelee",
@@ -100,6 +117,23 @@
   "viewRecoilAmplitude" : 3.25,
   "inspectCooldownDuration": 5000,
   "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
+  "fireAnimations": [
+    {
+      "name": "animation.model.fire",
+      "duration": 700,
+      "condition": "random"
+    },
+    {
+      "name": "animation.model.fire2",
+      "duration": 700,
+      "condition": "random"
+    },
+    {
+      "name": "animation.model.fire3",
+      "duration": 700,
+      "condition": "random"
+    }
+  ],
   "glowingParts": [
     {
       "name": "glow_malorian"
