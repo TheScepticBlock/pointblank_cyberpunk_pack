@@ -8,7 +8,7 @@
   "features": [
     {
         "type": "Sound",
-        "fireSound": "rasetsu_fire_suppressed",
+        "fireSound": "rasetsu_firesuppressed",
         "fireSoundVolume": 1
     }
   ]

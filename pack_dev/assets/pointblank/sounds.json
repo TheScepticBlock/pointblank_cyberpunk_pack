@@ -1,168 +1,412 @@
 {
-    "malorian_arms_fire": {
+    "3516_fire": {
         "sounds": [
             {
-                "name": "pointblank:malorian_arms_fire",
-                "stream": false
-            }
-        ]
-    },
-    "malorian_arms_fire_alt": {
-        "sounds": [
-            {
-                "name": "pointblank:malorian_arms_fire_alt",
-                "stream": false
-            }
-        ]
-    },
-    "malorian_arms_foley": {
-        "sounds": [
-            {
-                "name": "pointblank:malorian_arms_foley1",
+                "name": "pointblank:3516/3516_fire1",
                 "stream": false
             },
             {
-                "name": "pointblank:malorian_arms_foley2",
+                "name": "pointblank:3516/3516_fire2",
                 "stream": false
             },
             {
-                "name": "pointblank:malorian_arms_foley3",
-                "stream": false
-            }
-        ]
-    },
-    "malorian_arms_rotatingbitstart": {
-        "sounds": [
-            {
-                "name": "pointblank:malorian_arms_rotatingbitstart",
-                "stream": false
-            }
-        ]
-    },
-    "malorian_arms_rotatingbitend": {
-        "sounds": [
-            {
-                "name": "pointblank:malorian_arms_rotatingbitend",
-                "stream": false
-            }
-        ]
-    },
-    "malorian_arms_flipstart": {
-        "sounds": [
-            {
-                "name": "pointblank:malorian_arms_flipstart1",
+                "name": "pointblank:3516/3516_fire3",
                 "stream": false
             },
             {
-                "name": "pointblank:malorian_arms_flipstart2",
-                "stream": false
-            }
-        ]
-    },
-    "malorian_arms_flipend": {
-        "sounds": [
-            {
-                "name": "pointblank:malorian_arms_flipend1",
+                "name": "pointblank:3516/3516_fire4",
                 "stream": false
             },
             {
-                "name": "pointblank:malorian_arms_flipend2",
+                "name": "pointblank:3516/3516_fire5",
                 "stream": false
             }
         ]
     },
-    "malorian_arms_flipfoley": {
+    "3516_firealt": {
         "sounds": [
             {
-                "name": "pointblank:malorian_arms_flipfoley1",
+                "name": "pointblank:3516/3516_firealt1",
                 "stream": false
             },
             {
-                "name": "pointblank:malorian_arms_flipfoley2",
-                "stream": false
-            }
-        ]
-    },
-    "malorian_arms_flipfoley_special": {
-        "sounds": [
-            {
-                "name": "pointblank:malorian_arms_flipfoley_special",
-                "stream": false
-            }
-        ]
-    },
-    "malorian_arms_magin": {
-        "sounds": [
-            {
-                "name": "pointblank:malorian_arms_magin",
-                "stream": false
-            }
-        ]
-    },
-    "malorian_arms_magout": {
-        "sounds": [
-            {
-                "name": "pointblank:malorian_arms_magout1",
+                "name": "pointblank:3516/3516_firealt2",
                 "stream": false
             },
             {
-                "name": "pointblank:malorian_arms_magout2",
-                "steam": false
-            }
-        ]
-    },
-    "malorian_arms_slidedown": {
-        "sounds": [
+                "name": "pointblank:3516/3516_firealt3",
+                "stream": false
+            },
             {
-                "name": "pointblank:malorian_arms_slidedown",
+                "name": "pointblank:3516/3516_firealt4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:3516/3516_firealt5",
                 "stream": false
             }
         ]
     },
-    "malorian_arms_slideup": {
+    "3516_fireend": {
         "sounds": [
             {
-                "name": "pointblank:malorian_arms_slideup",
+                "name": "pointblank:3516/3516_fireend1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:3516/3516_fireend2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:3516/3516_fireend3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:3516/3516_fireend4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:3516/3516_fireend5",
                 "stream": false
             }
         ]
     },
-    "liberty_fire": {
+    "3516_foley": {
         "sounds": [
             {
-                "name": "pointblank:liberty_fire",
+                "name": "pointblank:3516/3516_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:3516/3516_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:3516/3516_foley3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:3516/3516_foley4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:3516/3516_foley5",
+                "stream": false
+            },
+            {
+                "name": "pointblank:3516/3516_foley6",
                 "stream": false
             }
         ]
     },
-    "liberty_fire_dex": {
+    "3516_handlepull": {
         "sounds": [
             {
-                "name": "pointblank:liberty_fire_dex",
+                "name": "pointblank:3516/3516_handlepull1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:3516/3516_handlepull2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:3516/3516_handlepull3",
                 "stream": false
             }
         ]
     },
-    "liberty_fire_suppressed": {
+    "3516_handlerelease": {
         "sounds": [
             {
-                "name": "pointblank:liberty_fire_suppressed",
+                "name": "pointblank:3516/3516_handlerelease1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:3516/3516_handlerelease2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:3516/3516_handlerelease3",
                 "stream": false
             }
         ]
     },
-    "liberty_inspect": {
+    "3516_handlerotate": {
         "sounds": [
             {
-                "name": "pointblank:liberty_inspect",
+                "name": "pointblank:3516/3516_handlerotate",
                 "stream": false
             }
         ]
     },
-    "liberty_magin": {
+    "3516_magin": {
         "sounds": [
             {
-                "name": "pointblank:liberty_magin",
+                "name": "pointblank:3516/3516_magin1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:3516/3516_magin2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:3516/3516_magin3",
+                "stream": false
+            }
+        ]
+    },
+    "3516_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:3516/3516_magout1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:3516/3516_magout2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:3516/3516_magout3",
+                "stream": false
+            }
+        ]
+    },
+    "3516_swing": {
+        "sounds": [
+            {
+                "name": "pointblank:3516/3516_swing1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:3516/3516_swing2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:3516/3516_swing3",
+                "stream": false
+            }
+        ]
+    },
+    "3516_swingshort": {
+        "sounds": [
+            {
+                "name": "pointblank:3516/3516_swingshort1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:3516/3516_swingshort2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:3516/3516_swingshort3",
+                "stream": false
+            }
+        ]
+    },
+    "rasetsu_charge": {
+        "sounds": [
+            {
+                "name": "pointblank:rasetsu/rasetsu_charge1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_charge2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_charge3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_charge4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_charge5",
+                "stream": false
+            }
+        ]
+    },
+    "rasetsu_fire": {
+        "sounds": [
+            {
+                "name": "pointblank:rasetsu/rasetsu_fire1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_fire2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_fire3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_fire4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_fire5",
+                "stream": false
+            }
+        ]
+    },
+    "rasetsu_firesuppressed": {
+        "sounds": [
+            {
+                "name": "pointblank:rasetsu/rasetsu_firesuppressed1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_firesuppressed2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_firesuppressed3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_firesuppressed4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_firesuppressed5",
+                "stream": false
+            }
+        ]
+    },
+    "rasetsu_foley": {
+        "sounds": [
+            {
+                "name": "pointblank:rasetsu/rasetsu_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_foley3",
+                "stream": false
+            }
+        ]
+    },
+    "rasetsu_inspect": {
+        "sounds": [
+            {
+                "name": "pointblank:rasetsu/rasetsu_inspect",
+                "stream": false
+            }
+        ]
+    },
+    "rasetsu_maghit": {
+        "sounds": [
+            {
+                "name": "pointblank:rasetsu/rasetsu_maghit1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_maghit2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_maghit3",
+                "stream": false
+            }
+        ]
+    },
+    "rasetsu_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:rasetsu/rasetsu_magin1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_magin2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_magin3",
+                "stream": false
+            }
+        ]
+    },
+    "rasetsu_magopen": {
+        "sounds": [
+            {
+                "name": "pointblank:rasetsu/rasetsu_magopen1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_magopen2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_magopen3",
+                "stream": false
+            }
+        ]
+    },
+    "rasetsu_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:rasetsu/rasetsu_magout1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_magout2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_magout3",
+                "stream": false
+            }
+        ]
+    },
+    "rasetsu_magplace": {
+        "sounds": [
+            {
+                "name": "pointblank:rasetsu/rasetsu_magplace1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_magplace2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_magplace3",
+                "stream": false
+            }
+        ]
+    },
+    "rasetsu_magthrow": {
+        "sounds": [
+            {
+                "name": "pointblank:rasetsu/rasetsu_magthrow1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_magthrow2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_magthrow3",
+                "stream": false
+            }
+        ]
+    },
+    "rasetsu_reload": {
+        "sounds": [
+            {
+                "name": "pointblank:rasetsu/rasetsu_reload1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_reload2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:rasetsu/rasetsu_reload3",
                 "stream": false
             }
         ]
@@ -170,63 +414,51 @@
     "unity_fire": {
         "sounds": [
             {
-                "name": "pointblank:unity_fire",
+                "name": "pointblank:unity/unity_fire1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:unity/unity_fire2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:unity/unity_fire3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:unity/unity_fire4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:unity/unity_fire5",
                 "stream": false
             }
         ]
     },
-    "unity_fire_silenced": {
+    "unity_fireempty": {
         "sounds": [
             {
-                "name": "pointblank:unity_fire_silenced",
+                "name": "pointblank:unity/unity_fireempty",
                 "stream": false
             }
         ]
     },
-    "unity_draw": {
+    "unity_firesuppressed": {
         "sounds": [
             {
-                "name": "pointblank:unity_draw",
+                "name": "pointblank:unity/unity_firesuppressed1",
                 "stream": false
-            }
-        ]
-    },
-    "unity_magin": {
-        "sounds": [
+            },
             {
-                "name": "pointblank:unity_magin",
+                "name": "pointblank:unity/unity_firesuppressed2",
                 "stream": false
-            }
-        ]
-    },
-    "unity_magout": {
-        "sounds": [
+            },
             {
-                "name": "pointblank:unity_magout",
+                "name": "pointblank:unity/unity_firesuppressed3",
                 "stream": false
-            }
-        ]
-    },
-    "unity_slidedown": {
-        "sounds": [
+            },
             {
-                "name": "pointblank:unity_slidedown",
-                "stream": false
-            }
-        ]
-    },
-    "unity_slideup": {
-        "sounds": [
-            {
-                "name": "pointblank:unity_slideup",
-                "stream": false
-            }
-        ]
-    },
-    "unity_charge": {
-        "sounds": [
-            {
-                "name": "pointblank:unity_charge",
+                "name": "pointblank:unity/unity_firesuppressed4",
                 "stream": false
             }
         ]
@@ -234,7 +466,287 @@
     "unity_foley": {
         "sounds": [
             {
-                "name": "pointblank:unity_foley",
+                "name": "pointblank:unity/unity_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:unity/unity_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:unity/unity_foley3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:unity/unity_foley4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:unity/unity_foley5",
+                "stream": false
+            },
+            {
+                "name": "pointblank:unity/unity_foley6",
+                "stream": false
+            }
+        ]
+    },
+    "unity_hammer": {
+        "sounds": [
+            {
+                "name": "pointblank:unity/unity_hammer1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:unity/unity_hammer2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:unity/unity_hammer3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:unity/unity_hammer4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:unity/unity_hammer5",
+                "stream": false
+            }
+        ]
+    },
+    "unity_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:unity/unity_magin1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:unity/unity_magin2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:unity/unity_magin3",
+                "stream": false
+            }
+        ]
+    },
+    "unity_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:unity/unity_magout1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:unity/unity_magout2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:unity/unity_magout3",
+                "stream": false
+            }
+        ]
+    },
+    "unity_slidepull": {
+        "sounds": [
+            {
+                "name": "pointblank:unity/unity_slidepull",
+                "stream": false
+            }
+        ]
+    },
+    "unity_sliderelease": {
+        "sounds": [
+            {
+                "name": "pointblank:unity/unity_sliderelease1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:unity/unity_sliderelease2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:unity/unity_sliderelease3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:unity/unity_sliderelease4",
+                "stream": false
+            }
+        ]
+    },
+    "unity_magrattle": {
+        "sounds": [
+            {
+                "name": "pointblank:unity/unity_magrattle1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:unity/unity_magrattle2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:unity/unity_magrattle3",
+                "stream": false
+            }
+        ]
+    },
+    "liberty_fire": {
+        "sounds": [
+            {
+                "name": "pointblank:liberty/liberty_fire1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:liberty/liberty_fire2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:liberty/liberty_fire3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:liberty/liberty_fire4",
+                "stream": false
+            }
+        ]
+    },
+    "liberty_firedex": {
+        "sounds": [
+            {
+                "name": "pointblank:liberty/liberty_firedex1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:liberty/liberty_firedex2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:liberty/liberty_firedex3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:liberty/liberty_firedex4",
+                "stream": false
+            }
+        ]
+    },
+    "liberty_firesuppressed": {
+        "sounds": [
+            {
+                "name": "pointblank:liberty/liberty_firesuppressed1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:liberty/liberty_firesuppressed2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:liberty/liberty_firesuppressed3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:liberty/liberty_firesuppressed4",
+                "stream": false
+            }
+        ]
+    },
+    "liberty_foley": {
+        "sounds": [
+            {
+                "name": "pointblank:liberty/liberty_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:liberty/liberty_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:liberty/liberty_foley3",
+                "stream": false
+            }
+        ]
+    },
+    "liberty_hammer": {
+        "sounds": [
+            {
+                "name": "pointblank:liberty/liberty_hammer1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:liberty/liberty_hammer2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:liberty/liberty_hammer3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:liberty/liberty_hammer4",
+                "stream": false
+            }
+        ]
+    },
+    "liberty_inspect": {
+        "sounds": [
+            {
+                "name": "pointblank:liberty/liberty_inspect",
+                "stream": false
+            }
+        ]
+    },
+    "liberty_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:liberty/liberty_magout1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:liberty/liberty_magout2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:liberty/liberty_magout3",
+                "stream": false
+            }
+        ]
+    },
+    "liberty_magrattle": {
+        "sounds": [
+            {
+                "name": "pointblank:liberty/liberty_magrattle1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:liberty/liberty_magrattle2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:liberty/liberty_magrattle3",
+                "stream": false
+            }
+        ]
+    },
+    "liberty_slidepull": {
+        "sounds": [
+            {
+                "name": "pointblank:liberty/liberty_slidepull",
+                "stream": false
+            }
+        ]
+    },
+    "liberty_sliderelease": {
+        "sounds": [
+            {
+                "name": "pointblank:liberty/liberty_sliderelease1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:liberty/liberty_sliderelease2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:liberty/liberty_sliderelease3",
                 "stream": false
             }
         ]
@@ -1306,86 +1818,6 @@
         "sounds": [
             {
                 "name": "pointblank:overture_open",
-                "stream": false
-            }
-        ]
-    },
-    "rasetsu_charge": {
-        "sounds": [
-            {
-                "name": "pointblank:rasetsu_charge",
-                "stream": false
-            }
-        ]
-    },
-    "rasetsu_draw": {
-        "sounds": [
-            {
-                "name": "pointblank:rasetsu_draw",
-                "stream": false
-            }
-        ]
-    },
-    "rasetsu_finish": {
-        "sounds": [
-            {
-                "name": "pointblank:rasetsu_finish",
-                "stream": false
-            }
-        ]
-    },
-    "rasetsu_fire": {
-        "sounds": [
-            {
-                "name": "pointblank:rasetsu_fire",
-                "stream": false
-            }
-        ]
-    },
-    "rasetsu_fire_suppressed": {
-        "sounds": [
-            {
-                "name": "pointblank:rasetsu_fire_suppressed",
-                "stream": false
-            }
-        ]
-    },
-    "rasetsu_inspect": {
-        "sounds": [
-            {
-                "name": "pointblank:rasetsu_inspect",
-                "stream": false
-            }
-        ]
-    },
-    "rasetsu_magin": {
-        "sounds": [
-            {
-                "name": "pointblank:rasetsu_magin",
-                "stream": false
-            }
-        ]
-    },
-    "rasetsu_magin_slam": {
-        "sounds": [
-            {
-                "name": "pointblank:rasetsu_magin_slam",
-                "stream": false
-            }
-        ]
-    },
-    "rasetsu_magout": {
-        "sounds": [
-            {
-                "name": "pointblank:rasetsu_magout",
-                "stream": false
-            }
-        ]
-    },
-    "rasetsu_prepare": {
-        "sounds": [
-            {
-                "name": "pointblank:rasetsu_prepare",
                 "stream": false
             }
         ]

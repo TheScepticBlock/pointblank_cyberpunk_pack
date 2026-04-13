@@ -29,7 +29,7 @@
     },
     {
       "type": "Sound",
-      "fireSound": "liberty_fire_suppressed",
+      "fireSound": "liberty_firesuppressed",
       "fireSoundVolume": 0.5,
       "condition": {
         "hasAttachmentGroup": "smg_suppressors"
@@ -82,7 +82,7 @@
   "damage" : 6,
   "rpm" : 400,
   "fireModes" : ["SINGLE"],
-  "fireSound" : "liberty_fire_dex",
+  "fireSound" : "liberty_firedex",
   "gunRecoilInitialAmplitude" : 0.6,
   "shakeRecoilAmplitude" : 0.35,
   "shakeRecoilSpeed" : 1,
