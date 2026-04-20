@@ -77,7 +77,7 @@
     },
     {
       "type": "Sound",
-      "fireSound": "achilles_firealt",
+      "fireSound": "achilles_firecharge",
       "fireSoundVolume": 1,
       "condition": {
         "selectedFireMode": "single"
