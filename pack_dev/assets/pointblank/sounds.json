@@ -595,19 +595,23 @@
         "sounds": [
             {
                 "name": "pointblank:liberty/liberty_fire1",
-                "stream": false
+                "stream": false,
+                "volume": 2
             },
             {
                 "name": "pointblank:liberty/liberty_fire2",
-                "stream": false
+                "stream": false,
+                "volume": 2
             },
             {
                 "name": "pointblank:liberty/liberty_fire3",
-                "stream": false
+                "stream": false,
+                "volume": 2
             },
             {
                 "name": "pointblank:liberty/liberty_fire4",
-                "stream": false
+                "stream": false,
+                "volume": 2
             }
         ]
     },
@@ -615,19 +619,23 @@
         "sounds": [
             {
                 "name": "pointblank:liberty/liberty_firedex1",
-                "stream": false
+                "stream": false,
+                "volume": 1.5
             },
             {
                 "name": "pointblank:liberty/liberty_firedex2",
-                "stream": false
+                "stream": false,
+                "volume": 1.5
             },
             {
                 "name": "pointblank:liberty/liberty_firedex3",
-                "stream": false
+                "stream": false,
+                "volume": 1.5
             },
             {
                 "name": "pointblank:liberty/liberty_firedex4",
-                "stream": false
+                "stream": false,
+                "volume": 1.5
             }
         ]
     },
@@ -671,19 +679,23 @@
         "sounds": [
             {
                 "name": "pointblank:liberty/liberty_hammer1",
-                "stream": false
+                "stream": false,
+                "volume": 0.5
             },
             {
                 "name": "pointblank:liberty/liberty_hammer2",
-                "stream": false
+                "stream": false,
+                "volume": 0.5
             },
             {
                 "name": "pointblank:liberty/liberty_hammer3",
-                "stream": false
+                "stream": false,
+                "volume": 0.5
             },
             {
                 "name": "pointblank:liberty/liberty_hammer4",
-                "stream": false
+                "stream": false,
+                "volume": 0.5
             }
         ]
     },
@@ -995,6 +1007,381 @@
             }
         ]
     },
+    "yukimura_fire": {
+        "sounds": [
+            {
+                "name": "pointblank:yukimura/hjke11_fire1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:yukimura/hjke11_fire2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:yukimura/hjke11_fire3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:yukimura/hjke11_fire4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:yukimura/hjke11_fire5",
+                "stream": false
+            }
+        ]
+    },
+    "yukimura_fireempty": {
+        "sounds": [
+            {
+                "name": "pointblank:yukimura/hjke11_fireempty1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:yukimura/hjke11_fireempty2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:yukimura/hjke11_fireempty3",
+                "stream": false
+            }
+        ]
+    },
+    "yukimura_firestop": {
+        "sounds": [
+            {
+                "name": "pointblank:yukimura/hjke11_firestop1",
+                "stream": false,
+                "volume": 0.25
+            },
+            {
+                "name": "pointblank:yukimura/hjke11_firestop2",
+                "stream": false,
+                "volume": 0.25
+            },
+            {
+                "name": "pointblank:yukimura/hjke11_firestop3",
+                "stream": false,
+                "volume": 0.25
+            }
+        ]
+    },
+    "yukimura_foley": {
+        "sounds": [
+            {
+                "name": "pointblank:yukimura/hjke11_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:yukimura/hjke11_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:yukimura/hjke11_foley3",
+                "stream": false
+            }
+        ]
+    },
+    "yukimura_load": {
+        "sounds": [
+            {
+                "name": "pointblank:yukimura/hjke11_load1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:yukimura/hjke11_load2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:yukimura/hjke11_load3",
+                "stream": false
+            }
+        ]
+    },
+    "yukimura_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:yukimura/hjke11_magin1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:yukimura/hjke11_magin2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:yukimura/hjke11_magin3",
+                "stream": false
+            }
+        ]
+    },
+    "yukimura_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:yukimura/hjke11_magout1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:yukimura/hjke11_magout2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:yukimura/hjke11_magout3",
+                "stream": false
+            }
+        ]
+    },
+    "skippy_hologram_start": {
+        "sounds": [
+            {
+                "name": "pointblank:yukimura/skippy/skippy_hologram_start",
+                "stream": false,
+                "volume": 0.35
+            }
+        ]
+    },
+    "skippy_hologram_end": {
+        "sounds": [
+            {
+                "name": "pointblank:yukimura/skippy/skippy_hologram_end",
+                "stream": false,
+                "volume": 0.35
+            }
+        ]
+    },
+    "skippy_hologram_move": {
+        "sounds": [
+            {
+                "name": "pointblank:yukimura/skippy/skippy_hologram_move1",
+                "stream": false,
+                "volume": 0.35
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_hologram_move2",
+                "stream": false,
+                "volume": 0.35
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_hologram_move3",
+                "stream": false,
+                "volume": 0.35
+            }
+        ]
+    },
+    "skippy_sing": {
+        "sounds": [
+            {
+                "name": "pointblank:yukimura/skippy/skippy_sing1",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_sing2",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_sing3",
+                "stream": true
+            }
+        ]
+    },
+    "skippy_voice": {
+        "sounds": [
+            {
+                "name": "pointblank:yukimura/skippy/skippy_voice1",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_voice2",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_voice3",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_voice4",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_voice5",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_voice6",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_voice7",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_voice8",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_voice9",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_funfact1",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_funfact2",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_funfact3",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_funfact4",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_funfact5",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_funfact6",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_funfact7",
+                "stream": true
+            }
+        ]
+    },
+    "skippy_funfact": {
+        "sounds": [
+            {
+                "name": "pointblank:yukimura/skippy/skippy_funfact1",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_funfact2",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_funfact3",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_funfact4",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_funfact5",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_funfact6",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_funfact7",
+                "stream": true
+            }
+        ]
+    },
+    "skippy_errorpositive": {
+        "sounds": [
+            {
+                "name": "pointblank:yukimura/skippy/skippy_voice8",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_error1",
+                "stream": true
+            }
+        ]
+    },
+    "skippy_errorneutral": {
+        "sounds": [
+            {
+                "name": "pointblank:yukimura/skippy/skippy_error1",
+                "stream": true
+            }
+        ]
+    },
+    "skippy_errornegative": {
+        "sounds": [
+            {
+                "name": "pointblank:yukimura/skippy/skippy_errornegative1",
+                "stream": true
+            },
+            {
+                "name": "pointblank:yukimura/skippy/skippy_errornegative2",
+                "stream": true
+            }
+        ]
+    },
+    "skippy_faq": {
+        "sounds": [
+            {
+                "name": "pointblank:yukimura/skippy/skippy_faq",
+                "stream": true
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     "ajax_charge": {
         "sounds": [
             {
@@ -1163,187 +1550,6 @@
         "sounds": [
             {
                 "name": "pointblank:dian_magout",
-                "stream": false
-            }
-        ]
-    },
-    "yukimura_fire": {
-        "sounds": [
-            {
-                "name": "pointblank:yukimura_fire",
-                "stream": false
-            }
-        ]
-    },
-    
-    "yukimura_fireempty": {
-        "sounds": [
-            {
-                "name": "pointblank:yukimura_fireempty",
-                "stream": false
-            }
-        ]
-    },
-    "yukimura_completefire": {
-        "sounds": [
-            {
-                "name": "pointblank:yukimura_completefire",
-                "stream": false
-            }
-        ]
-    },
-    "yukimura_magout": {
-        "sounds": [
-            {
-                "name": "pointblank:yukimura_magout",
-                "stream": false
-            }
-        ]
-    },
-    "yukimura_magin": {
-        "sounds": [
-            {
-                "name": "pointblank:yukimura_magin",
-                "stream": false
-            }
-        ]
-    },
-    "yukimura_load": {
-        "sounds": [
-            {
-                "name": "pointblank:yukimura_load",
-                "stream": false
-            }
-        ]
-    },
-    "yukimura_foley": {
-        "sounds": [
-            {
-                "name": "pointblank:yukimura_foley1",
-                "stream": false
-            },
-            {
-                "name": "pointblank:yukimura_foley2",
-                "stream": false
-            },
-            {
-                "name": "pointblank:yukimura_foley3",
-                "stream": false
-            }
-        ]
-    },
-    "skippy_dialogue_1": {
-        "sounds": [
-            {
-                "name": "pointblank:skippy_dialogue_1",
-                "stream": false
-            },
-            {
-                "name": "pointblank:skippy_dialogue_2",
-                "stream": false
-            },
-            {
-                "name": "pointblank:skippy_dialogue_4",
-                "stream": false
-            },
-            {
-                "name": "pointblank:skippy_dialogue_6",
-                "stream": false
-            },
-            {
-                "name": "pointblank:skippy_dialogue_10",
-                "stream": false
-            }
-        ]
-    },
-    "skippy_dialogue_2": {
-        "sounds": [
-            {
-                "name": "pointblank:skippy_dialogue_2",
-                "stream": false
-            },
-            {
-                "name": "pointblank:skippy_dialogue_6",
-                "stream": false
-            },
-            {
-                "name": "pointblank:skippy_dialogue_10",
-                "stream": false
-            },
-            {
-                "name": "pointblank:skippy_dialogue_5",
-                "stream": false
-            },
-            {
-                "name": "pointblank:skippy_dialogue_7",
-                "stream": false
-            },
-            {
-                "name": "pointblank:skippy_dialogue_8",
-                "stream": false
-            },
-            {
-                "name": "pointblank:skippy_dialogue_9",
-                "stream": false
-            },
-            {
-                "name": "pointblank:skippy_dialogue_4",
-                "stream": false
-            }
-        ]
-    },
-    "skippy_dialogue_6": {
-        "sounds": [
-            {
-                "name": "pointblank:skippy_dialogue_6",
-                "stream": false
-            },
-            {
-                "name": "pointblank:skippy_dialogue_2",
-                "stream": false
-            },
-            {
-                "name": "pointblank:skippy_dialogue_10",
-                "stream": false
-            },
-            {
-                "name": "pointblank:skippy_dialogue_5",
-                "stream": false
-            },
-            {
-                "name": "pointblank:skippy_dialogue_7",
-                "stream": false
-            },
-            {
-                "name": "pointblank:skippy_dialogue_8",
-                "stream": false
-            },
-            {
-                "name": "pointblank:skippy_dialogue_9",
-                "stream": false
-            }
-        ]
-    },
-    "skippy_dialogue_3": {
-        "sounds": [
-            {
-                "name": "pointblank:skippy_dialogue_3",
-                "stream": false
-            }
-        ]
-    },
-    "skippy_dialogue_11": {
-        "sounds": [
-            {
-                "name": "pointblank:skippy_dialogue_11",
-                "stream": false
-            }
-        ]
-    },
-    "skippy_singing": {
-        "sounds": [
-            {
-                "name": "pointblank:skippy_singing",
                 "stream": false
             }
         ]

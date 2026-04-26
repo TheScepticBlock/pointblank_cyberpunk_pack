@@ -77,13 +77,23 @@
   "idleAnimations": [
     {
       "name": "animation.model.idle",
-      "duration": 0,
+      "duration": 20000,
       "condition": "ammoCount > 0"
     },
     {
       "name": "animation.model.idleempty",
-      "duration": 0,
+      "duration": 20000,
       "condition": "ammoCount == 0"
+    },
+    {
+      "name": "animation.model.idleSkippyVoice",
+      "duration": 10000,
+      "condition": "random"
+    },
+    {
+      "name": "animation.model.idleSkippyFAQ",
+      "duration": 14250,
+      "condition": "random"
     }
   ],
   "inspectAnimations": [
@@ -93,13 +103,28 @@
       "condition": "ammoCount == 0"
     },
     {
-      "name": "animation.model.inspectSkippy",
+      "name": "animation.model.inspectSkippyNeutral",
       "duration": 5000,
       "condition": "random"
     },
     {
-      "name": "animation.model.inspectSkippyAlt",
+      "name": "animation.model.inspectSkippyPositive",
       "duration": 5000,
+      "condition": "random"
+    },
+    {
+      "name": "animation.model.inspectSkippyNegative",
+      "duration": 5000,
+      "condition": "random"
+    },
+    {
+      "name": "animation.model.inspectSkippyFAQ",
+      "duration": 3770,
+      "condition": "random"
+    },
+    {
+      "name": "animation.model.inspectSkippyNoShoot",
+      "duration": 3770,
       "condition": "random"
     }
   ],
