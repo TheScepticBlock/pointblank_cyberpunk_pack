@@ -56,6 +56,13 @@
   "viewRecoilAmplitude" : 3,
   "inspectCooldownDuration": 6670,
   "firstPersonFallbackAnimations": "cp2077_fpp_weapon_medium",
+  "fireAnimations": [
+    {
+      "name": "animation.model.firelowammo",
+      "duration": 500,
+      "condition": "ammoCount <= 12"
+    }
+  ],
   "effects": [
     {
       "phase": "hit_scan_acquired",

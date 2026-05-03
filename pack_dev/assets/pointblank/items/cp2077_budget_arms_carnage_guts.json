@@ -22,8 +22,13 @@
           "pelletSpread": 0.1,
           "fireAnimations": [
             {
-              "name": "animation.model.fireempty",
-              "duration": 1000,
+              "name": "animation.model.fireguts",
+              "duration": 2070,
+              "condition": "ammoCount > 0"
+            },
+            {
+              "name": "animation.model.fireemptyguts",
+              "duration": 2070,
               "condition": "ammoCount == 0"
             }
           ]
@@ -72,13 +77,13 @@
     {
       "phase": "RELOADING",
       "condition": "reloadIterationIndex > 0",
-      "duration": 1300,
+      "duration": 1100,
       "animation": "animation.model.iterativeload"
     },
     {
       "phase": "COMPLETETING",
       "condition": "reloadIterationIndex >= 0",
-      "duration": 830,
+      "duration": 1000,
       "animation": "animation.model.finish"
     }
   ]

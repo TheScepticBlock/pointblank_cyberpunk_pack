@@ -16,7 +16,7 @@
   },
   "display": {
     "announce_to_chat": true,
-    "description": "Obtain a weapon that can send any mob to a digital hell within miliseconds.",
+    "description": "Obtain a weapon that harnesses the power of the Blackwall AI to send its enemies to a digital hell within milliseconds.",
     "frame": "challenge",
     "hidden": true,
     "icon": {

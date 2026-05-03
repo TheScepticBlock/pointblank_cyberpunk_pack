@@ -23,7 +23,7 @@
           "fireAnimations": [
             {
               "name": "animation.model.fireempty",
-              "duration": 1000,
+              "duration": 2070,
               "condition": "ammoCount == 0"
             }
           ]
@@ -43,7 +43,7 @@
   "shakeRecoilAmplitude" : 0.65,
   "shakeRecoilSpeed" : 1.25,
   "viewRecoilAmplitude" : 7,
-  "inspectCooldownDuration": 5970,
+  "inspectCooldownDuration": 5930,
   "firstPersonFallbackAnimations": "cp2077_fpp_weapon_heavy",
   "effects": [
     {
@@ -73,13 +73,13 @@
     {
       "phase": "RELOADING",
       "condition": "reloadIterationIndex > 0",
-      "duration": 1300,
+      "duration": 1100,
       "animation": "animation.model.iterativeload"
     },
     {
       "phase": "COMPLETETING",
       "condition": "reloadIterationIndex >= 0",
-      "duration": 830,
+      "duration": 1000,
       "animation": "animation.model.finish"
     }
   ]

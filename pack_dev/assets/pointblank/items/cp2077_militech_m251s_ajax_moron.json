@@ -99,8 +99,7 @@
     },
     {
       "type": "Sound",
-      "fireSound": "ajax_fire_suppressed",
-      "fireSoundVolume": 0.5,
+      "fireSound": "ajax_firesuppressed",
       "condition": {
       "allOf": [
           {
@@ -123,6 +122,18 @@
   "viewRecoilAmplitude" : 1.0,
   "inspectCooldownDuration": 7300,
   "firstPersonFallbackAnimations": "cp2077_fpp_weapon_medium",
+  "fireAnimations": [
+    {
+      "name": "animation.model.fireempty",
+      "duration": 500,
+      "condition": "ammoCount == 0"
+    },
+    {
+      "name": "animation.model.firelowammo",
+      "duration": 500,
+      "condition": "ammoCount <= 7"
+    }
+  ],
   "effects": [
     {
       "phase": "hit_scan_acquired",

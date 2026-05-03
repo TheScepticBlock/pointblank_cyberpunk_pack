@@ -108,8 +108,7 @@
     },
     {
       "type": "Sound",
-      "fireSound": "copperhead_fire_suppressed",
-      "fireSoundVolume": 0.5,
+      "fireSound": "copperhead_firesuppressed",
       "condition": {
       "allOf": [
           {
@@ -124,7 +123,7 @@
   "damage" : 6.0,
   "rpm" : 600,
   "fireModes" : ["AUTOMATIC", "BURST", "SINGLE"],
-  "fireSound" : "copperhead_fire_psalm",
+  "fireSound" : "copperhead_fire",
   "drawCooldownDuration" : 1000,
   "gunRecoilInitialAmplitude" : 0.6,
   "shakeRecoilAmplitude" : 0.5,
@@ -132,6 +131,18 @@
   "viewRecoilAmplitude" : 3,
   "inspectCooldownDuration": 6670,
   "firstPersonFallbackAnimations": "cp2077_fpp_weapon_medium",
+  "fireAnimations": [
+    {
+      "name": "animation.model.firepsalm",
+      "duration": 500,
+      "condition": "ammoCount > 12"
+    },
+    {
+      "name": "animation.model.firepsalmlowammo",
+      "duration": 500,
+      "condition": "ammoCount <= 12"
+    }
+  ],
   "effects": [
     {
       "phase": "hit_scan_acquired",

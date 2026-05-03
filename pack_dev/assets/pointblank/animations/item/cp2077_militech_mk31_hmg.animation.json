@@ -112,8 +112,11 @@
 				}
 			},
 			"sound_effects": {
-				"0.1667": {
-					"effect": "defender_foley"
+				"0.0667": {
+					"effect": "mk31hmg_foley"
+				},
+				"0.7667": {
+					"effect": "mk31hmg_foley"
 				}
 			}
 		},
@@ -196,17 +199,17 @@
 				}
 			},
 			"sound_effects": {
-				"0.6": {
-					"effect": "defender_foley"
+				"0.4": {
+					"effect": "mk31hmg_foley"
 				},
-				"2.7": {
-					"effect": "defender_foley"
+				"2.4333": {
+					"effect": "mk31hmg_foley"
 				},
 				"4.1": {
-					"effect": "defender_foley"
+					"effect": "mk31hmg_foley"
 				},
-				"4.8": {
-					"effect": "defender_foley"
+				"4.6333": {
+					"effect": "mk31hmg_foley"
 				}
 			}
 		},
@@ -277,33 +280,33 @@
 							"easingArgs": [2]
 						},
 						"6.0333": {
-							"vector": [-7.28, 2.18, -4.89],
+							"vector": [-7.8841, -22.6086, -1.5645],
 							"easing": "easeInOutQuad"
 						},
 						"6.2": {
-							"vector": [-7.08993, 4.97294, -2.71864],
+							"vector": [-7.51083, -19.83076, 0.46006],
 							"easing": "easeInQuad"
 						},
 						"6.3333": {
-							"vector": [-6.684, 7.75012, -0.52521],
+							"vector": [-6.9297, -17.07928, 2.42449],
 							"easing": "easeOutBack"
 						},
 						"6.6333": {
-							"vector": [-6.72561, 7.13171, -0.45209],
+							"vector": [-7.00641, -17.69469, 2.52601],
 							"easing": "easeInElastic"
 						},
 						"6.7667": {
-							"vector": [-6.93574, 3.10934, 2.56023],
+							"vector": [-7.45664, -21.70006, 5.70883],
 							"easing": "easeInQuad"
 						},
 						"7.0": {
-							"vector": [-7.75151, -0.80621, 13.12122],
+							"vector": [-8.59771, -25.56061, 16.74392],
 							"easing": "easeOutBack"
 						},
 						"8.0": {
 							"vector": [0, 0, 0],
 							"easing": "easeInElastic",
-							"easingArgs": [2]
+							"easingArgs": [1]
 						}
 					},
 					"position": {
@@ -389,7 +392,7 @@
 							"easing": "easeInQuad"
 						},
 						"6.9667": {
-							"vector": [-0.26713, -4.32999, 5.98153],
+							"vector": [-0.26713, -2.32999, 3.98153],
 							"easing": "easeOutBack"
 						},
 						"7.9333": {
@@ -1028,25 +1031,46 @@
 			},
 			"sound_effects": {
 				"0.0333": {
-					"effect": "mk31_hmg_open"
+					"effect": "mk31hmg_open"
 				},
-				"1.1": {
-					"effect": "mk31_hmg_magout"
+				"0.3": {
+					"effect": "mk31hmg_steam"
+				},
+				"0.9667": {
+					"effect": "rasetsu_maghit"
+				},
+				"1.7": {
+					"effect": "rasetsu_maghit"
+				},
+				"2.4": {
+					"effect": "mk31hmg_foley"
+				},
+				"2.7333": {
+					"effect": "mk31hmg_foley"
 				},
 				"3.4333": {
-					"effect": "hercules_magout"
+					"effect": "defender_magin"
 				},
 				"4.1": {
-					"effect": "ma70_magout"
+					"effect": "defender_magout"
 				},
-				"4.9667": {
-					"effect": "mk31_hmg_close"
+				"4.8667": {
+					"effect": "mk31hmg_close"
+				},
+				"5.5": {
+					"effect": "mk31hmg_handlegrab"
 				},
 				"6.0": {
-					"effect": "defender_chargeback"
+					"effect": "mk31hmg_handlepush"
 				},
 				"6.6": {
-					"effect": "defender_chargeforward"
+					"effect": "mk31hmg_handlepull"
+				},
+				"7.0": {
+					"effect": "mk31hmg_foley"
+				},
+				"7.3667": {
+					"effect": "mk31hmg_foley"
 				}
 			}
 		},
@@ -1967,25 +1991,39 @@
 			},
 			"sound_effects": {
 				"0.0333": {
-					"effect": "mk31_hmg_open"
+					"effect": "mk31hmg_open"
 				},
-				"0.9": {
-					"effect": "lmg_magout"
+				"0.3": {
+					"effect": "mk31hmg_steam"
 				},
-				"2.1": {
-					"effect": "mk31_hmg_magout"
+				"1.2667": {
+					"effect": "defender_magout"
+				},
+				"2.0": {
+					"effect": "rasetsu_maghit"
+				},
+				"2.7": {
+					"effect": "rasetsu_maghit"
+				},
+				"3.4333": {
+					"effect": "mk31hmg_foley"
 				},
 				"4.4333": {
-					"effect": "hercules_magout"
+					"effect": "defender_magin"
 				},
 				"5.1": {
-					"effect": "ma70_magout"
+					"effect": "defender_magout"
 				},
-				"5.9667": {
-					"effect": "mk31_hmg_close"
+				"5.4667": {
+					"effect": "mk31hmg_foley"
+				},
+				"5.9": {
+					"effect": "mk31hmg_close"
+				},
+				"6.5667": {
+					"effect": "mk31hmg_foley"
 				}
 			}
 		}
-	},
-	"geckolib_format_version": 2
+	}
 }

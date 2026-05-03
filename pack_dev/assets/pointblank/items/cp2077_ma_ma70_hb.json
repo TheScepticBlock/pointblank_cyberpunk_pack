@@ -127,6 +127,18 @@
   "viewRecoilAmplitude" : 2,
   "inspectCooldownDuration": 5800,
   "firstPersonFallbackAnimations": "cp2077_fpp_weapon_heavy",
+  "fireAnimations": [
+    {
+      "name": "animation.model.fireempty",
+      "duration": 500,
+      "condition": "ammoCount == 0"
+    },
+    {
+      "name": "animation.model.firelowammo",
+      "duration": 500,
+      "condition": "ammoCount <= 11"
+    }
+  ],
   "phasedReloads": [
     {
       "phase": "RELOADING",

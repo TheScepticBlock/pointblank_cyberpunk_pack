@@ -16,13 +16,13 @@
           "name": "single",
           "displayName": "label.pointblank.fireMode.single",
           "type": "SINGLE",
-          "rpm": 300,
+          "rpm": 350,
           "damage": 12.0,
           "isUsingDefaultMuzzle": true,
           "fireAnimations": [
             {
               "name": "animation.model.fireempty",
-              "duration": 300,
+              "duration": 500,
               "condition": "ammoCount == 0"
             }
           ]
@@ -31,7 +31,7 @@
           "name": "automatic",
           "displayName": "label.pointblank.fireMode.automatic",
           "type": "AUTOMATIC",
-          "rpm": 350,
+          "rpm": 375,
           "damage": 12.0,
           "isUsingDefaultMuzzle": true,
           "prepareFireAnimations": [
@@ -43,7 +43,7 @@
           "fireAnimations": [
             {
               "name": "animation.model.fireempty",
-              "duration": 300,
+              "duration": 500,
               "condition": "ammoCount == 0"
             }
           ]
@@ -71,7 +71,7 @@
   "fireSound" : "grit_fire",
   "drawCooldownDuration" : 500,
   "damage": 10.0,
-  "rpm": 300,
+  "rpm": 350,
   "gunRecoilInitialAmplitude" : 0.4,
   "shakeRecoilAmplitude" : 0.35,
   "shakeRecoilSpeed" : 1,
@@ -122,12 +122,12 @@
   "inspectAnimations": [
     {
       "name": "animation.model.inspect",
-      "duration": 6300,
+      "duration": 6500,
       "condition": "ammoCount > 0"
     },
     {
       "name": "animation.model.inspectempty",
-      "duration": 4100,
+      "duration": 4330,
       "condition": "ammoCount == 0"
     }
   ],

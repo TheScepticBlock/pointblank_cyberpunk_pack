@@ -35,7 +35,6 @@
   "fireModes" : ["AUTOMATIC"],
   "fireSound" : "erebus_fire",
   "drawCooldownDuration" : 600,
-  "completeFireCooldownDuration": 50,
   "gunRecoilInitialAmplitude" : 0.3,
   "shakeRecoilAmplitude" : 0.8,
   "shakeRecoilSpeed" : 1.2,
@@ -43,11 +42,6 @@
   "inspectCooldownDuration": 6500,
   "firstPersonFallbackAnimations": "cp2077_fpp_weapon_medium",
   "idleAnimations": [
-    {
-      "name": "animation.model.idle",
-      "duration": 15000,
-      "condition": "random"
-    },
     {
       "name": "animation.model.idle",
       "duration": 15000,

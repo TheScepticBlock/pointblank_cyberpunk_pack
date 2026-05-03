@@ -124,8 +124,8 @@
     },
     {
       "type": "Sound",
-      "fireSound": "masamune_fire_suppressed",
-      "fireSoundVolume": 0.5,
+      "fireSound": "masamune_firesuppressed",
+      "fireSoundVolume": 0.85,
       "condition": {
       "allOf": [
           {

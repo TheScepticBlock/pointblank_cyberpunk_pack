@@ -74,7 +74,7 @@
   "damage" : 20.0,
   "rpm" : 350,
   "fireModes" : ["AUTOMATIC"],
-  "fireSound" : "mk31_hmg_fire",
+  "fireSound" : "mk31hmg_fire",
   "drawCooldownDuration" : 1570,
   "aimingEnabled": false,
   "gunRecoilInitialAmplitude" : 0.2,

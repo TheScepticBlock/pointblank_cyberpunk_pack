@@ -22,8 +22,13 @@
           "pelletSpread": 0.1,
           "fireAnimations": [
             {
-              "name": "animation.model.fireempty",
-              "duration": 1000,
+              "name": "animation.model.firejudy",
+              "duration": 1570,
+              "condition": "ammoCount > 0"
+            },
+            {
+              "name": "animation.model.fireemptyjudy",
+              "duration": 1570,
               "condition": "ammoCount == 0"
             }
           ]
@@ -54,7 +59,7 @@
     {
       "phase": "PREPARING",
       "condition": "reloadIterationIndex == -1",
-      "duration": 870,
+      "duration": 1100,
       "animation": "animation.model.preparealt"
     },
     {
@@ -66,19 +71,19 @@
     {
       "phase": "RELOADING",
       "condition": "reloadIterationIndex == 0",
-      "duration": 1470,
-      "animation": "animation.model.chamberload"
+      "duration": 1500,
+      "animation": "animation.model.chamberloadjudy"
     },
     {
       "phase": "RELOADING",
       "condition": "reloadIterationIndex > 0",
-      "duration": 970,
-      "animation": "animation.model.iterativeload"
+      "duration": 830,
+      "animation": "animation.model.iterativeloadjudy"
     },
     {
       "phase": "COMPLETETING",
       "condition": "reloadIterationIndex >= 0",
-      "duration": 700,
+      "duration": 1000,
       "animation": "animation.model.finish"
     }
   ]
