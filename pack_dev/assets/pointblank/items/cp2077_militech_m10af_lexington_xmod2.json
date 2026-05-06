@@ -31,7 +31,7 @@
     },
     {
       "type": "Sound",
-      "fireSound": "lexington_fire_suppressed",
+      "fireSound": "lexington_firesuppressed",
       "fireSoundVolume": 1,
       "condition": {
         "hasAttachmentGroup": "smg_suppressors"
@@ -65,7 +65,19 @@
           "type": "AUTOMATIC",
           "rpm": 450,
           "damage": 4,
-          "isUsingDefaultMuzzle": true
+          "isUsingDefaultMuzzle": true,
+          "fireAnimations": [
+            {
+              "name": "animation.model.fireempty",
+              "duration": 300,
+              "condition": "ammoCount == 0"
+            },
+            {
+              "name": "animation.model.firelowammo",
+              "duration": 300,
+              "condition": "ammoCount <= 7"
+            }
+          ]
         },
         {
           "name": "single",
@@ -73,7 +85,19 @@
           "type": "SINGLE",
           "rpm": 550,
           "damage": 4.0,
-          "isUsingDefaultMuzzle": true
+          "isUsingDefaultMuzzle": true,
+          "fireAnimations": [
+            {
+              "name": "animation.model.fireempty",
+              "duration": 300,
+              "condition": "ammoCount == 0"
+            },
+            {
+              "name": "animation.model.firelowammo",
+              "duration": 300,
+              "condition": "ammoCount <= 7"
+            }
+          ]
         }
       ]
     },

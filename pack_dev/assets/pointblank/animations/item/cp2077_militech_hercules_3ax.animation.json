@@ -116,7 +116,7 @@
 			},
 			"sound_effects": {
 				"0.0333": {
-					"effect": "hercules_draw"
+					"effect": "hercules_foley"
 				}
 			}
 		},
@@ -133,13 +133,13 @@
 							"vector": [17.5, -42.5, 0],
 							"easing": "easeInOutSine"
 						},
-						"0.6": {
+						"0.5333": {
 							"vector": [-25.44, -43.6, -6.68],
 							"easing": "easeInOutQuad"
 						},
 						"0.8333": {
 							"vector": [-35.43959, -43.60245, -6.67608],
-							"easing": "easeOutBack"
+							"easing": "easeInElastic"
 						},
 						"1.4": {
 							"vector": [-37.94, -43.6, -6.68],
@@ -473,7 +473,7 @@
 				}
 			},
 			"sound_effects": {
-				"0.3": {
+				"0.0333": {
 					"effect": "hercules_foley"
 				},
 				"1.4333": {
@@ -482,45 +482,140 @@
 				"2.9667": {
 					"effect": "hercules_foley"
 				},
+				"3.3333": {
+					"effect": "hercules_connectorremove"
+				},
 				"3.5333": {
-					"effect": "hercules_inspect1"
+					"effect": "hercules_hazmatconnector"
 				},
 				"4.7": {
-					"effect": "hercules_inspect2"
+					"effect": "hercules_connectorattach"
+				},
+				"5.7": {
+					"effect": "hercules_connectorbeep"
 				}
 			}
 		},
 		"animation.model.fire": {
-			"loop": true,
-			"animation_length": 0.3,
+			"animation_length": 0.5,
 			"bones": {
 				"main": {
 					"rotation": {
-						"0.0333": {
+						"0.0": {
 							"vector": [0, 0, 0]
 						},
-						"0.1333": {
-							"vector": [-1, 0, 0],
-							"easing": "easeOutBack"
+						"0.0667": {
+							"vector": ["-math.sin(query.anim_time * 1000)", 0, "math.sin(query.anim_time * 1300) * 0.25"],
+							"easing": "easeOutQuint"
 						},
-						"0.3": {
+						"0.5": {
 							"vector": [0, 0, 0],
-							"easing": "easeInOutQuad"
+							"easing": "easeInElastic"
 						}
 					},
 					"position": {
 						"0.0": {
 							"vector": [0, 0, 0]
 						},
-						"0.1": {
-							"vector": [0, 0, 1],
-							"easing": "easeOutBack"
+						"0.0333": {
+							"vector": [0, 0, 0.5],
+							"easing": "easeOutQuint"
 						},
-						"0.2667": {
+						"0.4667": {
 							"vector": [0, 0, 0],
-							"easing": "easeInOutQuad"
+							"easing": "easeInElastic"
 						}
 					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "hercules_firemechanism"
+				}
+			}
+		},
+		"animation.model.firelowammo": {
+			"animation_length": 0.5,
+			"bones": {
+				"main": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.0667": {
+							"vector": ["-math.sin(query.anim_time * 1000)", 0, "math.sin(query.anim_time * 1300) * 0.25"],
+							"easing": "easeOutQuint"
+						},
+						"0.5": {
+							"vector": [0, 0, 0],
+							"easing": "easeInElastic"
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.0333": {
+							"vector": [0, 0, 0.5],
+							"easing": "easeOutQuint"
+						},
+						"0.4667": {
+							"vector": [0, 0, 0],
+							"easing": "easeInElastic"
+						}
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "hercules_firemechanism"
+				},
+				"0.0333": {
+					"effect": "hercules_lowammo"
+				}
+			}
+		},
+		"animation.model.fireempty": {
+			"animation_length": 0.5,
+			"bones": {
+				"main": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.0667": {
+							"vector": ["-math.sin(query.anim_time * 1000)", 0, "math.sin(query.anim_time * 1300) * 0.25"],
+							"easing": "easeOutQuint"
+						},
+						"0.5": {
+							"vector": [0, 0, 0],
+							"easing": "easeInElastic"
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.0333": {
+							"vector": [0, 0, 0.5],
+							"easing": "easeOutQuint"
+						},
+						"0.4667": {
+							"vector": [0, 0, 0],
+							"easing": "easeInElastic"
+						}
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "hercules_firemechanism"
+				},
+				"0.0333": {
+					"effect": "hercules_lowammo"
+				},
+				"0.1": {
+					"effect": "hercules_fireemptybeep"
 				}
 			}
 		},
@@ -933,13 +1028,31 @@
 			},
 			"sound_effects": {
 				"0.0333": {
-					"effect": "hercules_belteject"
+					"effect": "hercules_connectorremove"
 				},
-				"1.1333": {
-					"effect": "hercules_magout"
+				"1.1": {
+					"effect": "hercules_maghandlegrab"
 				},
-				"2.5": {
-					"effect": "hercules_magin"
+				"1.3": {
+					"effect": "hercules_magslideout"
+				},
+				"2.1333": {
+					"effect": "hercules_foley"
+				},
+				"3.1333": {
+					"effect": "hercules_magattach"
+				},
+				"3.6667": {
+					"effect": "hercules_maglock"
+				},
+				"4.2333": {
+					"effect": "hercules_hazmatconnector"
+				},
+				"4.3667": {
+					"effect": "hercules_connectorattach"
+				},
+				"5.4333": {
+					"effect": "hercules_connectorbeep"
 				}
 			}
 		},
@@ -1163,10 +1276,10 @@
 						"4.0667": {
 							"vector": [76.57, -3.45, 126.69]
 						},
-						"5.2": {
+						"4.9": {
 							"vector": [76.57, -3.45, 126.69]
 						},
-						"5.5667": {
+						"5.2667": {
 							"vector": [0, 0, 0],
 							"easing": "easeInOutQuad"
 						}
@@ -1199,10 +1312,10 @@
 						"4.0": {
 							"vector": [0, -8, 23]
 						},
-						"5.0667": {
+						"4.7667": {
 							"vector": [0, -8, 23]
 						},
-						"5.5": {
+						"5.2": {
 							"vector": [0, 0, 0],
 							"easing": "easeInOutQuad"
 						}
@@ -1313,16 +1426,30 @@
 			},
 			"sound_effects": {
 				"0.0333": {
-					"effect": "hercules_belteject"
+					"effect": "hercules_connectorremove"
 				},
-				"1.1333": {
-					"effect": "hercules_magout"
+				"1.1": {
+					"effect": "hercules_maghandlegrab"
 				},
-				"2.5": {
-					"effect": "hercules_magin"
+				"1.3": {
+					"effect": "hercules_magslideout"
+				},
+				"2.1333": {
+					"effect": "hercules_foley"
+				},
+				"3.1333": {
+					"effect": "hercules_magattach"
+				},
+				"3.6667": {
+					"effect": "hercules_maglock"
+				},
+				"4.3667": {
+					"effect": "hercules_connectorattach"
+				},
+				"5.4333": {
+					"effect": "hercules_connectorbeep"
 				}
 			}
 		}
-	},
-	"geckolib_format_version": 2
+	}
 }

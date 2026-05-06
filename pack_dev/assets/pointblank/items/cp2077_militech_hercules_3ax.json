@@ -47,7 +47,19 @@
 				"displayName": "label.pointblank.fireMode.automatic",
 				"type": "AUTOMATIC",
 				"rpm": 800,
-				"damage": 6.0
+				"damage": 6.0,
+                "fireAnimations": [
+                    {
+                      "name": "animation.model.fireempty",
+                      "duration": 500,
+                      "condition": "ammoCount == 0"
+                    },
+                    {
+                      "name": "animation.model.firelowammo",
+                      "duration": 500,
+                      "condition": "ammoCount <= 10"
+                    }
+                ]
 			},
 			{
 				"name": "burst",
@@ -57,7 +69,19 @@
 				"damage": 3.0,
 				"pelletCount": 3,
                 "pelletSpread": 0.1,
-				"burstShots": 90
+				"burstShots": 90,
+                "fireAnimations": [
+                    {
+                      "name": "animation.model.fireempty",
+                      "duration": 500,
+                      "condition": "ammoCount == 0"
+                    },
+                    {
+                      "name": "animation.model.firelowammo",
+                      "duration": 500,
+                      "condition": "ammoCount <= 10"
+                    }
+                ]
 			}
 		]
 	}

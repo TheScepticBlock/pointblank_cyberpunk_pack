@@ -25,6 +25,18 @@
   "viewRecoilAmplitude" : 0.75,
   "inspectCooldownDuration": 4100,
   "firstPersonFallbackAnimations": "cp2077_fpp_weapon_medium",
+  "fireAnimations": [
+    {
+      "name": "animation.model.firelowammo",
+      "duration": 500,
+      "condition": "ammoCount <= 10"
+    },
+    {
+      "name": "animation.model.fireempty",
+      "duration": 500,
+      "condition": "ammoCount == 0"
+    }
+  ],
   "idleAnimations": [
     {
       "name": "animation.model.idle",

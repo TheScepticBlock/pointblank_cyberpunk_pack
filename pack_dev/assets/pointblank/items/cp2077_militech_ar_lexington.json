@@ -15,7 +15,19 @@
           "type": "AUTOMATIC",
           "rpm": 450,
           "damage": 0,
-          "isUsingDefaultMuzzle": true
+          "isUsingDefaultMuzzle": true,
+          "fireAnimations": [
+            {
+              "name": "animation.model.fireemptytoy",
+              "duration": 300,
+              "condition": "ammoCount == 0"
+            },
+            {
+              "name": "animation.model.firetoy",
+              "duration": 300,
+              "condition": "ammoCount > 0"
+            }
+          ]
         },
         {
           "name": "single",
@@ -23,7 +35,19 @@
           "type": "SINGLE",
           "rpm": 550,
           "damage": 0,
-          "isUsingDefaultMuzzle": true
+          "isUsingDefaultMuzzle": true,
+          "fireAnimations": [
+            {
+              "name": "animation.model.fireemptytoy",
+              "duration": 300,
+              "condition": "ammoCount == 0"
+            },
+            {
+              "name": "animation.model.firetoy",
+              "duration": 300,
+              "condition": "ammoCount > 0"
+            }
+          ]
         }
       ]
     },
@@ -63,7 +87,7 @@
   "maxAmmoCapacity" : 20,
   "compatibleAmmo" : ["ammo9mm", "ammocreative"],
   "fireModes" : ["AUTOMATIC"],
-  "fireSound" : "ar_lexington_fire",
+  "fireSound" : "toygun_fire",
   "rpm": 450,
   "damage": 0,
   "gunRecoilInitialAmplitude" : 0.7,
@@ -97,12 +121,12 @@
   ],
   "inspectAnimations": [
     {
-      "name": "animation.model.inspect",
+      "name": "animation.model.inspecttoy",
       "duration": 5100,
       "condition": "ammoCount > 0"
     },
     {
-      "name": "animation.model.inspectempty",
+      "name": "animation.model.inspectemptytoy",
       "duration": 3400,
       "condition": "ammoCount == 0"
     }
@@ -117,13 +141,13 @@
       "phase": "RELOADING",
       "condition": "reloadIterationIndex == 0",
       "duration": 2700,
-      "animation": "animation.model.reloadempty"
+      "animation": "animation.model.reloademptytoy"
     },
     {
       "phase": "RELOADING",
       "condition": "reloadIterationIndex > 0",
       "duration": 2200,
-      "animation": "animation.model.reload"
+      "animation": "animation.model.reloadtoy"
     }
   ]
 }

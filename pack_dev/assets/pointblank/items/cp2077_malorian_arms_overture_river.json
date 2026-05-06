@@ -30,7 +30,7 @@
     },
     {
       "type": "Sound",
-      "fireSound": "overture_fire_suppressed",
+      "fireSound": "overture_firesuppressed",
       "fireSoundVolume": 1,
       "condition": {
         "hasAttachmentGroup": "smg_suppressors"
@@ -121,7 +121,7 @@
   "shakeRecoilAmplitude" : 0.35,
   "shakeRecoilSpeed" : 2,
   "viewRecoilAmplitude" : 2,
-  "inspectCooldownDuration": 6170,
+  "inspectCooldownDuration": 5800,
   "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
   "glowingParts": [
     {
@@ -144,7 +144,7 @@
     {
       "phase": "RELOADING",
       "condition": "reloadIterationIndex > 0",
-      "duration": 2630,
+      "duration": 2300,
       "animation": "animation.model.reload"
     }
   ]
