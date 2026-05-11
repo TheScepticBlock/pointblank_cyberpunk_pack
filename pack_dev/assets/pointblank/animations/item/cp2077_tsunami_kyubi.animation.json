@@ -70,16 +70,16 @@
 			},
 			"sound_effects": {
 				"0.0167": {
-					"effect": "kyubi_foley"
+					"effect": "ajax_foley"
 				},
-				"0.1667": {
+				"0.15": {
 					"effect": "kyubi_stockunfold"
 				}
 			}
 		},
 		"animation.model.fire": {
 			"loop": true,
-			"animation_length": 0.2,
+			"animation_length": 0.5,
 			"bones": {
 				"main": {
 					"rotation": {
@@ -87,12 +87,12 @@
 							"vector": [0, 0, 0]
 						},
 						"0.1": {
-							"vector": [-0.5, 0, "math.sin(query.anim_time * 3000)"],
-							"easing": "easeOutBack"
+							"vector": [-0.5, 0, "-math.sin(query.anim_time * 1000)"],
+							"easing": "easeOutQuint"
 						},
-						"0.2": {
+						"0.5": {
 							"vector": [0, 0, 0],
-							"easing": "easeInQuint"
+							"easing": "easeInElastic"
 						}
 					},
 					"position": {
@@ -101,11 +101,11 @@
 						},
 						"0.0667": {
 							"vector": [0, 0, 2],
-							"easing": "easeOutBack"
+							"easing": "easeOutQuint"
 						},
-						"0.1667": {
+						"0.4667": {
 							"vector": [0, 0, 0],
-							"easing": "easeInOutQuad"
+							"easing": "easeInElastic"
 						}
 					}
 				},
@@ -669,34 +669,34 @@
 			},
 			"sound_effects": {
 				"0.0333": {
-					"effect": "kyubi_foley"
+					"effect": "ajax_foley"
 				},
 				"1.0667": {
-					"effect": "kyubi_foley"
+					"effect": "ajax_foley"
 				},
 				"2.0": {
-					"effect": "kyubi_foley"
+					"effect": "ajax_foley"
 				},
 				"2.5": {
-					"effect": "kyubi_chargeback"
+					"effect": "kyubi_handlepull"
 				},
 				"3.1667": {
-					"effect": "kyubi_chargeforward"
+					"effect": "kyubi_handlerelease"
 				},
 				"3.7667": {
 					"effect": "kyubi_magout"
 				},
 				"5.5333": {
-					"effect": "kyubi_foley"
+					"effect": "ajax_foley"
 				},
 				"6.0333": {
 					"effect": "kyubi_magin"
 				},
-				"6.5667": {
-					"effect": "kyubi_foley"
+				"6.5": {
+					"effect": "ajax_foley"
 				},
-				"6.9333": {
-					"effect": "kyubi_foley"
+				"6.7667": {
+					"effect": "ajax_foley"
 				}
 			}
 		},
@@ -919,19 +919,19 @@
 			},
 			"sound_effects": {
 				"0.0333": {
-					"effect": "kyubi_foley"
+					"effect": "ajax_foley"
 				},
 				"0.2333": {
 					"effect": "kyubi_magout"
 				},
 				"0.9667": {
-					"effect": "kyubi_foley"
+					"effect": "ajax_foley"
 				},
-				"1.4333": {
+				"1.4": {
 					"effect": "kyubi_magin"
 				},
 				"1.8667": {
-					"effect": "kyubi_foley"
+					"effect": "ajax_foley"
 				}
 			}
 		},
@@ -1381,16 +1381,25 @@
 			},
 			"sound_effects": {
 				"0.0333": {
-					"effect": "kyubi_foley"
+					"effect": "ajax_foley"
 				},
 				"0.6": {
-					"effect": "kyubi_magout2"
+					"effect": "kyubi_maghit"
+				},
+				"0.7": {
+					"effect": "kyubi_mageject"
 				},
 				"1.2": {
 					"effect": "kyubi_magin"
 				},
 				"1.9333": {
-					"effect": "kyubi_charge"
+					"effect": "kyubi_handlepull"
+				},
+				"2.1": {
+					"effect": "kyubi_handlerelease"
+				},
+				"2.4333": {
+					"effect": "ajax_foley"
 				}
 			}
 		},
@@ -1823,19 +1832,27 @@
 			},
 			"sound_effects": {
 				"0.0333": {
-					"effect": "kyubi_foley"
+					"effect": "ajax_foley"
 				},
 				"0.6": {
-					"effect": "kyubi_magout2"
+					"effect": "kyubi_maghit"
+				},
+				"0.7": {
+					"effect": "kyubi_mageject"
 				},
 				"1.2": {
 					"effect": "kyubi_magin"
 				},
 				"1.9333": {
-					"effect": "kyubi_charge"
+					"effect": "kyubi_handlepull"
+				},
+				"2.1": {
+					"effect": "kyubi_handlerelease"
+				},
+				"2.4333": {
+					"effect": "ajax_foley"
 				}
 			}
 		}
-	},
-	"geckolib_format_version": 2
+	}
 }

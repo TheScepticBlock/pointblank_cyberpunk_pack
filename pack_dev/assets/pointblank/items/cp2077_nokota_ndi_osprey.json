@@ -40,7 +40,7 @@
 				"name": "burst",
 				"displayName": "label.pointblank.fireMode.burst",
 				"type": "BURST",
-				"rpm": 1000,
+				"rpm": 800,
 				"damage": 40.0,
 				"burstShots": 3
 			}
@@ -95,7 +95,7 @@
      {
       "phase": "RELOADING",
       "condition": "reloadIterationIndex > 0",
-      "duration": 4900,
+      "duration": 4600,
       "animation": "animation.model.reload"
     }
   ]

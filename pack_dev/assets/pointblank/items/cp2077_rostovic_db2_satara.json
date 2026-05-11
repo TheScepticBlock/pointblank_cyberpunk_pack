@@ -33,11 +33,19 @@
           "prepareFireAnimations": [
             {
               "name": "animation.model.preparefire",
-              "duration": 900
+              "duration": 1000
             }
           ]
         }
       ]
+    },
+    {
+      "type": "Sound",
+      "fireSound": "satara_firecharged",
+      "fireSoundVolume": 1,
+      "condition": {
+        "selectedFireMode": "single"
+      }
     },
     {
       "type": "PartVisibility",

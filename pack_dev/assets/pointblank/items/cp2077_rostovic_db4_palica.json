@@ -43,7 +43,7 @@
   "idleAnimations": [
     {
       "name": "animation.model.idle",
-      "duration": 1000
+      "duration": 500
     }
   ],
   "drawAnimations": [

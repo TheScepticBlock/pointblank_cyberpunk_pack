@@ -4043,205 +4043,554 @@
             }
         ]
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    "nekomata_boltback": {
+    "osprey_fire": {
         "sounds": [
             {
-                "name": "pointblank:nekomata_boltback",
-                "stream": false
-            }
-        ]
-    },
-    "nekomata_boltforward": {
-        "sounds": [
-            {
-                "name": "pointblank:nekomata_boltforward",
-                "stream": false
-            }
-        ]
-    },
-    "nekomata_charge": {
-        "sounds": [
-            {
-                "name": "pointblank:nekomata_charge1",
+                "name": "pointblank:osprey/osprey_fire1",
                 "stream": false
             },
             {
-                "name": "pointblank:nekomata_charge2",
+                "name": "pointblank:osprey/osprey_fire2",
                 "stream": false
             },
             {
-                "name": "pointblank:nekomata_charge3",
-                "stream": false
-            }
-        ]
-    },
-    "nekomata_fire": {
-        "sounds": [
-            {
-                "name": "pointblank:nekomata_fire",
-                "stream": false
-            }
-        ]
-    },
-    "nekomata_finish": {
-        "sounds": [
-            {
-                "name": "pointblank:nekomata_finish",
-                "stream": false
-            }
-        ]
-    },
-    "nekomata_foley": {
-        "sounds": [
-            {
-                "name": "pointblank:nekomata_foley1",
+                "name": "pointblank:osprey/osprey_fire3",
                 "stream": false
             },
             {
-                "name": "pointblank:nekomata_foley2",
+                "name": "pointblank:osprey/osprey_fire4",
                 "stream": false
             },
             {
-                "name": "pointblank:nekomata_foley3",
+                "name": "pointblank:osprey/osprey_fire5",
+                "stream": false
+            }
+        ]
+    },
+    "osprey_foley": {
+        "sounds": [
+            {
+                "name": "pointblank:osprey/osprey_foley1",
                 "stream": false
             },
             {
-                "name": "pointblank:nekomata_foley4",
-                "stream": false
-            }
-        ]
-    },
-    "nekomata_magin": {
-        "sounds": [
-            {
-                "name": "pointblank:nekomata_magin",
-                "stream": false
-            }
-        ]
-    },
-    "nekomata_magout": {
-        "sounds": [
-            {
-                "name": "pointblank:nekomata_magout",
-                "stream": false
-            }
-        ]
-    },
-    "nekomata_inspect1": {
-        "sounds": [
-            {
-                "name": "pointblank:nekomata_inspect1",
-                "stream": false
-            }
-        ]
-    },
-    "nekomata_inspect2": {
-        "sounds": [
-            {
-                "name": "pointblank:nekomata_inspect2",
-                "stream": false
-            }
-        ]
-    },
-    "grad_bolt_back": {
-        "sounds": [
-            {
-                "name": "pointblank:grad_bolt_back",
-                "stream": false
-            }
-        ]
-    },
-    "grad_bolt_back_empty": {
-        "sounds": [
-            {
-                "name": "pointblank:grad_bolt_back_empty",
-                "stream": false
-            }
-        ]
-    },
-    "grad_bolt_forward": {
-        "sounds": [
-            {
-                "name": "pointblank:grad_bolt_forward",
-                "stream": false
-            }
-        ]
-    },
-    "grad_bolt_forward_empty": {
-        "sounds": [
-            {
-                "name": "pointblank:grad_bolt_forward_empty",
-                "stream": false
-            }
-        ]
-    },
-    "grad_draw": {
-        "sounds": [
-            {
-                "name": "pointblank:grad_draw",
+                "name": "pointblank:osprey/osprey_foley2",
                 "stream": false
             },
             {
-                "name": "pointblank:grad_draw2",
+                "name": "pointblank:osprey/osprey_foley3",
+                "stream": false
+            }
+        ]
+    },
+    "osprey_gripdown": {
+        "sounds": [
+            {
+                "name": "pointblank:osprey/osprey_gripdown",
+                "stream": false
+            }
+        ]
+    },
+    "osprey_gripgrab": {
+        "sounds": [
+            {
+                "name": "pointblank:osprey/osprey_gripgrab1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:osprey/osprey_gripgrab2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:osprey/osprey_gripgrab3",
+                "stream": false
+            }
+        ]
+    },
+    "osprey_handlepull": {
+        "sounds": [
+            {
+                "name": "pointblank:osprey/osprey_handlepull1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:osprey/osprey_handlepull2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:osprey/osprey_handlepull3",
+                "stream": false
+            }
+        ]
+    },
+    "osprey_handlerelease": {
+        "sounds": [
+            {
+                "name": "pointblank:osprey/osprey_handlerelease1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:osprey/osprey_handlerelease2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:osprey/osprey_handlerelease3",
+                "stream": false
+            }
+        ]
+    },
+    "osprey_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:osprey/osprey_magin1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:osprey/osprey_magin2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:osprey/osprey_magin3",
+                "stream": false
+            }
+        ]
+    },
+    "osprey_maglock": {
+        "sounds": [
+            {
+                "name": "pointblank:osprey/osprey_maglock1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:osprey/osprey_maglock2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:osprey/osprey_maglock3",
+                "stream": false
+            }
+        ]
+    },
+    "osprey_magunlock": {
+        "sounds": [
+            {
+                "name": "pointblank:osprey/osprey_magunlock1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:osprey/osprey_magunlock2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:osprey/osprey_magunlock3",
+                "stream": false
+            }
+        ]
+    },
+    "osprey_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:osprey/osprey_magout1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:osprey/osprey_magout2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:osprey/osprey_magout3",
+                "stream": false
+            }
+        ]
+    },
+    "osprey_sightdown": {
+        "sounds": [
+            {
+                "name": "pointblank:osprey/osprey_sightdown1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:osprey/osprey_sightdown2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:osprey/osprey_sightdown3",
+                "stream": false
+            }
+        ]
+    },
+    "osprey_sightdownbeep": {
+        "sounds": [
+            {
+                "name": "pointblank:osprey/osprey_sightdownbeep",
+                "stream": false
+            }
+        ]
+    },
+    "osprey_sightup": {
+        "sounds": [
+            {
+                "name": "pointblank:osprey/osprey_sightup1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:osprey/osprey_sightup2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:osprey/osprey_sightup3",
+                "stream": false
+            }
+        ]
+    },
+    "kolac_fire": {
+        "sounds":[
+            {
+                "name": "pointblank:kolac/kolac_fire1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_fire2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_fire3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_fire4",
+                "stream": false
+            }
+        ]
+    },
+    "kolac_firemechanism": {
+        "sounds":[
+            {
+                "name": "pointblank:kolac/kolac_firemechanism1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_firemechanism2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_firemechanism3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_firemechanism4",
+                "stream": false
+            }
+        ]
+    },
+    "kolac_foley": {
+        "sounds":[
+            {
+                "name": "pointblank:kolac/kolac_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_foley3",
+                "stream": false
+            }
+        ]
+    },
+    "kolac_gripgrab": {
+        "sounds":[
+            {
+                "name": "pointblank:kolac/kolac_gripgrab1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_gripgrab2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_gripgrab3",
+                "stream": false
+            }
+        ]
+    },
+    "kolac_handlepull": {
+        "sounds":[
+            {
+                "name": "pointblank:kolac/kolac_handlepull1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_handlepull2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_handlepull3",
+                "stream": false
+            }
+        ]
+    },
+    "kolac_handlerelease": {
+        "sounds":[
+            {
+                "name": "pointblank:kolac/kolac_handlerelease1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_handlerelease2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_handlerelease3",
+                "stream": false
+            }
+        ]
+    },
+    "kolac_maggrab": {
+        "sounds":[
+            {
+                "name": "pointblank:kolac/kolac_maggrab1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_maggrab2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_maggrab3",
+                "stream": false
+            }
+        ]
+    },
+    "kolac_maghit": {
+        "sounds":[
+            {
+                "name": "pointblank:kolac/kolac_maghit1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_maghit2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_maghit3",
+                "stream": false
+            }
+        ]
+    },
+    "kolac_magin": {
+        "sounds":[
+            {
+                "name": "pointblank:kolac/kolac_magin1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_magin2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_magin3",
+                "stream": false
+            }
+        ]
+    },
+    "kolac_magout": {
+        "sounds":[
+            {
+                "name": "pointblank:kolac/kolac_magout1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_magout2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_magout3",
+                "stream": false
+            }
+        ]
+    },
+    "kolac_magrattle": {
+        "sounds":[
+            {
+                "name": "pointblank:kolac/kolac_magrattle1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_magrattle2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_magrattle3",
+                "stream": false
+            }
+        ]
+    },
+    "kolac_magrelease": {
+        "sounds":[
+            {
+                "name": "pointblank:kolac/kolac_magrelease1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_magrelease2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kolac/kolac_magrelease3",
+                "stream": false
+            }
+        ]
+    },
+    "kyubi_fire": {
+        "sounds": [
+            {
+                "name": "pointblank:kyubi/kyubi_fire1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kyubi/kyubi_fire2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kyubi/kyubi_fire3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kyubi/kyubi_fire4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kyubi/kyubi_fire5",
+                "stream": false
+            }
+        ]
+    },
+    "kyubi_firesuppressed": {
+        "sounds": [
+            {
+                "name": "pointblank:kyubi/kyubi_firesuppressed1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kyubi/kyubi_firesuppressed2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kyubi/kyubi_firesuppressed3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kyubi/kyubi_firesuppressed4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kyubi/kyubi_firesuppressed5",
+                "stream": false
+            }
+        ]
+    },
+    "kyubi_handlepull": {
+        "sounds": [
+            {
+                "name": "pointblank:kyubi/kyubi_handlepull1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kyubi/kyubi_handlepull2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kyubi/kyubi_handlepull3",
+                "stream": false
+            }
+        ]
+    },
+    "kyubi_handlerelease": {
+        "sounds": [
+            {
+                "name": "pointblank:kyubi/kyubi_handlerelease1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kyubi/kyubi_handlerelease2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kyubi/kyubi_handlerelease3",
+                "stream": false
+            }
+        ]
+    },
+    "kyubi_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:kyubi/kyubi_magin1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kyubi/kyubi_magin2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kyubi/kyubi_magin3",
+                "stream": false
+            }
+        ]
+    },
+    "kyubi_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:kyubi/kyubi_magout1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kyubi/kyubi_magout2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kyubi/kyubi_magout3",
+                "stream": false
+            }
+        ]
+    },
+    "kyubi_mageject": {
+        "sounds": [
+            {
+                "name": "pointblank:kyubi/kyubi_mageject1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kyubi/kyubi_mageject2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kyubi/kyubi_mageject3",
+                "stream": false
+            }
+        ]
+    },
+    "kyubi_maghit": {
+        "sounds": [
+            {
+                "name": "pointblank:kyubi/kyubi_maghit1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kyubi/kyubi_maghit2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kyubi/kyubi_maghit3",
+                "stream": false
+            }
+        ]
+    },
+    "kyubi_stockunfold": {
+        "sounds": [
+            {
+                "name": "pointblank:kyubi/kyubi_stockunfold",
                 "stream": false
             }
         ]
@@ -4249,72 +4598,119 @@
     "grad_fire": {
         "sounds": [
             {
-                "name": "pointblank:grad_fire",
-                "stream": false
-            }
-        ]
-    },
-    "grad_fire_suppressed": {
-        "sounds": [
-            {
-                "name": "pointblank:grad_fire_suppressed",
-                "stream": false
-            }
-        ]
-    },
-    "grad_handle_grab": {
-        "sounds": [
-            {
-                "name": "pointblank:grad_handle_grab",
-                "stream": false
-            }
-        ]
-    },
-    "grad_inspect": {
-        "sounds": [
-            {
-                "name": "pointblank:grad_inspect",
-                "stream": false
-            },
-
-            {
-                "name": "pointblank:grad_foley1",
+                "name": "pointblank:grad/grad_fire1",
                 "stream": false
             },
             {
-                "name": "pointblank:grad_foley2",
+                "name": "pointblank:grad/grad_fire2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:grad/grad_fire3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:grad/grad_fire4",
                 "stream": false
             }
         ]
     },
-    "grad_inspect1": {
+    "grad_firesuppressed": {
         "sounds": [
             {
-                "name": "pointblank:grad_inspect1",
+                "name": "pointblank:grad/grad_firesuppressed1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:grad/grad_firesuppressed2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:grad/grad_firesuppressed3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:grad/grad_firesuppressed4",
                 "stream": false
             }
         ]
     },
-    "grad_inspect2": {
+    "grad_foley": {
         "sounds": [
             {
-                "name": "pointblank:grad_inspect2",
+                "name": "pointblank:grad/grad_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:grad/grad_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:grad/grad_foley3",
                 "stream": false
             }
         ]
     },
-    "grad_mag_click": {
+    "grad_handlegrab": {
         "sounds": [
             {
-                "name": "pointblank:grad_mag_click",
+                "name": "pointblank:grad/grad_handlegrab1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:grad/grad_handlegrab2",
                 "stream": false
             }
         ]
     },
-    "grad_mag_grab": {
+    "grad_handlepull": {
         "sounds": [
             {
-                "name": "pointblank:grad_mag_grab",
+                "name": "pointblank:grad/grad_handlepull",
+                "stream": false
+            }
+        ]
+    },
+    "grad_handlepush": {
+        "sounds": [
+            {
+                "name": "pointblank:grad/grad_handlepush1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:grad/grad_handlepush2",
+                "stream": false
+            }
+        ]
+    },
+    "grad_leverload": {
+        "sounds": [
+            {
+                "name": "pointblank:grad/grad_leverload",
+                "stream": false
+            }
+        ]
+    },
+    "grad_leverlock": {
+        "sounds": [
+            {
+                "name": "pointblank:grad/grad_leverlock",
+                "stream": false
+            }
+        ]
+    },
+    "grad_maggrab": {
+        "sounds": [
+            {
+                "name": "pointblank:grad/grad_maggrab1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:grad/grad_maggrab2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:grad/grad_maggrab3",
                 "stream": false
             }
         ]
@@ -4322,7 +4718,15 @@
     "grad_magin": {
         "sounds": [
             {
-                "name": "pointblank:grad_magin",
+                "name": "pointblank:grad/grad_magin1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:grad/grad_magin2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:grad/grad_magin3",
                 "stream": false
             }
         ]
@@ -4330,31 +4734,235 @@
     "grad_magout": {
         "sounds": [
             {
-                "name": "pointblank:grad_magout",
+                "name": "pointblank:grad/grad_magout1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:grad/grad_magout2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:grad/grad_magout3",
                 "stream": false
             }
         ]
     },
-    "metel_draw": {
-        "sounds":[
+    "grad_magrattle": {
+        "sounds": [
             {
-                "name": "pointblank:metel_draw",
+                "name": "pointblank:grad/grad_magrattle1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:grad/grad_magrattle2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:grad/grad_magrattle3",
                 "stream": false
             }
         ]
     },
-    "metel_draw2": {
-        "sounds":[
+    "grad_magsafety": {
+        "sounds": [
             {
-                "name": "pointblank:metel_draw2",
+                "name": "pointblank:grad/grad_magsafety1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:grad/grad_magsafety2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:grad/grad_magsafety3",
                 "stream": false
             }
         ]
     },
-    "metel_finish": {
-        "sounds":[
+    "grad_shelleject": {
+        "sounds": [
             {
-                "name": "pointblank:metel_finish",
+                "name": "pointblank:grad/grad_shelleject1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:grad/grad_shelleject2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:grad/grad_shelleject3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:grad/grad_shelleject4",
+                "stream": false
+            }
+        ]
+    },
+    "nekomata_arm": {
+        "sounds": [
+            {
+                "name": "pointblank:nekomata/nekomata_arm1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nekomata/nekomata_arm2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nekomata/nekomata_arm3",
+                "stream": false
+            }
+        ]
+    },
+    "nekomata_charge": {
+        "sounds": [
+            {
+                "name": "pointblank:nekomata/nekomata_charge1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nekomata/nekomata_charge2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nekomata/nekomata_charge3",
+                "stream": false
+            }
+        ]
+    },
+    "nekomata_fire": {
+        "sounds": [
+            {
+                "name": "pointblank:nekomata/nekomata_fire1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nekomata/nekomata_fire2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nekomata/nekomata_fire3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nekomata/nekomata_fire4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nekomata/nekomata_fire5",
+                "stream": false
+            }
+        ]
+    },
+    "nekomata_firemechanism": {
+        "sounds": [
+            {
+                "name": "pointblank:nekomata/nekomata_firemechanism1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nekomata/nekomata_firemechanism2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nekomata/nekomata_firemechanism3",
+                "stream": false
+            }
+        ]
+    },
+    "nekomata_foley": {
+        "sounds": [
+            {
+                "name": "pointblank:nekomata/nekomata_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nekomata/nekomata_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nekomata/nekomata_foley3",
+                "stream": false
+            }
+        ]
+    },
+    "nekomata_handlepull": {
+        "sounds": [
+            {
+                "name": "pointblank:nekomata/nekomata_handlepull1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nekomata/nekomata_handlepull2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nekomata/nekomata_handlepull3",
+                "stream": false
+            }
+        ]
+    },
+    "nekomata_handlerelease": {
+        "sounds": [
+            {
+                "name": "pointblank:nekomata/nekomata_handlerelease1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nekomata/nekomata_handlerelease2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nekomata/nekomata_handlerelease3",
+                "stream": false
+            }
+        ]
+    },
+    "nekomata_magflip": {
+        "sounds": [
+            {
+                "name": "pointblank:nekomata/nekomata_magflip1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nekomata/nekomata_magflip2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nekomata/nekomata_magflip3",
+                "stream": false
+            }
+        ]
+    },
+    "nekomata_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:nekomata/nekomata_magin1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nekomata/nekomata_magin2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nekomata/nekomata_magin3",
+                "stream": false
+            }
+        ]
+    },
+    "nekomata_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:nekomata/nekomata_magout1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nekomata/nekomata_magout2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nekomata/nekomata_magout3",
                 "stream": false
             }
         ]
@@ -4362,23 +4970,119 @@
     "metel_fire": {
         "sounds":[
             {
-                "name": "pointblank:metel_fire",
+                "name": "pointblank:metel/metel_fire1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:metel/metel_fire2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:metel/metel_fire3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:metel/metel_fire4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:metel/metel_fire5",
                 "stream": false
             }
         ]
     },
-    "metel_inspect": {
+    "metel_fireempty": {
         "sounds":[
             {
-                "name": "pointblank:metel_inspect",
+                "name": "pointblank:metel/metel_fireempty1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:metel/metel_fireempty2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:metel/metel_fireempty3",
                 "stream": false
             }
         ]
     },
-    "metel_magclip": {
+    "metel_firemechanism": {
         "sounds":[
             {
-                "name": "pointblank:metel_magclip",
+                "name": "pointblank:metel/metel_firemechanism1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:metel/metel_firemechanism2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:metel/metel_firemechanism3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:metel/metel_firemechanism4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:metel/metel_firemechanism5",
+                "stream": false
+            }
+        ]
+    },
+    "metel_foley": {
+        "sounds":[
+            {
+                "name": "pointblank:metel/metel_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:metel/metel_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:metel/metel_foley3",
+                "stream": false
+            }
+        ]
+    },
+    "metel_handlepull": {
+        "sounds":[
+            {
+                "name": "pointblank:metel/metel_handlepull",
+                "stream": false
+            }
+        ]
+    },
+    "metel_handlerelease": {
+        "sounds":[
+            {
+                "name": "pointblank:metel/metel_handlerelease1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:metel/metel_handlerelease2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:metel/metel_handlerelease3",
+                "stream": false
+            }
+        ]
+    },
+    "metel_inspect1": {
+        "sounds":[
+            {
+                "name": "pointblank:metel/metel_inspect1",
+                "stream": false
+            }
+        ]
+    },
+    "metel_inspect2": {
+        "sounds":[
+            {
+                "name": "pointblank:metel/metel_inspect2",
                 "stream": false
             }
         ]
@@ -4386,15 +5090,15 @@
     "metel_magin": {
         "sounds":[
             {
-                "name": "pointblank:metel_magin",
+                "name": "pointblank:metel/metel_magin1",
                 "stream": false
-            }
-        ]
-    },
-    "metel_magin2": {
-        "sounds":[
+            },
             {
-                "name": "pointblank:metel_magin2",
+                "name": "pointblank:metel/metel_magin2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:metel/metel_magin3",
                 "stream": false
             }
         ]
@@ -4402,11 +5106,727 @@
     "metel_magout": {
         "sounds":[
             {
-                "name": "pointblank:metel_magout",
+                "name": "pointblank:metel/metel_magout1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:metel/metel_magout2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:metel/metel_magout3",
                 "stream": false
             }
         ]
     },
+    "metel_mechrotate": {
+        "sounds":[
+            {
+                "name": "pointblank:metel/metel_mechrotate1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:metel/metel_mechrotate2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:metel/metel_mechrotate3",
+                "stream": false
+            }
+        ]
+    },
+    "igla_close": {
+        "sounds":[
+            {
+                "name": "pointblank:igla/igla_close1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_close2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_close3",
+                "stream": false
+            }
+        ]
+    },
+    "igla_fire": {
+        "sounds":[
+            {
+                "name": "pointblank:igla/igla_fire1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_fire2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_fire3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_fire4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_fire5",
+                "stream": false
+            }
+        ]
+    },
+    "igla_firemechanism": {
+        "sounds":[
+            {
+                "name": "pointblank:igla/igla_firemechanism1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_firemechanism2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_firemechanism3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_firemechanism4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_firemechanism5",
+                "stream": false
+            }
+        ]
+    },
+    "igla_foley": {
+        "sounds":[
+            {
+                "name": "pointblank:igla/igla_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_foley3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_foley4",
+                "stream": false
+            }
+        ]
+    },
+    "igla_grab": {
+        "sounds":[
+            {
+                "name": "pointblank:igla/igla_grab1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_grab2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_grab3",
+                "stream": false
+            }
+        ]
+    },
+    "igla_open": {
+        "sounds":[
+            {
+                "name": "pointblank:igla/igla_open1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_open2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_open3",
+                "stream": false
+            }
+        ]
+    },
+    "igla_openshelleject": {
+        "sounds":[
+            {
+                "name": "pointblank:igla/igla_shelleject1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_shelleject2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_shelleject3",
+                "stream": false
+            }
+        ]
+    },
+    "igla_shellinsert": {
+        "sounds":[
+            {
+                "name": "pointblank:igla/igla_shellinsert1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_shellinsert2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_shellinsert3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_shellinsert4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_shellinsert5",
+                "stream": false
+            }
+        ]
+    },
+    "igla_toplever": {
+        "sounds":[
+            {
+                "name": "pointblank:igla/igla_toplever1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_toplever2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:igla/igla_toplever3",
+                "stream": false
+            }
+        ]
+    },
+    "testera_fire": {
+        "sounds":[
+            {
+                "name": "pointblank:testera/testera_fire1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:testera/testera_fire2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:testera/testera_fire3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:testera/testera_fire4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:testera/testera_fire5",
+                "stream": false
+            }
+        ]
+    },
+    "testera_foley": {
+        "sounds":[
+            {
+                "name": "pointblank:testera/testera_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:testera/testera_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:testera/testera_foley3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:testera/testera_foley4",
+                "stream": false
+            }
+        ]
+    },
+    "testera_grab": {
+        "sounds":[
+            {
+                "name": "pointblank:testera/testera_grab1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:testera/testera_grab2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:testera/testera_grab3",
+                "stream": false
+            }
+        ]
+    },
+    "satara_armed": {
+        "sounds":[
+            {
+                "name": "pointblank:satara/satara_armed1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_armed2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_armed3",
+                "stream": false
+            }
+        ]
+    },
+    "satara_charge": {
+        "sounds":[
+            {
+                "name": "pointblank:satara/satara_charge1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_charge2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_charge3",
+                "stream": false
+            }
+        ]
+    },
+    "satara_chargeshort": {
+        "sounds":[
+            {
+                "name": "pointblank:satara/satara_chargeshort1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_chargeshort2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_chargeshort3",
+                "stream": false
+            }
+        ]
+    },
+    "satara_chargeextended": {
+        "sounds":[
+            {
+                "name": "pointblank:satara/satara_chargeextended",
+                "stream": false
+            }
+        ]
+    },
+    "satara_close": {
+        "sounds":[
+            {
+                "name": "pointblank:satara/satara_close1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_close2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_close3",
+                "stream": false
+            }
+        ]
+    },
+    "satara_equip": {
+        "sounds":[
+            {
+                "name": "pointblank:satara/satara_equip1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_equip2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_equip3",
+                "stream": false
+            }
+        ]
+    },
+    "satara_fire": {
+        "sounds":[
+            {
+                "name": "pointblank:satara/satara_fire1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_fire2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_fire3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_fire4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_fire5",
+                "stream": false
+            }
+        ]
+    },
+    "satara_firecharged": {
+        "sounds":[
+            {
+                "name": "pointblank:satara/satara_firecharged1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_firecharged2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_firecharged3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_firecharged4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_firecharged5",
+                "stream": false
+            }
+        ]
+    },
+    "satara_firemechanism": {
+        "sounds":[
+            {
+                "name": "pointblank:satara/satara_firemechanism1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_firemechanism2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_firemechanism3",
+                "stream": false
+            }
+        ]
+    },
+    "satara_foley": {
+        "sounds":[
+            {
+                "name": "pointblank:satara/satara_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_foley3",
+                "stream": false
+            }
+        ]
+    },
+    "satara_grab": {
+        "sounds":[
+            {
+                "name": "pointblank:satara/satara_grab1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_grab2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_grab3",
+                "stream": false
+            }
+        ]
+    },
+    "satara_inspect1": {
+        "sounds":[
+            {
+                "name": "pointblank:satara/satara_inspect1",
+                "stream": false
+            }
+        ]
+    },
+    "satara_inspect2": {
+        "sounds":[
+            {
+                "name": "pointblank:satara/satara_inspect2",
+                "stream": false
+            }
+        ]
+    },
+    "satara_open": {
+        "sounds":[
+            {
+                "name": "pointblank:satara/satara_open1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_open2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_open3",
+                "stream": false
+            }
+        ]
+    },
+    "satara_shellinsert": {
+        "sounds":[
+            {
+                "name": "pointblank:satara/satara_shellinsert1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_shellinsert2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:satara/satara_shellinsert3",
+                "stream": false
+            }
+        ]
+    },
+    "palica_close": {
+        "sounds":[
+            {
+                "name": "pointblank:palica/palica_close1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:palica/palica_close2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:palica/palica_close3",
+                "stream": false
+            }
+        ]
+    },
+    "palica_fire": {
+        "sounds":[
+            {
+                "name": "pointblank:palica/palica_fire1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:palica/palica_fire2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:palica/palica_fire3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:palica/palica_fire4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:palica/palica_fire5",
+                "stream": false
+            }
+        ]
+    },
+    "palica_firemechanism": {
+        "sounds":[
+            {
+                "name": "pointblank:palica/palica_firemechanism1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:palica/palica_firemechanism2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:palica/palica_firemechanism3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:palica/palica_firemechanism4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:palica/palica_firemechanism5",
+                "stream": false
+            }
+        ]
+    },
+    "palica_foley": {
+        "sounds":[
+            {
+                "name": "pointblank:palica/palica_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:palica/palica_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:palica/palica_foley3",
+                "stream": false
+            }
+        ]
+    },
+    "palica_open": {
+        "sounds":[
+            {
+                "name": "pointblank:palica/palica_open1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:palica/palica_open2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:palica/palica_open3",
+                "stream": false
+            }
+        ]
+    },
+    "palica_shellinsert": {
+        "sounds":[
+            {
+                "name": "pointblank:palica/palica_shellinsert1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:palica/palica_shellinsert2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:palica/palica_shellinsert3",
+                "stream": false
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     "tomahawk_draw": {
         "sounds":[
             {
@@ -4583,102 +6003,6 @@
             }
         ]
     },
-    "kolac_charge": {
-        "sounds":[
-            {
-                "name": "pointblank:kolac_charge",
-                "stream": false
-            }
-        ]
-    },
-    "kolac_finish": {
-        "sounds":[
-            {
-                "name": "pointblank:kolac_finish",
-                "stream": false
-            }
-        ]
-    },
-    "kolac_fire": {
-        "sounds":[
-            {
-                "name": "pointblank:kolac_fire",
-                "stream": false
-            }
-        ]
-    },
-    "kolac_fire_suppressed": {
-        "sounds":[
-            {
-                "name": "pointblank:kolac_fire_suppressed",
-                "stream": false
-            }
-        ]
-    },
-    "kolac_inspect1": {
-        "sounds":[
-            {
-                "name": "pointblank:kolac_inspect1",
-                "stream": false
-            }
-        ]
-    },
-    "kolac_inspect2": {
-        "sounds":[
-            {
-                "name": "pointblank:kolac_inspect2",
-                "stream": false
-            }
-        ]
-    },
-    "kolac_magin1": {
-        "sounds":[
-            {
-                "name": "pointblank:kolac_magin1",
-                "stream": false
-            }
-        ]
-    },
-    "kolac_magin2": {
-        "sounds":[
-            {
-                "name": "pointblank:kolac_magin2",
-                "stream": false
-            }
-        ]
-    },
-    "kolac_magout1": {
-        "sounds":[
-            {
-                "name": "pointblank:kolac_magout1",
-                "stream": false
-            }
-        ]
-    },
-    "kolac_magout2": {
-        "sounds":[
-            {
-                "name": "pointblank:kolac_magout2",
-                "stream": false
-            }
-        ]
-    },
-    "kolac_move1": {
-        "sounds":[
-            {
-                "name": "pointblank:kolac_move1",
-                "stream": false
-            }
-        ]
-    },
-    "kolac_move2": {
-        "sounds":[
-            {
-                "name": "pointblank:kolac_move2",
-                "stream": false
-            }
-        ]
-    },
     "katana_draw": {
         "sounds":[
             {
@@ -4747,391 +6071,6 @@
         "sounds":[
             {
                 "name": "pointblank:katana_swing3",
-                "stream": false
-            }
-        ]
-    },
-    "igla_close": {
-        "sounds":[
-            {
-                "name": "pointblank:igla_close",
-                "stream": false
-            }
-        ]
-    },
-    "igla_draw": {
-        "sounds":[
-            {
-                "name": "pointblank:igla_draw",
-                "stream": false
-            }
-        ]
-    },
-    "igla_fire": {
-        "sounds":[
-            {
-                "name": "pointblank:igla_fire",
-                "stream": false
-            }
-        ]
-    },
-    "igla_foley": {
-        "sounds":[
-            {
-                "name": "pointblank:igla_foley",
-                "stream": false
-            }
-        ]
-    },
-    "igla_foley2": {
-        "sounds":[
-            {
-                "name": "pointblank:igla_foley2",
-                "stream": false
-            }
-        ]
-    },
-    "igla_open": {
-        "sounds":[
-            {
-                "name": "pointblank:igla_open",
-                "stream": false
-            }
-        ]
-    },
-    "igla_shellin": {
-        "sounds":[
-            {
-                "name": "pointblank:igla_shellin",
-                "stream": false
-            }
-        ]
-    },
-    "satara_charge": {
-        "sounds":[
-            {
-                "name": "pointblank:satara_charge",
-                "stream": false
-            }
-        ]
-    },
-    "satara_charge_order": {
-        "sounds":[
-            {
-                "name": "pointblank:satara_charge_order",
-                "stream": false
-            }
-        ]
-    },
-    "satara_close": {
-        "sounds":[
-            {
-                "name": "pointblank:satara_close",
-                "stream": false
-            }
-        ]
-    },
-    "satara_draw": {
-        "sounds":[
-            {
-                "name": "pointblank:satara_draw",
-                "stream": false
-            }
-        ]
-    },
-    "satara_finish": {
-        "sounds":[
-            {
-                "name": "pointblank:satara_finish",
-                "stream": false
-            }
-        ]
-    },
-    "satara_fire": {
-        "sounds":[
-            {
-                "name": "pointblank:satara_fire",
-                "stream": false
-            }
-        ]
-    },
-    "satara_foley": {
-        "sounds":[
-            {
-                "name": "pointblank:satara_foley",
-                "stream": false
-            }
-        ]
-    },
-    "satara_inspect1": {
-        "sounds":[
-            {
-                "name": "pointblank:satara_inspect1",
-                "stream": false
-            }
-        ]
-    },
-    "satara_inspect2": {
-        "sounds":[
-            {
-                "name": "pointblank:satara_inspect2",
-                "stream": false
-            }
-        ]
-    },
-    "satara_open": {
-        "sounds":[
-            {
-                "name": "pointblank:satara_open",
-                "stream": false
-            }
-        ]
-    },
-    "satara_shellin": {
-        "sounds":[
-            {
-                "name": "pointblank:satara_shellin",
-                "stream": false
-            }
-        ]
-    },
-    "testera_fire": {
-        "sounds":[
-            {
-                "name": "pointblank:testera_fire",
-                "stream": false
-            }
-        ]
-    },
-    "testera_shellin": {
-        "sounds":[
-            {
-                "name": "pointblank:testera_shellin",
-                "stream": false
-            }
-        ]
-    },
-    "palica_buzz": {
-        "sounds":[
-            {
-                "name": "pointblank:palica_buzz",
-                "stream": false
-            }
-        ]
-    },
-    "palica_close": {
-        "sounds":[
-            {
-                "name": "pointblank:palica_close",
-                "stream": false
-            }
-        ]
-    },
-    "palica_draw": {
-        "sounds":[
-            {
-                "name": "pointblank:palica_draw",
-                "stream": false
-            }
-        ]
-    },
-    "palica_fire": {
-        "sounds":[
-            {
-                "name": "pointblank:palica_fire",
-                "stream": false
-            }
-        ]
-    },
-    "palica_open": {
-        "sounds":[
-            {
-                "name": "pointblank:palica_open",
-                "stream": false
-            }
-        ]
-    },
-    "palica_shellin": {
-        "sounds":[
-            {
-                "name": "pointblank:palica_shellin",
-                "stream": false
-            }
-        ]
-    },
-    "osprey_charge": {
-        "sounds":[
-            {
-                "name": "pointblank:osprey_charge",
-                "stream": false
-            }
-        ]
-    },
-    "osprey_draw": {
-        "sounds":[
-            {
-                "name": "pointblank:osprey_draw",
-                "stream": false
-            }
-        ]
-    },
-    "osprey_fire": {
-        "sounds":[
-            {
-                "name": "pointblank:osprey_fire",
-                "stream": false
-            }
-        ]
-    },
-    "osprey_foley1": {
-        "sounds":[
-            {
-                "name": "pointblank:osprey_foley1",
-                "stream": false
-            }
-        ]
-    },
-    "osprey_foley2": {
-        "sounds":[
-            {
-                "name": "pointblank:osprey_foley2",
-                "stream": false
-            }
-        ]
-    },
-    "osprey_handlerotate": {
-        "sounds":[
-            {
-                "name": "pointblank:osprey_handlerotate",
-                "stream": false
-            }
-        ]
-    },
-    "osprey_magin": {
-        "sounds":[
-            {
-                "name": "pointblank:osprey_magin",
-                "stream": false
-            }
-        ]
-    },
-    "osprey_magout": {
-        "sounds":[
-            {
-                "name": "pointblank:osprey_magout",
-                "stream": false
-            }
-        ]
-    },
-    "osprey_reloadfinish": {
-        "sounds":[
-            {
-                "name": "pointblank:osprey_reloadfinish",
-                "stream": false
-            }
-        ]
-    },
-    "osprey_scoperotate": {
-        "sounds":[
-            {
-                "name": "pointblank:osprey_scoperotate",
-                "stream": false
-            }
-        ]
-    },
-    "kyubi_charge": {
-        "sounds": [
-            {
-                "name": "pointblank:kyubi_charge",
-                "stream": false
-            }
-        ]
-    },
-    "kyubi_chargeback": {
-        "sounds": [
-            {
-                "name": "pointblank:kyubi_chargeback",
-                "stream": false
-            }
-        ]
-    },
-    "kyubi_chargeforward": {
-        "sounds": [
-            {
-                "name": "pointblank:kyubi_chargeforward",
-                "stream": false
-            }
-        ]
-    },
-    "kyubi_fire": {
-        "sounds": [
-            {
-                "name": "pointblank:kyubi_fire",
-                "stream": false
-            }
-        ]
-    },
-    "kyubi_fire_suppressed": {
-        "sounds": [
-            {
-                "name": "pointblank:kyubi_fire_suppressed",
-                "volume": 2.5,
-                "stream": false
-            }
-        ]
-    },
-    "kyubi_foley": {
-        "sounds": [
-            {
-                "name": "pointblank:kyubi_foley1",
-                "stream": false
-            },
-            {
-                "name": "pointblank:kyubi_foley2",
-                "stream": false
-            },
-            {
-                "name": "pointblank:kyubi_foley3",
-                "stream": false
-            },
-            {
-                "name": "pointblank:kyubi_foley4",
-                "stream": false
-            },
-            {
-                "name": "pointblank:kyubi_foley5",
-                "stream": false
-            }
-        ]
-    },
-    "kyubi_magin": {
-        "sounds": [
-            {
-                "name": "pointblank:kyubi_magin",
-                "stream": false
-            }
-        ]
-    },
-    "kyubi_magout": {
-        "sounds": [
-            {
-                "name": "pointblank:kyubi_magout",
-                "stream": false
-            }
-        ]
-    },
-    "kyubi_magout2": {
-        "sounds": [
-            {
-                "name": "pointblank:kyubi_magout2",
-                "stream": false
-            }
-        ]
-    },
-    "kyubi_stockunfold": {
-        "sounds": [
-            {
-                "name": "pointblank:kyubi_stockunfold",
                 "stream": false
             }
         ]

@@ -33,7 +33,7 @@
     },
     {
       "type": "Sound",
-      "fireSound": "kolac_fire_suppressed",
+      "fireSound": "copperhead_firesuppressed",
       "fireSoundVolume": 1,
       "condition": {
         "hasAttachmentGroup": "rf_suppressors"
@@ -64,9 +64,9 @@
   "drawCooldownDuration" : 1000,
   "bobbingOnAim" : 0.1,
   "gunRecoilInitialAmplitude" : 0.4,
-  "shakeRecoilAmplitude" : 1,
-  "shakeRecoilSpeed" : 2,
-  "viewRecoilAmplitude" : 6,
+  "shakeRecoilAmplitude" : 0.2,
+  "shakeRecoilSpeed" : 1,
+  "viewRecoilAmplitude" : 0.5,
   "inspectCooldownDuration": 5470,
   "firstPersonFallbackAnimations": "cp2077_fpp_weapon_heavy",
   "effects": [

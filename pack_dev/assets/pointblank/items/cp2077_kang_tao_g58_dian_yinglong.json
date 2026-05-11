@@ -40,7 +40,7 @@
   "idleAnimations": [
     {
       "name": "animation.model.idle",
-      "duration": 100
+      "duration": 500
     }
   ],
   "effects": [

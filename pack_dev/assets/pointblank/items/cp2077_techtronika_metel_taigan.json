@@ -12,7 +12,7 @@
     },
     {
       "type": "Sound",
-      "fireSound": "overture_fire_suppressed",
+      "fireSound": "overture_firesuppressed",
       "fireSoundVolume": 1,
       "condition": {
         "hasAttachmentGroup": "smg_suppressors"
@@ -90,6 +90,21 @@
       "name": "animation.model.fireempty",
       "duration": 500,
       "condition": "ammoCount == 0"
+    },
+    {
+      "name": "animation.model.fire1",
+      "duration": 500,
+      "condition": "random"
+    },
+    {
+      "name": "animation.model.fire2",
+      "duration": 500,
+      "condition": "random"
+    },
+    {
+      "name": "animation.model.fire3",
+      "duration": 500,
+      "condition": "random"
     }
   ],
   "glowingParts": [
@@ -111,7 +126,7 @@
     {
       "phase": "RELOADING",
       "condition": "reloadIterationIndex == 0",
-      "duration": 3700,
+      "duration": 3100,
       "animation": "animation.model.reloadempty"
     },
     {

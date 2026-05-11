@@ -34,7 +34,7 @@
   "damage" : 30.0,
   "rpm" : 30,
   "fireModes" : ["SINGLE"],
-  "fireSound" : "grad_fire_suppressed",
+  "fireSound" : "grad_firesuppressed",
   "drawCooldownDuration" : 1270,
   "bobbingOnAim" : 0.1,
   "gunRecoilInitialAmplitude" : 0.4,

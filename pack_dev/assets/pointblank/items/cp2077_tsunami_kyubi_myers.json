@@ -102,8 +102,7 @@
     },
     {
       "type": "Sound",
-      "fireSound": "kyubi_fire_suppressed",
-      "fireSoundVolume": 0.5,
+      "fireSound": "kyubi_firesuppressed",
       "condition": {
       "allOf": [
           {

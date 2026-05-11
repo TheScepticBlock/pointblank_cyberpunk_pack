@@ -34,7 +34,7 @@
           "prepareFireAnimations": [
             {
               "name": "animation.model.preparefire_order",
-              "duration": 3000
+              "duration": 1700
             }
           ]
         }
