@@ -4,7 +4,7 @@
   "features": [
     {
       "type": "Sound",
-      "fireSound": "knife_throw2",
+      "fireSound": "knife_throw",
       "fireSoundVolume": 1,
       "condition": {
         "selectedFireMode": "cp2077_thrown"

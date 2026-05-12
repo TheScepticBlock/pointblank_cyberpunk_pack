@@ -454,7 +454,7 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "katana_sheath"
+					"effect": "katana_unequip"
 				}
 			}
 		},
@@ -510,22 +510,18 @@
 				},
 				"sword": {
 					"rotation": {
-						"vector": [-45, 0, 0],
-						"easing": "easeInOutQuad"
+						"vector": [-45, 0, 0]
 					},
 					"position": {
-						"vector": [0, 0, -2],
-						"easing": "easeInOutQuad"
+						"vector": [0, 0, -2]
 					}
 				},
 				"leftarm": {
 					"rotation": {
-						"vector": [-26.13726, -51.6477, -30.6132],
-						"easing": "easeOutQuart"
+						"vector": ["easeOutQuart", "easeOutQuart", "easeOutQuart"]
 					},
 					"position": {
-						"vector": [22, -13, 62],
-						"easing": "easeInOutQuad"
+						"vector": ["easeInOutQuad", "easeInOutQuad", "easeInOutQuad"]
 					}
 				}
 			}
@@ -570,22 +566,18 @@
 				},
 				"sword": {
 					"rotation": {
-						"vector": [-45, 0, 0],
-						"easing": "easeInOutQuad"
+						"vector": [-45, 0, 0]
 					},
 					"position": {
-						"vector": [0, 0, -2],
-						"easing": "easeInOutQuad"
+						"vector": [0, 0, -2]
 					}
 				},
 				"leftarm": {
 					"rotation": {
-						"vector": [-26.13726, -51.6477, -30.6132],
-						"easing": "easeOutQuart"
+						"vector": ["easeOutQuart", "easeOutQuart", "easeOutQuart"]
 					},
 					"position": {
-						"vector": [22, -13, 62],
-						"easing": "easeInOutQuad"
+						"vector": ["easeInOutQuad", "easeInOutQuad", "easeInOutQuad"]
 					}
 				}
 			}
@@ -741,11 +733,10 @@
 				}
 			},
 			"sound_effects": {
-				"0.0333": {
-					"effect": "katana_draw"
+				"0.0": {
+					"effect": "katana_equip"
 				}
 			}
 		}
-	},
-	"geckolib_format_version": 2
+	}
 }

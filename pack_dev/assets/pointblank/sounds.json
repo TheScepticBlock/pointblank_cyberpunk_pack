@@ -5254,15 +5254,15 @@
     "igla_openshelleject": {
         "sounds":[
             {
-                "name": "pointblank:igla/igla_shelleject1",
+                "name": "pointblank:igla/igla_openshelleject1",
                 "stream": false
             },
             {
-                "name": "pointblank:igla/igla_shelleject2",
+                "name": "pointblank:igla/igla_openshelleject2",
                 "stream": false
             },
             {
-                "name": "pointblank:igla/igla_shelleject3",
+                "name": "pointblank:igla/igla_openshelleject3",
                 "stream": false
             }
         ]
@@ -5711,198 +5711,46 @@
             }
         ]
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    "tomahawk_draw": {
-        "sounds":[
-            {
-                "name": "pointblank:tomahawk_draw",
-                "stream": false
-            }
-        ]
-    },
-    "tomahawk_inspect1": {
-        "sounds":[
-            {
-                "name": "pointblank:tomahawk_inspect1",
-                "stream": false
-            }
-        ]
-    },
-    "tomahawk_inspect2": {
-        "sounds":[
-            {
-                "name": "pointblank:tomahawk_inspect2",
-                "stream": false
-            }
-        ]
-    },
-    "tomahawk_prepareswing": {
-        "sounds":[
-            {
-                "name": "pointblank:tomahawk_prepareswing",
-                "stream": false
-            }
-        ]
-    },
-    "tomahawk_preparethrow": {
-        "sounds":[
-            {
-                "name": "pointblank:tomahawk_preparethrow",
-                "stream": false
-            }
-        ]
-    },
     "tomahawk_swing": {
         "sounds":[
             {
-                "name": "pointblank:tomahawk_swing1",
+                "name": "pointblank:tomahawk/tomahawk_swing1",
                 "stream": false
             },
             {
-                "name": "pointblank:tomahawk_swing2",
+                "name": "pointblank:tomahawk/tomahawk_swing2",
                 "stream": false
             },
             {
-                "name": "pointblank:tomahawk_swing3",
+                "name": "pointblank:tomahawk/tomahawk_swing3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:tomahawk/tomahawk_swing4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:tomahawk/tomahawk_swing5",
                 "stream": false
             }
         ]
     },
-    "tomahawk_swing1": {
+    "tomahawk_swingwoosh": {
         "sounds":[
             {
-                "name": "pointblank:tomahawk_swing1",
+                "name": "pointblank:tomahawk/tomahawk_swingwoosh1",
                 "stream": false
-            }
-        ]
-    },
-    "tomahawk_swing2": {
-        "sounds":[
+            },
             {
-                "name": "pointblank:tomahawk_swing2",
+                "name": "pointblank:tomahawk/tomahawk_swingwoosh2",
                 "stream": false
-            }
-        ]
-    },
-    "tomahawk_swing3": {
-        "sounds":[
+            },
             {
-                "name": "pointblank:tomahawk_swing3",
+                "name": "pointblank:tomahawk/tomahawk_swingwoosh3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:tomahawk/tomahawk_swingwoosh4",
                 "stream": false
             }
         ]
@@ -5910,15 +5758,63 @@
     "tomahawk_throw": {
         "sounds":[
             {
-                "name": "pointblank:tomahawk_throw",
+                "name": "pointblank:tomahawk/tomahawk_throw1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:tomahawk/tomahawk_throw2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:tomahawk/tomahawk_throw3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:tomahawk/tomahawk_throw4",
                 "stream": false
             }
         ]
     },
-    "knife_draw": {
+    "knife_equip": {
         "sounds":[
             {
-                "name": "pointblank:knife_draw",
+                "name": "pointblank:knife/knife_equip1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:knife/knife_equip2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:knife/knife_equip3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:knife/knife_equip4",
+                "stream": false
+            }
+        ]
+    },
+    "knife_handling": {
+        "sounds":[
+            {
+                "name": "pointblank:knife/knife_handling1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:knife/knife_handling2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:knife/knife_handling3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:knife/knife_handling4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:knife/knife_handling5",
                 "stream": false
             }
         ]
@@ -5926,23 +5822,31 @@
     "knife_inspect": {
         "sounds":[
             {
-                "name": "pointblank:knife_inspect",
+                "name": "pointblank:knife/knife_inspect",
                 "stream": false
             }
         ]
     },
-    "knife_prepareswing": {
+    "knife_ring": {
         "sounds":[
             {
-                "name": "pointblank:knife_prepareswing",
+                "name": "pointblank:knife/knife_ring1",
                 "stream": false
-            }
-        ]
-    },
-    "knife_preparethrow": {
-        "sounds":[
+            },
             {
-                "name": "pointblank:knife_preparethrow",
+                "name": "pointblank:knife/knife_ring2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:knife/knife_ring3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:knife/knife_ring4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:knife/knife_ring5",
                 "stream": false
             }
         ]
@@ -5950,63 +5854,67 @@
     "knife_swing": {
         "sounds":[
             {
-                "name": "pointblank:knife_swing1",
+                "name": "pointblank:knife/knife_swing1",
                 "stream": false
             },
             {
-                "name": "pointblank:knife_swing2",
+                "name": "pointblank:knife/knife_swing2",
                 "stream": false
             },
             {
-                "name": "pointblank:knife_swing3",
+                "name": "pointblank:knife/knife_swing3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:knife/knife_swing4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:knife/knife_swing5",
                 "stream": false
             }
         ]
     },
-    "knife_swing1": {
+    "knife_throw": {
         "sounds":[
             {
-                "name": "pointblank:knife_swing1",
+                "name": "pointblank:knife/knife_throw1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:knife/knife_throw2",
                 "stream": false
             }
         ]
     },
-    "knife_swing2": {
+    "katana_equip": {
         "sounds":[
             {
-                "name": "pointblank:knife_swing2",
+                "name": "pointblank:katana/katana_equip1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:katana/katana_equip2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:katana/katana_equip3",
                 "stream": false
             }
         ]
     },
-    "knife_swing3": {
+    "katana_unequip": {
         "sounds":[
             {
-                "name": "pointblank:knife_swing3",
+                "name": "pointblank:katana/katana_unequip1",
                 "stream": false
-            }
-        ]
-    },
-    "knife_throw1": {
-        "sounds":[
+            },
             {
-                "name": "pointblank:knife_throw1",
+                "name": "pointblank:katana/katana_unequip2",
                 "stream": false
-            }
-        ]
-    },
-    "knife_throw2": {
-        "sounds":[
+            },
             {
-                "name": "pointblank:knife_throw2",
-                "stream": false
-            }
-        ]
-    },
-    "katana_draw": {
-        "sounds":[
-            {
-                "name": "pointblank:katana_draw",
+                "name": "pointblank:katana/katana_unequip3",
                 "stream": false
             }
         ]
@@ -6014,23 +5922,11 @@
     "katana_inspect": {
         "sounds":[
             {
-                "name": "pointblank:katana_inspect",
+                "name": "pointblank:katana/katana_inspect1",
                 "stream": false
-            }
-        ]
-    },
-    "katana_prepareswing": {
-        "sounds":[
+            },
             {
-                "name": "pointblank:katana_prepareswing",
-                "stream": false
-            }
-        ]
-    },
-    "katana_sheath": {
-        "sounds":[
-            {
-                "name": "pointblank:katana_sheath",
+                "name": "pointblank:katana/katana_inspect2",
                 "stream": false
             }
         ]
@@ -6038,39 +5934,15 @@
     "katana_swing": {
         "sounds":[
             {
-                "name": "pointblank:katana_swing1",
+                "name": "pointblank:katana/katana_swing1",
                 "stream": false
             },
             {
-                "name": "pointblank:katana_swing2",
+                "name": "pointblank:katana/katana_swing2",
                 "stream": false
             },
             {
-                "name": "pointblank:katana_swing3",
-                "stream": false
-            }
-        ]
-    },
-    "katana_swing1": {
-        "sounds":[
-            {
-                "name": "pointblank:katana_swing1",
-                "stream": false
-            }
-        ]
-    },
-    "katana_swing2": {
-        "sounds":[
-            {
-                "name": "pointblank:katana_swing2",
-                "stream": false
-            }
-        ]
-    },
-    "katana_swing3": {
-        "sounds":[
-            {
-                "name": "pointblank:katana_swing3",
+                "name": "pointblank:katana/katana_swing3",
                 "stream": false
             }
         ]

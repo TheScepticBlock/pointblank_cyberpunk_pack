@@ -147,7 +147,7 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "katana_draw"
+					"effect": "katana_equip"
 				}
 			}
 		},
@@ -379,7 +379,13 @@
 				}
 			},
 			"sound_effects": {
-				"0.1": {
+				"0.0333": {
+					"effect": "knife_ring"
+				},
+				"0.3": {
+					"effect": "katana_swing"
+				},
+				"0.3667": {
 					"effect": "katana_inspect"
 				}
 			}
@@ -454,7 +460,7 @@
 			},
 			"sound_effects": {
 				"0.0": {
-					"effect": "katana_prepareswing"
+					"effect": "knife_ring"
 				}
 			}
 		},
@@ -811,6 +817,5 @@
 				}
 			}
 		}
-	},
-	"geckolib_format_version": 2
+	}
 }

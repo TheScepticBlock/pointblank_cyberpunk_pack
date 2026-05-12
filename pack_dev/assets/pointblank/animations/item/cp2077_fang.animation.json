@@ -142,8 +142,11 @@
 				}
 			},
 			"sound_effects": {
-				"0.0": {
-					"effect": "knife_draw"
+				"0.0333": {
+					"effect": "knife_ring"
+				},
+				"0.1667": {
+					"effect": "knife_handling"
 				}
 			}
 		},
@@ -273,12 +276,8 @@
 							"easing": "easeInOutQuart"
 						},
 						"4.1": {
-							"vector": [-359.30704, -1.69109, 719.52239]
-						},
-						"4.1333": {
-							"vector": [0, 0, 0],
-							"easing": "step",
-							"easingArgs": [2]
+							"pre": [-359.30704, -1.69109, 719.52239],
+							"post": [0, 0, 0]
 						}
 					},
 					"position": {
@@ -452,9 +451,9 @@
 			},
 			"sound_effects": {
 				"0.0333": {
-					"effect": "knife_prepareswing"
+					"effect": "knife_handling"
 				},
-				"2.0": {
+				"1.7": {
 					"effect": "knife_inspect"
 				}
 			}
@@ -748,10 +747,7 @@
 			},
 			"sound_effects": {
 				"0.0333": {
-					"effect": "knife_preparethrow"
-				},
-				"0.6667": {
-					"effect": "knife_throw1"
+					"effect": "knife_handling"
 				}
 			}
 		},
@@ -1099,7 +1095,7 @@
 			},
 			"sound_effects": {
 				"2.5": {
-					"effect": "knife_draw"
+					"effect": "knife_handling"
 				}
 			}
 		},
@@ -1174,8 +1170,8 @@
 				}
 			},
 			"sound_effects": {
-				"0.0": {
-					"effect": "knife_prepareswing"
+				"0.0333": {
+					"effect": "knife_ring"
 				}
 			}
 		},
@@ -1239,8 +1235,8 @@
 				}
 			},
 			"sound_effects": {
-				"0.0": {
-					"effect": "knife_prepareswing"
+				"0.0333": {
+					"effect": "knife_ring"
 				}
 			}
 		},
@@ -1300,6 +1296,11 @@
 							"easing": "easeInOutSine"
 						}
 					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "tomahawk_swingwoosh"
 				}
 			}
 		},
@@ -1365,6 +1366,11 @@
 						"vector": [0, 12.5, 137.5]
 					}
 				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "tomahawk_swingwoosh"
+				}
 			}
 		},
 		"animation.model.swing3": {
@@ -1420,6 +1426,11 @@
 							"easing": "easeInOutSine"
 						}
 					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "tomahawk_swingwoosh"
 				}
 			}
 		},
@@ -2089,6 +2100,5 @@
 				}
 			}
 		}
-	},
-	"geckolib_format_version": 2
+	}
 }

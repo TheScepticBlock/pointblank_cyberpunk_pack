@@ -217,8 +217,8 @@
 				}
 			},
 			"sound_effects": {
-				"0.0": {
-					"effect": "tomahawk_draw"
+				"0.0333": {
+					"effect": "knife_handling"
 				}
 			}
 		},
@@ -418,13 +418,13 @@
 			},
 			"sound_effects": {
 				"0.0333": {
-					"effect": "tomahawk_inspect1"
+					"effect": "knife_ring"
 				},
 				"1.5667": {
-					"effect": "tomahawk_prepareswing"
+					"effect": "knife_handling"
 				},
-				"3.0": {
-					"effect": "tomahawk_inspect1"
+				"3.1667": {
+					"effect": "knife_ring"
 				}
 			}
 		},
@@ -625,8 +625,11 @@
 				}
 			},
 			"sound_effects": {
-				"0.0667": {
-					"effect": "tomahawk_preparethrow"
+				"0.1333": {
+					"effect": "knife_ring"
+				},
+				"0.2": {
+					"effect": "knife_handling"
 				}
 			}
 		},
@@ -836,7 +839,7 @@
 			},
 			"sound_effects": {
 				"3.7667": {
-					"effect": "tomahawk_prepareswing"
+					"effect": "knife_ring"
 				}
 			}
 		},
@@ -950,8 +953,11 @@
 				}
 			},
 			"sound_effects": {
-				"0.1333": {
-					"effect": "tomahawk_preparethrow"
+				"0.1": {
+					"effect": "knife_ring"
+				},
+				"0.2333": {
+					"effect": "knife_handling"
 				}
 			}
 		},
@@ -1000,8 +1006,8 @@
 				}
 			},
 			"sound_effects": {
-				"0.0": {
-					"effect": "tomahawk_prepareswing"
+				"0.0333": {
+					"effect": "knife_ring"
 				}
 			}
 		},
@@ -1014,7 +1020,7 @@
 							"vector": [-75.12261, 1.93597, -7.24721],
 							"easing": "easeInBack"
 						},
-						"0.4667": {
+						"0.3": {
 							"vector": [67.49152, -26.09753, 3.79149],
 							"easing": "easeInOutQuart"
 						}
@@ -1023,7 +1029,7 @@
 						"0.0": {
 							"vector": [0, 0, 12]
 						},
-						"0.4": {
+						"0.2667": {
 							"vector": [6, 0, -1],
 							"easing": "easeInOutQuart"
 						}
@@ -1047,6 +1053,11 @@
 							"easing": "easeInOutQuad"
 						}
 					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "tomahawk_swingwoosh"
 				}
 			}
 		},
@@ -1101,6 +1112,11 @@
 						}
 					}
 				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "tomahawk_swingwoosh"
+				}
 			}
 		},
 		"animation.model.swing3": {
@@ -1154,8 +1170,12 @@
 						}
 					}
 				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "tomahawk_swingwoosh"
+				}
 			}
 		}
-	},
-	"geckolib_format_version": 2
+	}
 }
