@@ -5946,5 +5946,189 @@
                 "stream": false
             }
         ]
+    },
+    "chao_fire": {
+        "sounds":[
+            {
+                "name": "pointblank:chao/chao_fire1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_fire2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_fire3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_fire4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_fire5",
+                "stream": false
+            }
+        ]
+    },
+    "chao_fireempty": {
+        "sounds":[
+            {
+                "name": "pointblank:chao/chao_fireempty1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_fireempty2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_fireempty3",
+                "stream": false
+            }
+        ]
+    },
+    "chao_fireend": {
+        "sounds":[
+            {
+                "name": "pointblank:chao/chao_fireend1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_fireend2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_fireend3",
+                "stream": false
+            }
+        ]
+    },
+    "chao_firemechanism": {
+        "sounds":[
+            {
+                "name": "pointblank:chao/chao_firemechanism1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_firemechanism2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_firemechanism3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_firemechanism4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_firemechanism5",
+                "stream": false
+            }
+        ]
+    },
+    "chao_foley": {
+        "sounds":[
+            {
+                "name": "pointblank:chao/chao_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_foley3",
+                "stream": false
+            }
+        ]
+    },
+    "chao_lowammo": {
+        "sounds":[
+            {
+                "name": "pointblank:chao/chao_lowammo1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_lowammo2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_lowammo3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_lowammo4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_lowammo5",
+                "stream": false
+            }
+        ]
+    },
+    "chao_magin": {
+        "sounds":[
+            {
+                "name": "pointblank:chao/chao_magin1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_magin2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_magin3",
+                "stream": false
+            }
+        ]
+    },
+    "chao_magout": {
+        "sounds":[
+            {
+                "name": "pointblank:chao/chao_magout1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_magout2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_magout3",
+                "stream": false
+            }
+        ]
+    },
+    "chao_safeclose": {
+        "sounds":[
+            {
+                "name": "pointblank:chao/chao_safeclose1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_safeclose2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_safeclose3",
+                "stream": false
+            }
+        ]
+    },
+    "chao_safeopen": {
+        "sounds":[
+            {
+                "name": "pointblank:chao/chao_safeopen1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_safeopen2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:chao/chao_safeopen3",
+                "stream": false
+            }
+        ]
     }
 }

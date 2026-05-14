@@ -1,0 +1,80 @@
+{
+  "name" : "cp2077_kang_tao_a22b_chao_ogou",
+  "type": "Gun",
+  "compatibleAttachmentGroups": [
+    "chimera"
+  ],
+  "features": [
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "burst",
+          "displayName": "label.pointblank.fireMode.burst",
+          "type": "BURST",
+          "rpm": 250,
+          "damage": 5.0,
+          "burstShots": 2,
+          "isUsingDefaultMuzzle": true,
+          "fireAnimations": [
+            {
+              "name": "animation.model.fireempty",
+              "duration": 500,
+              "condition": "ammoCount == 0"
+            },
+            {
+              "name": "animation.model.firelowammo",
+              "duration": 500,
+              "condition": "ammoCount <= 6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Reticle",
+      "texture": "textures/item/reticle_smartgun.png",
+      "parallax": true
+    }
+  ],
+  "maxAmmoCapacity" : 18,
+  "compatibleAmmo" : ["ammo9mm", "ammocreative"],
+  "fireSound" : "chao_fire",
+  "aimingZoom" : 0.25,
+  "damage": 5.0,
+  "gunRecoilInitialAmplitude" : 0.2,
+  "shakeRecoilAmplitude" : 0.25,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 1.5,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
+  "drawAnimations": [
+    {
+      "name": "animation.model.draw",
+      "duration": 600
+    }
+  ],
+  "inspectAnimations": [
+    {
+      "name": "animation.model.inspect",
+      "duration": 5400
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash_small"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex >= 0",
+      "duration": 3200,
+      "animation": "animation.model.reload"
+    }
+  ]
+}
