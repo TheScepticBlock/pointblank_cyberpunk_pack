@@ -6184,10 +6184,6 @@
             {
                 "name": "pointblank:nue/nue_foley3",
                 "stream": false
-            },
-            {
-                "name": "pointblank:nue/nue_foley4",
-                "stream": false
             }
         ]
     },
