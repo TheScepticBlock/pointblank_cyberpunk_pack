@@ -1,0 +1,24 @@
+{
+  "name" : "cp2077_nue_compensator",
+  "type": "Attachment",
+  "category": "muzzle",
+  "features": [
+    {
+      "type": "Damage",
+      "hitScanDamageModifier": 1.1
+    },
+    {
+      "type": "MuzzleFlash",
+      "effects": [
+        {
+          "phase": "firing",
+          "name": "muzzle_flash_small"
+        }
+      ]
+    },
+    {
+      "type": "Recoil",
+      "recoilModifier": 0.5
+    }
+  ]
+}

@@ -9,7 +9,7 @@
 # This script was written for Linux. Windows users might have to use WSL to get this to work or port it to Powershell somehow.
 
 # Change this to whatever you want the pack version to be
-pack_version="1.20-WIP"
+pack_version="1.20-WIP2"
 
 # Name of the zip file (Do NOT include any file extensions! That will be handled by the script, mainly because I wanted to be able to build .jar files as well for Pointblank: Jelly)
 zip_name="Cyberpunk_2077_Guns_Pack"
@@ -18,7 +18,7 @@ zip_name="Cyberpunk_2077_Guns_Pack"
 folder_to_zip="$(pwd)"
 
 # Array of weapons to be added (in the order you want) (you don't need to add .json at the end, the script already does this when putting together the archive file)
-pistols=("cp2077_arasaka_hjke11_yukimura" "cp2077_arasaka_hjke11_yukimura_genjiroh" "cp2077_arasaka_hjke11_yukimura_skippy" "cp2077_budget_arms_slaughtomatic" "cp2077_ca_liberty" "cp2077_ca_liberty_dex" "cp2077_ca_liberty_padre" "cp2077_ca_liberty_rogue" "cp2077_ca_liberty_yori" "cp2077_ca_unity" "cp2077_ca_unity_angelica" "cp2077_ca_unity_iconic" "cp2077_ha_4grit" "cp2077_ha_4grit_catahoula" "cp2077_malorian_arms_3516" "cp2077_malorian_arms_overture" "cp2077_malorian_arms_overture_cassidy" "cp2077_malorian_arms_overture_dante" "cp2077_malorian_arms_overture_dodger" "cp2077_malorian_arms_overture_kerry" "cp2077_malorian_arms_overture_river" "cp2077_militech_m10af_lexington" "cp2077_militech_m10af_lexington_rook" "cp2077_militech_m10af_lexington_wilson" "cp2077_militech_m10af_lexington_xmod2" "cp2077_militech_ar_lexington" "cp2077_techtronika_metel" "cp2077_techtronika_metel_kurt" "cp2077_techtronika_metel_taigan")
+pistols=("cp2077_arasaka_hjke11_yukimura" "cp2077_arasaka_hjke11_yukimura_genjiroh" "cp2077_arasaka_hjke11_yukimura_skippy" "cp2077_budget_arms_slaughtomatic" "cp2077_ca_liberty" "cp2077_ca_liberty_dex" "cp2077_ca_liberty_padre" "cp2077_ca_liberty_rogue" "cp2077_ca_liberty_yori" "cp2077_ca_unity" "cp2077_ca_unity_angelica" "cp2077_ca_unity_iconic" "cp2077_ha_4grit" "cp2077_ha_4grit_catahoula" "cp2077_kang_tao_a22b_chao" "cp2077_kang_tao_a22b_chao_ogou" "cp2077_malorian_arms_3516" "cp2077_malorian_arms_overture" "cp2077_malorian_arms_overture_cassidy" "cp2077_malorian_arms_overture_dante" "cp2077_malorian_arms_overture_dodger" "cp2077_malorian_arms_overture_kerry" "cp2077_malorian_arms_overture_river" "cp2077_militech_m10af_lexington" "cp2077_militech_m10af_lexington_rook" "cp2077_militech_m10af_lexington_wilson" "cp2077_militech_m10af_lexington_xmod2" "cp2077_militech_ar_lexington" "cp2077_techtronika_metel" "cp2077_techtronika_metel_kurt" "cp2077_techtronika_metel_taigan" "cp2077_tsunami_nue" "cp2077_tsunami_nue_jackie")
 
 assault_rifles=("cp2077_arasaka_hjsh18_masamune" "cp2077_arasaka_hjsh18_masamune_rogue" "cp2077_arasaka_nowaki" "cp2077_darra_da8_umbra" "cp2077_darra_da8_umbra_paco" "cp2077_darra_da8_umbra_xmod2" "cp2077_militech_hercules_3ax" "cp2077_militech_m251s_ajax" "cp2077_militech_m251s_ajax_barghest" "cp2077_militech_m251s_ajax_moron" "cp2077_nokota_d5_copperhead" "cp2077_nokota_d5_copperhead_psalm" "cp2077_nokota_d5_sidewinder" "cp2077_nokota_d5_sidewinder_dws" "cp2077_tsunami_kyubi" "cp2077_tsunami_kyubi_chinook" "cp2077_tsunami_kyubi_myers" "cp2077_tsunami_kyubi_xmod2")
 
@@ -34,7 +34,7 @@ lmgs=("cp2077_ca_m2067_defender" "cp2077_ca_m2067_defender_kurt" "cp2077_ma_ma70
 
 melees=("cp2077_fang" "cp2077_katana" "cp2077_katana_e3" "cp2077_katana_saburo" "cp2077_katana_wakako" "cp2077_tomahawk" "cp2077_tomahawk_agaou")
 
-attachments=("cp2077_cqo_kanone_mini_mk72" "cp2077_kanetsugu" "cp2077_os1_gimleteye" "cp2077_type_2067" "cp2077_clearvue_mk8" "cp2077_e255_percipient" "cp2077_e255_percipient_blue" "cp2077_mk2x_grandstand" "cp2077_so21_saika" "cp2077_e305_prospecta" "cp2077_gaki" "cp2077_gaki_red" "cp2077_hpo_kanone_max_mk77" "cp2077_hpo_kanone_max_mk77_tan" "cp2077_xc_10_cetus" "cp2077_xc_10_strix" "cp2077_chimera_core" "cp2077_chimera_firecracker" "cp2077_chimera_focus" "cp2077_chimera_overclocker" "cp2077_chimera_sharpshooter" "cp2077_tsunami_rasetsu_suppressor" "cp2077_skin_military" "cp2077_skin_neon" "cp2077_skin_pimp" "cp2077_hypercritical_red_skin")
+attachments=("cp2077_cqo_kanone_mini_mk72" "cp2077_kanetsugu" "cp2077_os1_gimleteye" "cp2077_type_2067" "cp2077_clearvue_mk8" "cp2077_e255_percipient" "cp2077_e255_percipient_blue" "cp2077_nue_compensator" "cp2077_mk2x_grandstand" "cp2077_so21_saika" "cp2077_e305_prospecta" "cp2077_gaki" "cp2077_gaki_red" "cp2077_hpo_kanone_max_mk77" "cp2077_hpo_kanone_max_mk77_tan" "cp2077_xc_10_cetus" "cp2077_xc_10_strix" "cp2077_chimera_core" "cp2077_chimera_firecracker" "cp2077_chimera_focus" "cp2077_chimera_overclocker" "cp2077_chimera_sharpshooter" "cp2077_tsunami_rasetsu_suppressor" "cp2077_skin_military" "cp2077_skin_neon" "cp2077_skin_pimp" "cp2077_hypercritical_red_skin")
 
 misc=("cp2077_cerberus_behavioral_system" "cp2077_cerberus_behavioral_system_decoded")
 

@@ -6130,5 +6130,121 @@
                 "stream": false
             }
         ]
+    },
+    "nue_fire": {
+        "sounds": [
+            {
+                "name": "pointblank:nue/nue_fire1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nue/nue_fire2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nue/nue_fire3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nue/nue_fire4",
+                "stream": false
+            }
+        ]
+    },
+    "nue_firesuppressed": {
+        "sounds": [
+            {
+                "name": "pointblank:nue/nue_firesuppressed1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nue/nue_firesuppressed2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nue/nue_firesuppressed3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nue/nue_firesuppressed4",
+                "stream": false
+            }
+        ]
+    },
+    "nue_foley": {
+        "sounds": [
+            {
+                "name": "pointblank:nue/nue_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nue/nue_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nue/nue_foley3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nue/nue_foley4",
+                "stream": false
+            }
+        ]
+    },
+    "nue_handlerelease": {
+        "sounds": [
+            {
+                "name": "pointblank:nue/nue_handlerelease",
+                "stream": false
+            }
+        ]
+    },
+    "nue_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:nue/nue_magin1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nue/nue_magin2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nue/nue_magin3",
+                "stream": false
+            }
+        ]
+    },
+    "nue_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:nue/nue_magout1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nue/nue_magout2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nue/nue_magout3",
+                "stream": false
+            }
+        ]
+    },
+    "nue_magrattle": {
+        "sounds": [
+            {
+                "name": "pointblank:nue/nue_magrattle1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nue/nue_magrattle2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nue/nue_magrattle3",
+                "stream": false
+            }
+        ]
     }
 }
