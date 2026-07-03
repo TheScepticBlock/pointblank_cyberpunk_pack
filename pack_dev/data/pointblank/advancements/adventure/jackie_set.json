@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "jackie_welles_set": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pointblank:cp2077_tsunami_nue_jackie",
+              "pointblank:cp2077_tsunami_nue_jackie"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": "Obtain the iconic golden pistol, once owned by Jackie Welles",
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "pointblank:cp2077_tsunami_nue_jackie"
+    },
+    "show_toast": true,
+    "title": "Death... S'nothin' But The Final Flourish"
+  },
+  "requirements": [
+    [
+      "jackie_welles_set"
+    ]
+  ],
+  "rewards": {
+    "experience": 25
+  },
+  "sends_telemetry_event": false
+}
