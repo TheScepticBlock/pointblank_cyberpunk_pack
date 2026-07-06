@@ -1,0 +1,28 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "pointblank:cp2077_arasaka_jkex2_kenshin"
+    },
+    {
+      "count": 2,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:repeater"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:red_dye"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:white_dye"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_arasaka_jkex2_kenshin_royce"
+  }
+}

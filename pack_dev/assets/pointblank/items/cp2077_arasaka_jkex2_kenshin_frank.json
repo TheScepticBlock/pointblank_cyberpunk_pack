@@ -1,0 +1,216 @@
+{
+  "name" : "cp2077_arasaka_jkex2_kenshin_frank",
+  "type": "Gun",
+  "compatibleAttachments": [
+    "moa_hg"
+  ],
+  "compatibleAttachmentGroups": [
+    "cp2077_short_scope",
+    "chimera"
+  ],
+  "features": [
+    {
+        "type": "Aiming",
+        "zoom": 0.25,
+        "condition": {
+          "allOf": [
+            {
+              "doesNotHaveAttachment": "moa_hg"
+            },
+            {
+              "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+            },
+            {
+              "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+            }
+          ]
+        }
+    },
+    {
+      "type": "PartVisibility",
+      "parts": [
+        {
+          "name": "RAIL",
+          "visible": false,
+          "condition": {
+          "allOf": [
+            {
+              "doesNotHaveAttachment": "moa_hg"
+            },
+            {
+              "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+            },
+            {
+              "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+            }
+          ]
+        }
+        },
+        {
+          "name": "kenshin_sightGlowF",
+          "visible": true,
+          "condition": {
+          "allOf": [
+            {
+              "doesNotHaveAttachment": "moa_hg"
+            },
+            {
+              "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+            },
+            {
+              "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+            }
+          ]
+        }
+        },
+        {
+          "name": "kenshin_sightGlowR",
+          "visible": true,
+          "condition": {
+          "allOf": [
+            {
+              "doesNotHaveAttachment": "moa_hg"
+            },
+            {
+              "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+            },
+            {
+              "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+            }
+          ]
+        }
+        },
+        {
+          "name": "bullet",
+          "visible": true,
+          "condition": "ammoCount > 0"
+        }
+      ]
+    },
+    {
+      "type": "MuzzleFlash",
+      "effects": [
+        {
+          "phase": "firing",
+          "name": "muzzle_flash_small"
+        }
+      ]
+    },
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "cp2077_quickshot",
+          "displayName": "label.pointblank.fireMode.cp2077_quickshot",
+          "type": "BURST",
+          "rpm": 700,
+          "damage": 3.0,
+          "burstShots": 2,
+          "isUsingDefaultMuzzle": true,
+          "fireAnimations": [
+            {
+              "name": "animation.model.fireempty",
+              "duration": 370,
+              "condition": "ammoCount == 0"
+            },
+            {
+              "name": "animation.model.firelowammo",
+              "duration": 370,
+              "condition": "ammoCount <= 2"
+            },
+            {
+              "name": "animation.model.fireleft",
+              "duration": 370,
+              "condition": "random"
+            },
+            {
+              "name": "animation.model.fireright",
+              "duration": 370,
+              "condition": "random"
+            }
+          ]
+        },
+        {
+          "name": "burst",
+          "displayName": "label.pointblank.fireMode.burst",
+          "type": "BURST",
+          "rpm": 700,
+          "damage": 6.0,
+          "burstShots": 2,
+          "isUsingDefaultMuzzle": true,
+          "fireAnimations": [
+            {
+              "name": "animation.model.firechargeempty",
+              "duration": 370,
+              "condition": "ammoCount == 0"
+            },
+            {
+              "name": "animation.model.firechargelowammo",
+              "duration": 370,
+              "condition": "ammoCount <= 2"
+            },
+            {
+              "name": "animation.model.firecharge",
+              "duration": 370,
+              "condition": "ammoCount > 0"
+            }
+          ],
+          "prepareFireAnimations": [
+            {
+              "name": "animation.model.preparefire",
+              "duration": 500
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "maxAmmoCapacity" : 20,
+  "compatibleAmmo" : ["ammo9mm", "ammocreative"],
+  "damage" : 6,
+  "rpm" : 500,
+  "fireSound" : "kenshin_fire",
+  "gunRecoilInitialAmplitude" : 0.4,
+  "shakeRecoilAmplitude" : 0.25,
+  "shakeRecoilSpeed" : 0.75,
+  "viewRecoilAmplitude" : 2,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
+  "inspectAnimations": [
+    {
+      "name": "animation.model.inspect",
+      "duration": 3400
+    }
+  ],
+  "glowingParts": [
+    {
+      "name": "kenshin_sightGlowF"
+    },
+    {
+      "name": "kenshin_sightGlowR"
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash_small"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 2500,
+      "animation": "animation.model.reloadempty"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 1700,
+      "animation": "animation.model.reload"
+    }
+  ]
+}

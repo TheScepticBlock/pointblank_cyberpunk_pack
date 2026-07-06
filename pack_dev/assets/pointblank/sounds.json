@@ -6242,5 +6242,181 @@
                 "stream": false
             }
         ]
+    },
+    "kenshin_charge": {
+        "sounds": [
+            {
+                "name": "pointblank:kenshin/kenshin_charge1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_charge2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_charge3",
+                "stream": false
+            }
+        ]
+    },
+    "kenshin_fire": {
+        "sounds": [
+            {
+                "name": "pointblank:kenshin/kenshin_fire1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_fire2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_fire3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_fire4",
+                "stream": false
+            }
+        ]
+    },
+    "kenshin_firecharge": {
+        "sounds": [
+            {
+                "name": "pointblank:kenshin/kenshin_firecharge1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_firecharge2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_firecharge3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_firecharge4",
+                "stream": false
+            }
+        ]
+    },
+    "kenshin_fireempty": {
+        "sounds": [
+            {
+                "name": "pointblank:kenshin/kenshin_fireempty1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_fireempty2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_fireempty3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_fireempty4",
+                "stream": false
+            }
+        ]
+    },
+    "kenshin_foley": {
+        "sounds": [
+            {
+                "name": "pointblank:kenshin/kenshin_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_foley3",
+                "stream": false
+            }
+        ]
+    },
+    "kenshin_handlepull": {
+        "sounds": [
+            {
+                "name": "pointblank:kenshin/kenshin_handlepull1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_handlepull2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_handlepull3",
+                "stream": false
+            }
+        ]
+    },
+    "kenshin_handlerelease": {
+        "sounds": [
+            {
+                "name": "pointblank:kenshin/kenshin_handlerelease1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_handlerelease2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_handlerelease3",
+                "stream": false
+            }
+        ]
+    },
+    "kenshin_lowammo": {
+        "sounds": [
+            {
+                "name": "pointblank:kenshin/kenshin_lowammo1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_lowammo2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_lowammo3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_lowammo4",
+                "stream": false
+            }
+        ]
+    },
+    "kenshin_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:kenshin/kenshin_magin1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_magin2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_magin3",
+                "stream": false
+            }
+        ]
+    },
+    "kenshin_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:kenshin/kenshin_magout1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_magout2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kenshin/kenshin_magout3",
+                "stream": false
+            }
+        ]
     }
 }
