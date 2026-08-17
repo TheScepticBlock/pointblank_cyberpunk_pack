@@ -237,6 +237,23 @@
 						}
 					}
 				},
+				"slide": {
+					"position": {
+						"2.2": {
+							"vector": [0, 0, 0]
+						},
+						"2.3667": {
+							"vector": [0, 0, 4]
+						},
+						"3.0": {
+							"vector": [0, 0, 4]
+						},
+						"3.1": {
+							"vector": [0, 0, 0],
+							"easing": "easeInSine"
+						}
+					}
+				},
 				"magazine": {
 					"scale": {
 						"vector": [0, 0, 0]
@@ -427,6 +444,11 @@
 						}
 					}
 				},
+				"magazine2": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
 				"armL_mag": {
 					"rotation": {
 						"vector": [0, 0, 0]
@@ -486,6 +508,19 @@
 						"1.6": {
 							"vector": [0, 0, 0],
 							"easing": "easeInOutCubic"
+						}
+					}
+				},
+				"bullet": {
+					"scale": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5667": {
+							"vector": [0, 0, 0]
+						},
+						"0.6": {
+							"vector": [1, 1, 1]
 						}
 					}
 				},
@@ -675,6 +710,16 @@
 					"scale": {
 						"vector": [0, 0, 0]
 					}
+				},
+				"slide": {
+					"position": {
+						"vector": [0, 0, 4]
+					}
+				},
+				"bullet2": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
 				}
 			},
 			"sound_effects": {
@@ -685,15 +730,21 @@
 		},
 		"animation.model.idleempty": {
 			"loop": true,
+			"animation_length": 0.0333,
 			"bones": {
-				"slide1": {
+				"slide": {
 					"position": {
-						"vector": [0, 0, 6]
+						"vector": [0, 0, 4]
 					}
 				},
-				"slide2": {
-					"position": {
-						"vector": [0, 0, 6.75]
+				"bullet2": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"bullet": {
+					"scale": {
+						"vector": [0, 0, 0]
 					}
 				}
 			}
@@ -789,6 +840,11 @@
 						}
 					}
 				},
+				"slide": {
+					"position": {
+						"vector": [0, 0, 4]
+					}
+				},
 				"magazine": {
 					"scale": {
 						"vector": [0, 0, 0]
@@ -853,6 +909,16 @@
 							"vector": [0, 0, 0],
 							"easing": "easeInOutQuad"
 						}
+					}
+				},
+				"bullet2": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"bullet": {
+					"scale": {
+						"vector": [0, 0, 0]
 					}
 				}
 			},
@@ -1002,6 +1068,28 @@
 						}
 					}
 				},
+				"slide": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 4]
+						},
+						"1.9333": {
+							"vector": [0, 0, 4]
+						},
+						"2.1": {
+							"vector": [0, 0, 5],
+							"easing": "easeInQuad"
+						},
+						"2.1667": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"magazine2": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
 				"armL_mag": {
 					"rotation": {
 						"1.1": {
@@ -1078,6 +1166,19 @@
 						"1.9": {
 							"vector": [0, 0, 0],
 							"easing": "easeInOutCubic"
+						}
+					}
+				},
+				"bullet": {
+					"scale": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5667": {
+							"vector": [0, 0, 0]
+						},
+						"0.6": {
+							"vector": [1, 1, 1]
 						}
 					}
 				},
@@ -1300,36 +1401,34 @@
 						}
 					}
 				},
-				"slide1": {
-					"position": {
+				"hammer": {
+					"rotation": {
 						"0.0": {
-							"vector": [0, 0, 0]
+							"vector": [55, 0, 0]
 						},
-						"0.0667": {
-							"vector": [0, 0, 6]
-						},
-						"0.1333": {
+						"0.0333": {
 							"vector": [0, 0, 0],
 							"easing": "linear"
 						}
 					}
 				},
-				"slide2": {
+				"slide": {
 					"position": {
 						"0.0": {
 							"vector": [0, 0, 0]
 						},
 						"0.0667": {
-							"vector": [0, 0, 6.75]
+							"vector": [0, 0, 5]
 						},
-						"0.1": {
-							"vector": [0, 0, 6.75]
-						},
-						"0.2667": {
-							"vector": [0, 0, 0],
-							"easing": "easeInQuad"
+						"0.1333": {
+							"vector": [0, 0, 0]
 						}
 					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "unity_hammer"
 				}
 			}
 		},
@@ -1366,36 +1465,34 @@
 						}
 					}
 				},
-				"slide1": {
-					"position": {
+				"hammer": {
+					"rotation": {
 						"0.0": {
-							"vector": [0, 0, 0]
+							"vector": [55, 0, 0]
 						},
-						"0.0667": {
-							"vector": [0, 0, 6]
-						},
-						"0.1333": {
+						"0.0333": {
 							"vector": [0, 0, 0],
 							"easing": "linear"
 						}
 					}
 				},
-				"slide2": {
+				"slide": {
 					"position": {
 						"0.0": {
 							"vector": [0, 0, 0]
 						},
 						"0.0667": {
-							"vector": [0, 0, 6.75]
+							"vector": [0, 0, 5]
 						},
-						"0.1": {
-							"vector": [0, 0, 6.75]
-						},
-						"0.2667": {
-							"vector": [0, 0, 0],
-							"easing": "easeInQuad"
+						"0.1333": {
+							"vector": [0, 0, 0]
 						}
 					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "unity_hammer"
 				}
 			}
 		},
@@ -1432,36 +1529,34 @@
 						}
 					}
 				},
-				"slide1": {
-					"position": {
+				"hammer": {
+					"rotation": {
 						"0.0": {
-							"vector": [0, 0, 0]
+							"vector": [55, 0, 0]
 						},
-						"0.0667": {
-							"vector": [0, 0, 6]
-						},
-						"0.1333": {
+						"0.0333": {
 							"vector": [0, 0, 0],
 							"easing": "linear"
 						}
 					}
 				},
-				"slide2": {
+				"slide": {
 					"position": {
 						"0.0": {
 							"vector": [0, 0, 0]
 						},
 						"0.0667": {
-							"vector": [0, 0, 6.75]
+							"vector": [0, 0, 5]
 						},
-						"0.1": {
-							"vector": [0, 0, 6.75]
-						},
-						"0.2667": {
-							"vector": [0, 0, 0],
-							"easing": "easeInQuad"
+						"0.1333": {
+							"vector": [0, 0, 0]
 						}
 					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "unity_hammer"
 				}
 			}
 		},
@@ -1498,25 +1593,31 @@
 						}
 					}
 				},
-				"slide1": {
-					"position": {
+				"hammer": {
+					"rotation": {
 						"0.0": {
-							"vector": [0, 0, 0]
+							"vector": [55, 0, 0]
 						},
-						"0.0667": {
-							"vector": [0, 0, 6]
+						"0.0333": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
 						}
 					}
 				},
-				"slide2": {
+				"slide": {
 					"position": {
 						"0.0": {
 							"vector": [0, 0, 0]
 						},
 						"0.0667": {
-							"vector": [0, 0, 6.75]
+							"vector": [0, 0, 5]
 						}
 					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "unity_fireempty"
 				}
 			}
 		}
