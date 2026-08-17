@@ -1,0 +1,28 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "pointblank:cp2077_militech_m76e_omaha"
+    },
+    {
+      "count": 5,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:magenta_dye"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:repeater"
+    },
+    {
+      "count": 2,
+      "item": "pointblank:processor"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_militech_m76e_omaha_suzie"
+  }
+}

@@ -6418,5 +6418,261 @@
                 "stream": false
             }
         ]
+    },
+    "omaha_charge": {
+        "sounds": [
+            {
+                "name": "pointblank:omaha/omaha_charge1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_charge2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_charge3",
+                "stream": false
+            }
+        ]
+    },
+    "omaha_empty": {
+        "sounds": [
+            {
+                "name": "pointblank:omaha/omaha_empty1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_empty2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_empty3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_empty4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_empty5",
+                "stream": false
+            }
+        ]
+    },
+    "omaha_fire": {
+        "sounds": [
+            {
+                "name": "pointblank:omaha/omaha_fire1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_fire2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_fire3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_fire4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_fire5",
+                "stream": false
+            }
+        ]
+    },
+    "omaha_firecharged": {
+        "sounds": [
+            {
+                "name": "pointblank:omaha/omaha_firecharged1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_firecharged2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_firecharged3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_firecharged4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_firecharged5",
+                "stream": false
+            }
+        ]
+    },
+    "omaha_fireslide": {
+        "sounds": [
+            {
+                "name": "pointblank:omaha/omaha_fireslide1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_fireslide2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_fireslide3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_fireslide4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_fireslide5",
+                "stream": false
+            }
+        ]
+    },
+    "omaha_foley": {
+        "sounds": [
+            {
+                "name": "pointblank:omaha/omaha_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_foley3",
+                "stream": false
+            }
+        ]
+    },
+    "omaha_inspect": {
+        "sounds": [
+            {
+                "name": "pointblank:omaha/omaha_inspect",
+                "stream": false
+            }
+        ]
+    },
+    "omaha_lowammo": {
+        "sounds": [
+            {
+                "name": "pointblank:omaha/omaha_lowammo1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_lowammo2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_lowammo3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_lowammo4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_lowammo5",
+                "stream": false
+            }
+        ]
+    },
+    "omaha_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:omaha/omaha_magin1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_magin2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_magin3",
+                "stream": false
+            }
+        ]
+    },
+    "omaha_maginempty": {
+        "sounds": [
+            {
+                "name": "pointblank:omaha/omaha_maginempty1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_maginempty2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_maginempty3",
+                "stream": false
+            }
+        ]
+    },
+    "omaha_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:omaha/omaha_magout1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_magout2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_magout3",
+                "stream": false
+            }
+        ]
+    },
+    "omaha_magoutempty": {
+        "sounds": [
+            {
+                "name": "pointblank:omaha/omaha_magoutempty1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_magoutempty2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_magoutempty3",
+                "stream": false
+            }
+        ]
+    },
+    "omaha_magrattle": {
+        "sounds": [
+            {
+                "name": "pointblank:omaha/omaha_magrattle1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_magrattle2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_magrattle3",
+                "stream": false
+            }
+        ]
+    },
+    "omaha_slideopen": {
+        "sounds": [
+            {
+                "name": "pointblank:omaha/omaha_slideopen1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_slideopen2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:omaha/omaha_slideopen3",
+                "stream": false
+            }
+        ]
     }
 }

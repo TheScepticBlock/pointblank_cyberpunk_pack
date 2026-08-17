@@ -1,0 +1,261 @@
+{
+  "name" : "cp2077_militech_m76e_omaha_suzie",
+  "type": "Gun",
+  "compatibleAttachments": [
+    "moa_hg"
+  ],
+  "compatibleAttachmentGroups": [
+    "cp2077_short_scope",
+    "chimera"
+  ],
+  "features": [
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "cp2077_quickshot",
+          "displayName": "label.pointblank.fireMode.cp2077_quickshot",
+          "type": "SINGLE",
+          "rpm": 700,
+          "damage": 4.0,
+          "pelletCount": 4,
+          "pelletSpread": 0.001,
+          "gunRecoilInitialAmplitude" : 0.5,
+          "shakeRecoilAmplitude" : 0.5,
+          "shakeRecoilSpeed" : 1,
+          "viewRecoilAmplitude" : 1,
+          "isUsingDefaultMuzzle": true,
+          "fireAnimations": [
+            {
+              "name": "animation.model.fireempty",
+              "duration": 300,
+              "condition": "ammoCount == 0"
+            },
+            {
+              "name": "animation.model.firelowammo",
+              "duration": 300,
+              "condition": "ammoCount <= 5"
+            },
+            {
+              "name": "animation.model.fire",
+              "duration": 600,
+              "condition": "random"
+            },
+            {
+              "name": "animation.model.fire2",
+              "duration": 600,
+              "condition": "random"
+            },
+            {
+              "name": "animation.model.fire3",
+              "duration": 600,
+              "condition": "random"
+            }
+          ]
+        },
+        {
+          "name": "burst",
+          "displayName": "label.pointblank.fireMode.burst",
+          "type": "BURST",
+          "rpm": 700,
+          "damage": 4.0,
+          "pelletCount": 4,
+          "pelletSpread": 0.001,
+          "burstShots": 5,
+          "gunRecoilInitialAmplitude" : 1.5,
+          "shakeRecoilAmplitude" : 0.75,
+          "shakeRecoilSpeed" : 1.25,
+          "viewRecoilAmplitude" : 2,
+          "prepareFireAnimations": [
+            {
+              "name": "animation.model.preparefire",
+              "duration": 700
+            }
+          ],
+          "fireAnimations": [
+            {
+              "name": "animation.model.firechargedempty",
+              "duration": 300,
+              "condition": "ammoCount == 0"
+            },
+            {
+              "name": "animation.model.firechargedlowammo",
+              "duration": 300,
+              "condition": "ammoCount <= 5"
+            },
+            {
+              "name": "animation.model.firecharged",
+              "duration": 600,
+              "condition": "random"
+            }
+          ]
+        }
+      ]
+    },
+    {
+        "type": "Aiming",
+        "zoom": 0.25,
+        "condition": {
+          "allOf": [
+            {
+              "doesNotHaveAttachment": "moa_hg"
+            },
+            {
+              "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+            }
+          ]
+        }
+    },
+    {
+      "type": "PartVisibility",
+      "parts": [
+        {
+          "name": "RAIL",
+          "visible": false,
+          "condition": {
+            "allOf": [
+              {
+                "doesNotHaveAttachment": "moa_hg"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+              }
+            ]
+          }
+        },
+        {
+          "name": "omaha_emptySign",
+          "visible": true,
+          "condition": "ammoCount == 0"
+        },
+        {
+          "name": "omaha_glowSlideRed",
+          "visible": true,
+          "condition": "ammoCount == 0"
+        },
+        {
+          "name": "omaha_glowSlide",
+          "visible": true,
+          "condition": "ammoCount > 0"
+        },
+        {
+          "name": "bullet",
+          "visible": true,
+          "condition": "ammoCount > 0"
+        }
+      ]
+    }
+  ],
+  "maxAmmoCapacity" : 15,
+  "compatibleAmmo" : ["ammo45acp", "ammolasercharge",  "ammocreative"],
+  "damage" : 16.0,
+  "rpm" : 700,
+  "fireSound" : "omaha_fire",
+  "aimingZoom" : 0.45,
+  "gunRecoilInitialAmplitude" : 0.4,
+  "shakeRecoilAmplitude" : 1,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 2,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
+  "glowingParts": [
+    {
+      "name": "omaha_sightGlowRear"
+    },
+    {
+      "name": "omaha_sightGlowFront"
+    },
+    {
+      "name": "omaha_glowSlide"
+    },
+    {
+      "name": "omaha_glowSlideRed"
+    },
+    {
+      "name": "omaha_emptySign"
+    },
+    {
+      "name": "omaha_chargeL"
+    },
+    {
+      "name": "omaha_chargeC"
+    },
+    {
+      "name": "omaha_chargeR"
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash"
+    }
+  ],
+  "drawAnimations": [
+    {
+      "name": "animation.model.draw",
+      "duration": 500,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.drawempty",
+      "duration": 500,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "idleAnimations": [
+    {
+      "name": "animation.model.idle",
+      "duration": 0,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.idleempty",
+      "duration": 0,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "inspectAnimations": [
+    {
+      "name": "animation.model.inspect",
+      "duration": 4200,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.inspectempty",
+      "duration": 3500,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "duration": 3100,
+      "animation": "animation.model.reloadempty",
+      "condition": {
+        "allOf": [
+          {
+            "onEmptyReload": true
+          }
+        ]
+      }
+    },
+    {
+      "phase": "RELOADING",
+      "duration": 2200,
+      "animation": "animation.model.reload",
+      "condition": {
+        "allOf": [
+          {
+            "onEmptyReload": false
+          }
+        ]
+      }
+    }
+  ]
+}

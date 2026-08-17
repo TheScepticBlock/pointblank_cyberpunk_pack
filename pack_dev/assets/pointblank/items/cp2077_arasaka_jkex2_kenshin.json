@@ -166,7 +166,7 @@
     }
   ],
   "maxAmmoCapacity" : 20,
-  "compatibleAmmo" : ["ammo9mm", "ammocreative"],
+  "compatibleAmmo" : ["ammo9mm", "ammolasercharge", "ammocreative"],
   "damage" : 5,
   "rpm" : 500,
   "fireSound" : "kenshin_fire",
