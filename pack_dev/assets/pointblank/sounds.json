@@ -6674,5 +6674,213 @@
                 "stream": false
             }
         ]
+    },
+    "ticon_barrelrelease": {
+        "sounds": [
+            {
+                "name": "pointblank:ticon/ticon_barrelrelease1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_barrelrelease2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_barrelrelease3",
+                "stream": false
+            }
+        ]
+    },
+    "ticon_charge": {
+        "sounds": [
+            {
+                "name": "pointblank:ticon/ticon_charge1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_charge2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_charge3",
+                "stream": false
+            }
+        ]
+    },
+    "ticon_chargesuppressed": {
+        "sounds": [
+            {
+                "name": "pointblank:ticon/ticon_chargesuppressed1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_chargesuppressed2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_chargesuppressed3",
+                "stream": false
+            }
+        ]
+    },
+    "ticon_fire": {
+        "sounds": [
+            {
+                "name": "pointblank:ticon/ticon_fire1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_fire2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_fire3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_fire4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_fire5",
+                "stream": false
+            }
+        ]
+    },
+    "ticon_firecharged": {
+        "sounds": [
+            {
+                "name": "pointblank:ticon/ticon_firecharged1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_firecharged2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_firecharged3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_firecharged4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_firecharged5",
+                "stream": false
+            }
+        ]
+    },
+    "ticon_firesuppressed": {
+        "sounds": [
+            {
+                "name": "pointblank:ticon/ticon_firesuppressed1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_firesuppressed2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_firesuppressed3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_firesuppressed4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_firesuppressed5",
+                "stream": false
+            }
+        ]
+    },
+    "ticon_foley": {
+        "sounds": [
+            {
+                "name": "pointblank:ticon/ticon_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_foley3",
+                "stream": false
+            }
+        ]
+    },
+    "ticon_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:ticon/ticon_magin1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_magin2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_magin3",
+                "stream": false
+            }
+        ]
+    },
+    "ticon_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:ticon/ticon_magout1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_magout2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_magout3",
+                "stream": false
+            }
+        ]
+    },
+    "ticon_magoutfast": {
+        "sounds": [
+            {
+                "name": "pointblank:ticon/ticon_magoutfast1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_magoutfast2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_magoutfast3",
+                "stream": false
+            }
+        ]
+    },
+    "ticon_magrattle": {
+        "sounds": [
+            {
+                "name": "pointblank:ticon/ticon_magrattle1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_magrattle2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:ticon/ticon_magrattle3",
+                "stream": false
+            }
+        ]
+    },
+    "ticon_inspect": {
+        "sounds": [
+            {
+                "name": "pointblank:ticon/ticon_inspect",
+                "stream": false
+            }
+        ]
     }
 }
