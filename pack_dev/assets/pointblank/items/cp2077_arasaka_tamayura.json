@@ -173,16 +173,10 @@
   ],
   "glowingParts": [
     {
-      "name": "nueGlow"
+      "name": "tamayuraSightGlowF"
     },
     {
-      "name": "nueGlowRed"
-    },
-    {
-      "name": "nueSightGlow"
-    },
-    {
-      "name": "nueSightGlowRed"
+      "name": "tamayuraSightGlowR"
     }
   ],
   "effects": [
