@@ -6882,5 +6882,61 @@
                 "stream": false
             }
         ]
+    },
+    "kappa_fire": {
+        "sounds": [
+            {
+                "name": "pointblank:kappa/kappa_fire1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kappa/kappa_fire2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kappa/kappa_fire3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kappa/kappa_fire4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kappa/kappa_fire5",
+                "stream": false
+            }
+        ]
+    },
+    "kappa_load": {
+        "sounds": [
+            {
+                "name": "pointblank:kappa/kappa_load1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kappa/kappa_load2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kappa/kappa_load3",
+                "stream": false
+            }
+        ]
+    },
+    "kappa_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:kappa/kappa_magin1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kappa/kappa_magin2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:kappa/kappa_magin3",
+                "stream": false
+            }
+        ]
     }
 }
