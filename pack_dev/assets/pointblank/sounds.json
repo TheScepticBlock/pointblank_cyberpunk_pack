@@ -6938,5 +6938,133 @@
                 "stream": false
             }
         ]
+    },
+    "quasar_charge": {
+        "sounds": [
+            {
+                "name": "pointblank:quasar/quasar_charge1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:quasar/quasar_charge2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:quasar/quasar_charge3",
+                "stream": false
+            }
+        ]
+    },
+    "quasar_fire": {
+        "sounds": [
+            {
+                "name": "pointblank:quasar/quasar_fire1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:quasar/quasar_fire2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:quasar/quasar_fire3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:quasar/quasar_fire4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:quasar/quasar_fire5",
+                "stream": false
+            }
+        ]
+    },
+    "quasar_foley": {
+        "sounds": [
+            {
+                "name": "pointblank:quasar/quasar_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:quasar/quasar_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:quasar/quasar_foley3",
+                "stream": false
+            }
+        ]
+    },
+    "quasar_magflip": {
+        "sounds": [
+            {
+                "name": "pointblank:quasar/quasar_magflip",
+                "stream": false
+            }
+        ]
+    },
+    "quasar_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:quasar/quasar_magin1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:quasar/quasar_magin2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:quasar/quasar_magin3",
+                "stream": false
+            }
+        ]
+    },
+    "quasar_magintap": {
+        "sounds": [
+            {
+                "name": "pointblank:quasar/quasar_magintap1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:quasar/quasar_magintao2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:quasar/quasar_magintap3",
+                "stream": false
+            }
+        ]
+    },
+    "quasar_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:quasar/quasar_magout1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:quasar/quasar_magout2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:quasar/quasar_magout3",
+                "stream": false
+            }
+        ]
+    },
+    "quasar_magouttap": {
+        "sounds": [
+            {
+                "name": "pointblank:quasar/quasar_magouttap1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:quasar/quasar_magouttap2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:quasar/quasar_magouttap3",
+                "stream": false
+            }
+        ]
     }
 }
