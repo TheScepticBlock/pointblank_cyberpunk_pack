@@ -84,7 +84,7 @@
   "fireSound" : "quasar_fire",
   "drawCooldownDuration" : 600,
   "damage": 6.0,
-  "gunRecoilInitialAmplitude" : 0.45,
+  "gunRecoilInitialAmplitude" : 0.15,
   "shakeRecoilAmplitude" : 0.3,
   "shakeRecoilSpeed" : 1.5,
   "viewRecoilAmplitude" : 0.5,
