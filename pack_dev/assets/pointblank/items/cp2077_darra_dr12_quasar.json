@@ -1,0 +1,122 @@
+{
+  "name" : "cp2077_darra_dr12_quasar",
+  "type": "Gun",
+  "compatibleAttachmentGroups": [
+    "hg_sights",
+    "cp2077_short_scope",
+    "chimera"
+  ],
+  "features": [
+    {
+        "type": "Aiming",
+        "zoom": 0.25,
+        "condition": {
+            "allOf": [
+              {
+                "doesNotHaveAttachmentGroup": "hg_sights"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+              }
+            ]
+        }
+    },
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "single",
+          "displayName": "label.pointblank.fireMode.single",
+          "type": "SINGLE",
+          "rpm": 350,
+          "damage": 3.0
+        },
+        {
+          "name": "automatic",
+          "displayName": "label.pointblank.fireMode.automatic",
+          "type": "AUTOMATIC",
+          "rpm": 350,
+          "damage": 4.0,
+          "prepareFireAnimations": [
+            {
+              "name": "animation.model.preparefire",
+              "duration": 800
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "PartVisibility",
+      "parts": [
+        {
+          "name": "RAIL",
+          "visible": false,
+          "condition": {
+              "allOf": [
+              {
+                "doesNotHaveAttachmentGroup": "hg_sights"
+              },
+              {
+                "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+              }
+            ]
+          }
+        },
+        {
+          "name": "bulletsFull",
+          "visible": true,
+          "condition": "ammoCount > 0"
+        },
+        {
+          "name": "bulletsFull2",
+          "visible": true,
+          "condition": "ammoCount > 0"
+        }
+      ]
+    }
+  ],
+  "maxAmmoCapacity" : 16,
+  "compatibleAmmo" : ["ammo9mm", "ammolasercharge",  "ammocreative"],
+  "fireSound" : "quasar_fire",
+  "drawCooldownDuration" : 600,
+  "damage": 4.0,
+  "gunRecoilInitialAmplitude" : 0.65,
+  "shakeRecoilAmplitude" : 0.3,
+  "shakeRecoilSpeed" : 2,
+  "viewRecoilAmplitude" : 0.8,
+  "inspectCooldownDuration": 5500,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
+  "glowingParts": [
+    {
+      "name": "quasar_sightGlow"
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash_small"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 3600,
+      "animation": "animation.model.reloadempty"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 1900,
+      "animation": "animation.model.reload"
+    }
+  ]
+}
