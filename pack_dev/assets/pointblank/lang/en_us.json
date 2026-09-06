@@ -150,5 +150,6 @@
   "label.pointblank.fireMode.cp2077_quickshot": "QUICK SHOT",
   "label.pointblank.fireMode.cp2077_melee": "MELEE",
   "label.pointblank.fireMode.cp2077_thrown": "THROWN",
-  "label.pointblank.fireMode.cp2077_split": "SPLIT"
+  "label.pointblank.fireMode.cp2077_split": "SPLIT",
+  "label.pointblank.fireMode.cp2077_auto_corrupted": "AUT§kOM§rAT§kI§rC"
 }

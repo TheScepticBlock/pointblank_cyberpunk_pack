@@ -24,16 +24,29 @@
               }
             ]
         }
+    },
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "automatic",
+          "displayName": "label.pointblank.fireMode.cp2077_auto_corrupted",
+          "type": "AUTOMATIC",
+          "rpm": 375,
+          "damage": 6.0,
+          "pelletCount": 3,
+          "pelletSpread": 0.001
+        }
+      ]
     }
   ],
-  "ammoUi": "cp2077_ui_base",
+  "ammoUi": "cp2077_ui_blackwall",
   "maxAmmoCapacity" : 50,
   "compatibleAmmo" : ["ammo545", "ammocreative"],
   "pelletCount": 3,
   "pelletSpread": 0.001,
-  "damage" : 6.0,
+  "damage" : 18.0,
   "rpm" : 375,
-  "fireModes" : ["AUTOMATIC"],
   "fireSound" : "erebus_fire",
   "drawCooldownDuration" : 600,
   "gunRecoilInitialAmplitude" : 0.3,
