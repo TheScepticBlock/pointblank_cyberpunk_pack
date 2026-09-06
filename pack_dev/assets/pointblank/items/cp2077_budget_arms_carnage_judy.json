@@ -36,6 +36,7 @@
       ]
     }
   ],
+  "ammoUi": "cp2077_ui_base",
   "maxAmmoCapacity" : 8,
   "maxAmmoPerReloadIteration" : 1,
   "compatibleAmmo" : ["ammo12gauge", "ammocreative"],

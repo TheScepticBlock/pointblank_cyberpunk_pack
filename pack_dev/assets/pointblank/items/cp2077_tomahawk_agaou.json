@@ -98,6 +98,7 @@
   "effects": [
     
   ],
+  "ammoUi": "cp2077_ui_base",
   "maxAmmoCapacity" : "infinite",
   "compatibleAmmo" : ["ammocreative"],
   "drawCooldownDuration" : 600,

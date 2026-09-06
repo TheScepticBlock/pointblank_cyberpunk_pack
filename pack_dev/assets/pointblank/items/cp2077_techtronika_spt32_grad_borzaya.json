@@ -29,6 +29,7 @@
   "defaultAttachments": [
     "cp2077_so21_saika"
   ],
+  "ammoUi": "cp2077_ui_base",
   "maxAmmoCapacity" : 5,
   "compatibleAmmo" : ["ammo50bmg", "ammocreative"],
   "damage" : 40.0,

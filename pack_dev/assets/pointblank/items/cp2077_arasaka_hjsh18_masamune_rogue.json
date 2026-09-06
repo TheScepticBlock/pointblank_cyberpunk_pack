@@ -176,6 +176,7 @@
       }
     }
   ],
+  "ammoUi": "cp2077_ui_base",
   "maxAmmoCapacity" : 18,
   "compatibleAmmo" : ["ammo556", "ammocreative"],
   "fireSound" : "masamune_fire",

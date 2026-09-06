@@ -29,6 +29,7 @@
   "defaultAttachments": [
     "cp2077_e255_percipient_blue"
   ],
+  "ammoUi": "cp2077_ui_base",
   "maxAmmoCapacity" : 4,
   "compatibleAmmo" : ["ammo50bmg", "ammocreative"],
   "damage" : 40.0,

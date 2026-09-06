@@ -91,6 +91,7 @@
       "name": "glow"
     }
   ],
+  "ammoUi": "cp2077_ui_base",
   "maxAmmoCapacity" : 90,
   "compatibleAmmo" : ["ammo762", "ammocreative"],
   "damage" : 6.0,

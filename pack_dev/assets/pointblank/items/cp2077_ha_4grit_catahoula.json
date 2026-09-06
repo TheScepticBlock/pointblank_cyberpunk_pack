@@ -66,6 +66,7 @@
       ]
     }
   ],
+  "ammoUi": "cp2077_ui_base",
   "maxAmmoCapacity" : 36,
   "compatibleAmmo" : ["ammo45acp", "ammolasercharge",  "ammocreative"],
   "fireSound" : "grit_fire",

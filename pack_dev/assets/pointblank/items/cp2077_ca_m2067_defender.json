@@ -122,6 +122,7 @@
       "name": "glow3"
     }
   ],
+  "ammoUi": "cp2077_ui_defender",
   "maxAmmoCapacity" : 80,
   "compatibleAmmo" : ["ammo68", "ammocreative"],
   "damage" : 6.0,

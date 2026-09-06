@@ -113,6 +113,7 @@
       "name": "glow_ma70"
     }
   ],
+  "ammoUi": "cp2077_ui_base",
   "maxAmmoCapacity" : 60,
   "compatibleAmmo" : ["ammo68", "ammocreative"],
   "damage" : 7.0,

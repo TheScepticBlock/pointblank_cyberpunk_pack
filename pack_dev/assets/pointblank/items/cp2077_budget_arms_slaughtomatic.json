@@ -17,6 +17,7 @@
         "zoom": 0.25
     }
   ],
+  "ammoUi": "cp2077_ui_base",
   "maxAmmoCapacity" : 36,
   "compatibleAmmo" : ["ammo9mm", "ammocreative"],
   "damage" : 1,

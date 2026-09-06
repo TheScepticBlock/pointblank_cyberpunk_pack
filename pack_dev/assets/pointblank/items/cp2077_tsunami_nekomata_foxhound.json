@@ -73,6 +73,7 @@
   "defaultAttachments": [
     "cp2077_e305_prospecta"
   ],
+  "ammoUi": "cp2077_ui_base",
   "maxAmmoCapacity" : 3,
   "compatibleAmmo" : ["ammo338lapua", "ammolasercharge",  "ammocreative"],
   "damage" : 25.0,

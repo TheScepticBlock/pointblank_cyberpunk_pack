@@ -73,6 +73,7 @@
   "defaultAttachments": [
     "cp2077_gaki_red"
   ],
+  "ammoUi": "cp2077_ui_base",
   "maxAmmoCapacity" : 4,
   "compatibleAmmo" : ["ammo338lapua", "ammolasercharge",  "ammocreative"],
   "damage" : 30.0,

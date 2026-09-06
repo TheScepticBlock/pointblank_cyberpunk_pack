@@ -79,6 +79,7 @@
       ]
     }
   ],
+  "ammoUi": "cp2077_ui_base",
   "maxAmmoCapacity" : 16,
   "compatibleAmmo" : ["ammo9mm", "ammolasercharge",  "ammocreative"],
   "fireSound" : "quasar_fire",

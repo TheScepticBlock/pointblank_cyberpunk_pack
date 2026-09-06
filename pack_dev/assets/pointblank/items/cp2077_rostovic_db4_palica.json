@@ -30,6 +30,7 @@
       "parallax": true
     }
   ],
+  "ammoUi": "cp2077_ui_base",
   "maxAmmoCapacity" : 2,
   "compatibleAmmo" : ["ammo12gauge", "ammocreative"],
   "damage" : 63,

@@ -83,6 +83,7 @@
       ]
     }
   ],
+  "ammoUi": "cp2077_ui_base",
   "maxAmmoCapacity" : 21,
   "compatibleAmmo" : ["ammo45acp", "ammolasercharge",  "ammocreative"],
   "damage" : 12.0,
