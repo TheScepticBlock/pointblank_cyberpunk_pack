@@ -37,7 +37,7 @@
       "parallax": true
     }
   ],
-  "ammoUi": "cp2077_ui_base",
+  "ammoUi": "cp2077_ui_chao",
   "maxAmmoCapacity" : 21,
   "compatibleAmmo" : ["ammo9mm", "ammocreative"],
   "fireSound" : "chao_fire",

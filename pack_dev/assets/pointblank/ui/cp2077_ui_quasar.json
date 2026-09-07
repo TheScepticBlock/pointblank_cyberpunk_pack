@@ -1,0 +1,45 @@
+{
+  "name": "cp2077_ui_quasar",
+  "texture": "textures/gui/cp2077_ui_quasar.png",
+  "ammoText": {
+    "x": 43,
+    "y": 141,
+    "size": 1.5,
+    "color": "#60f5f6",
+    "emptyColor": "#60f5f6",
+    "border": false,
+    "dropShadow": true,
+    "digitalStyle": true
+  },
+  "capacityText": {
+    "x": 75,
+    "y": 142,
+    "size": 1.4,
+    "color": "#ff615b",
+    "border": false,
+    "dropShadow": true,
+    "hideOnReloadText": false,
+    "showSlash": false
+  },
+  "fireModeText": {
+    "x": 53,
+    "y": 157,
+    "size": 0.9,
+    "color": "#60f5f6",
+    "border": false,
+    "dropShadow": true,
+    "bold": false,
+    "enabled": true
+  },
+  "size": {
+    "width": 160,
+    "height": 160
+  },
+  "reloadText": "000",
+  "inertia": 0.15,
+  "padding": {
+    "x": 0,
+    "y": 15
+  },
+  "location": "bottom_right"
+}

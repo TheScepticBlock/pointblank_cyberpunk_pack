@@ -31,7 +31,7 @@
       "parallax": true
     }
   ],
-  "ammoUi": "cp2077_ui_base",
+  "ammoUi": "cp2077_ui_kappaxmod2",
   "maxAmmoCapacity" : 30,
   "compatibleAmmo" : ["ammo9mm", "ammocreative"],
   "fireSound" : "kappa_fire",

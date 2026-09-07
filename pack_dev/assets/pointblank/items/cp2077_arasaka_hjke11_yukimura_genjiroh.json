@@ -53,7 +53,7 @@
       "parallax": true
     }
   ],
-  "ammoUi": "cp2077_ui_base",
+  "ammoUi": "cp2077_ui_yukimura",
   "maxAmmoCapacity" : 40,
   "compatibleAmmo" : ["ammo9mm", "ammocreative"],
   "fireSound" : "yukimura_fire",
