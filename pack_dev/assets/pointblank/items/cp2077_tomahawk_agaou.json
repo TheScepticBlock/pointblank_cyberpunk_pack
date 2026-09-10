@@ -95,8 +95,11 @@
       ]
     }
   ],
-  "effects": [
-    
+  "idleAnimations": [
+    {
+      "name": "animation.model.idle",
+      "duration": 100
+    }
   ],
   "ammoUi": "cp2077_ui_base",
   "maxAmmoCapacity" : "infinite",
