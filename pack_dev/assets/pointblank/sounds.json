@@ -7066,5 +7066,29 @@
                 "stream": false
             }
         ]
+    },
+    "nova_fire": {
+        "sounds": [
+            {
+                "name": "pointblank:nova/nova_fire1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nova/nova_fire2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nova/nova_fire3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nova/nova_fire4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nova/nova_fire5",
+                "stream": false
+            },
+        ]
     }
 }
