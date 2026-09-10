@@ -1,0 +1,20 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "pointblank:cp2077_darra_dr5_nova"
+    },
+    {
+      "count": 3,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 3,
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_darra_dr5_nova_doomdoom"
+  }
+}

@@ -7088,7 +7088,107 @@
             {
                 "name": "pointblank:nova/nova_fire5",
                 "stream": false
+            }
+        ]
+    },
+    "nova_firesuppressed": {
+        "sounds": [
+            {
+                "name": "pointblank:nova/nova_firesuppressed1",
+                "stream": false
             },
+            {
+                "name": "pointblank:nova/nova_firesuppressed2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nova/nova_firesuppressed3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nova/nova_firesuppressed4",
+                "stream": false
+            }
+        ]
+    },
+    "nova_foley": {
+        "sounds": [
+            {
+                "name": "pointblank:nova/nova_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nova/nova_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nova/nova_foley3",
+                "stream": false
+            }
+        ]
+    },
+    "nova_inspect": {
+        "sounds": [
+            {
+                "name": "pointblank:nova/nova_inspect",
+                "stream": false
+            }
+        ]
+    },
+    "nova_maghit": {
+        "sounds": [
+            {
+                "name": "pointblank:nova/nova_maghit",
+                "stream": false
+            }
+        ]
+    },
+    "nova_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:nova/nova_magin1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nova/nova_magin2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nova/nova_magin3",
+                "stream": false
+            }
+        ]
+    },
+    "nova_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:nova/nova_magout1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nova/nova_magout2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nova/nova_magout3",
+                "stream": false
+            }
+        ]
+    },
+    "nova_trigger": {
+        "sounds": [
+            {
+                "name": "pointblank:nova/nova_trigger1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nova/nova_trigger2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:nova/nova_trigger3",
+                "stream": false
+            }
         ]
     }
 }

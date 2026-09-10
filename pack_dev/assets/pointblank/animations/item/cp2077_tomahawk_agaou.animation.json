@@ -1,20 +1,6 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.model.idle": {
-			"loop": true,
-			"animation_length": 0.1,
-			"bones": {
-				"main": {
-					"rotation": {
-						"vector": [0, 0, 0]
-					},
-					"position": {
-						"vector": [0, 0, 0]
-					}
-				}
-			}
-		},
 		"animation.model.wholethrow": {
 			"loop": "hold_on_last_frame",
 			"animation_length": 1,
@@ -649,7 +635,7 @@
 		},
 		"animation.model.throw": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 3,
+			"animation_length": 0.1667,
 			"bones": {
 				"armR_melee": {
 					"rotation": {

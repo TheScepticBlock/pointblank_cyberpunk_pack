@@ -11,6 +11,16 @@
     "dropShadow": true,
     "digitalStyle": true
   },
+  "capacityText": {
+    "x": 75,
+    "y": 142,
+    "size": 1.4,
+    "color": "#ff615b",
+    "border": false,
+    "dropShadow": true,
+    "hideOnReloadText": false,
+    "showSlash": false
+  },
   "fireModeText": {
     "x": 53,
     "y": 157,
