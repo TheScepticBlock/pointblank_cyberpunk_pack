@@ -20,6 +20,10 @@
       "texture": "textures/item/reticledot_new.png",
       "parallax": true,
       "maxAngularOffset": 2.5
+    },
+    {
+      "type": "AmmoCounter",
+      "textColor": "#ffffff"
     }
   ],
   "glowingParts": [

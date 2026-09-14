@@ -51,6 +51,10 @@
       "type": "Reticle",
       "texture": "textures/item/reticle_smartgun.png",
       "parallax": true
+    },
+    {
+      "type": "AmmoCounter",
+      "textColor": "#000000"
     }
   ],
   "ammoUi": "cp2077_ui_yukimura",

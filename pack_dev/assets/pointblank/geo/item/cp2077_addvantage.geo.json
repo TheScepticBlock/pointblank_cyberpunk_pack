@@ -81,6 +81,14 @@
 							}
 						}
 					]
+				},
+				{
+					"name": "_ammo_",
+					"parent": "addvantage_hologram",
+					"pivot": [0.7, 1.7, -2.1875],
+					"cubes": [
+						{"origin": [0.1, 1.1, -2.7875], "size": [1.2, 1.2, 1.2], "inflate": -0.4, "uv": [28, 17]}
+					]
 				}
 			]
 		}
