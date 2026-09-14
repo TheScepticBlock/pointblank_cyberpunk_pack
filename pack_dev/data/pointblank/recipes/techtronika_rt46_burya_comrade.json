@@ -1,0 +1,24 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "pointblank:cp2077_techtronika_rt46_burya"
+    },
+    {
+      "count": 5,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 6,
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:repeater"
+    }
+  ],
+  "result": {
+    "item": "pointblank:cp2077_techtronika_rt46_burya_comrade"
+  }
+}

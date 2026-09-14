@@ -84,6 +84,7 @@
   "compatibleAmmo" : ["ammo9mm", "ammolasercharge",  "ammocreative"],
   "fireSound" : "quasar_fire",
   "drawCooldownDuration" : 600,
+  "rpm": 350,
   "damage": 6.0,
   "gunRecoilInitialAmplitude" : 0.15,
   "shakeRecoilAmplitude" : 0.3,

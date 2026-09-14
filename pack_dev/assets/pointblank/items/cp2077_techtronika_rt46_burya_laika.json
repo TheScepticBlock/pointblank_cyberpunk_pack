@@ -1,0 +1,93 @@
+{
+  "name" : "cp2077_techtronika_rt46_burya_laika",
+  "type": "Gun",
+  "compatibleAttachmentGroups": [
+    "chimera"
+  ],
+  "features": [
+    {
+        "type": "Aiming",
+        "zoom": 0.25
+    },
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "cp2077_quickshot",
+          "displayName": "label.pointblank.fireMode.cp2077_quickshot",
+          "type": "SINGLE",
+          "rpm": 110,
+          "damage": 12.0,
+          "animationName": "animation.model.fire2"
+        },
+        {
+          "name": "single",
+          "displayName": "label.pointblank.fireMode.single",
+          "type": "SINGLE",
+          "rpm": 110,
+          "damage": 15.0,
+          "animationName": "animation.model.fire2",
+          "prepareFireAnimations": [
+            {
+              "name": "animation.model.preparefire2",
+              "duration": 900
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "AmmoCounter",
+      "textColor": "#ff8300"
+    }
+  ],
+  "ammoUi": "cp2077_ui_burya",
+  "maxAmmoCapacity" : 2,
+  "compatibleAmmo" : ["ammo50ae", "ammolasercharge",  "ammocreative"],
+  "fireSound" : "burya_fire",
+  "drawCooldownDuration" : 900,
+  "rpm": 100,
+  "damage": 15.0,
+  "gunRecoilInitialAmplitude" : 0.05,
+  "shakeRecoilAmplitude" : 0.3,
+  "shakeRecoilSpeed" : 1,
+  "viewRecoilAmplitude" : 1.0,
+  "inspectCooldownDuration": 4500,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
+  "glowingParts": [
+    {
+      "name": "burya_glow"
+    },
+    {
+      "name": "burya_sight"
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash_big"
+    },
+    {
+      "phase": "hit_target",
+      "name": "cp2077_explosion_new_ext_hit"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 3400,
+      "animation": "animation.model.reloadempty"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex > 0",
+      "duration": 2600,
+      "animation": "animation.model.reload"
+    }
+  ]
+}

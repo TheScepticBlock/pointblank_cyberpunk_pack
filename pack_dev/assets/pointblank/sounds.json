@@ -7190,5 +7190,157 @@
                 "stream": false
             }
         ]
+    },
+    "burya_charge": {
+        "sounds": [
+            {
+                "name": "pointblank:burya/burya_charge1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:burya/burya_charge2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:burya/burya_charge3",
+                "stream": false
+            }
+        ]
+    },
+    "burya_close": {
+        "sounds": [
+            {
+                "name": "pointblank:burya/burya_close1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:burya/burya_close2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:burya/burya_close3",
+                "stream": false
+            }
+        ]
+    },
+    "burya_fire": {
+        "sounds": [
+            {
+                "name": "pointblank:burya/burya_fire1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:burya/burya_fire2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:burya/burya_fire3",
+                "stream": false
+            },
+            {
+                "name": "pointblank:burya/burya_fire4",
+                "stream": false
+            },
+            {
+                "name": "pointblank:burya/burya_fire5",
+                "stream": false
+            }
+        ]
+    },
+    "burya_firemechanism": {
+        "sounds": [
+            {
+                "name": "pointblank:burya/burya_firemechanism1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:burya/burya_firemechanism2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:burya/burya_firemechanism3",
+                "stream": false
+            }
+        ]
+    },
+    "burya_foley": {
+        "sounds": [
+            {
+                "name": "pointblank:burya/burya_foley1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:burya/burya_foley2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:burya/burya_foley3",
+                "stream": false
+            }
+        ]
+    },
+    "burya_magin": {
+        "sounds": [
+            {
+                "name": "pointblank:burya/burya_magin1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:burya/burya_magin2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:burya/burya_magin3",
+                "stream": false
+            }
+        ]
+    },
+    "burya_magout": {
+        "sounds": [
+            {
+                "name": "pointblank:burya/burya_magout1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:burya/burya_magout2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:burya/burya_magout3",
+                "stream": false
+            }
+        ]
+    },
+    "burya_magtap": {
+        "sounds": [
+            {
+                "name": "pointblank:burya/burya_magtap1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:burya/burya_magtap2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:burya/burya_magtap3",
+                "stream": false
+            }
+        ]
+    },
+    "burya_open": {
+        "sounds": [
+            {
+                "name": "pointblank:burya/burya_open1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:burya/burya_open2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:burya/burya_open3",
+                "stream": false
+            }
+        ]
     }
 }

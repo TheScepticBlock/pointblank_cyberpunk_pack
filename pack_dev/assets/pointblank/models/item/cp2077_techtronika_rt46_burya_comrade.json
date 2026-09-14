@@ -1,0 +1,131 @@
+{
+"loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "base":
+{
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    256,
+    256
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        -5,
+        0.5
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        -5,
+        0.5
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        0,
+        3.5
+      ],
+      "translation": [
+        3,
+        -20,
+        -10
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        0,
+        3.5
+      ],
+      "translation": [
+        3,
+        -20,
+        -10
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        0,
+        3.75
+      ],
+      "scale": [
+        0.3,
+        0.3,
+        0.3
+      ]
+    },
+    "gui": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        -5.5,
+        -7.25,
+        0
+      ],
+      "scale": [
+        0.45,
+        0.45,
+        0.45
+      ]
+    },
+    "head": {
+      "scale": [
+        0,
+        0,
+        0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        12.25,
+        -16,
+        0
+      ]
+    },
+    "on_shelf": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        -12.25
+      ]
+    }
+  }
+},
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "pointblank:item/cp2077_techtronika_rt46_burya_comrade.icon"
+      }
+    }
+  }
+}
