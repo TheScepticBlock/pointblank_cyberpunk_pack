@@ -15,7 +15,7 @@
           "name": "single",
           "displayName": "label.pointblank.fireMode.single",
           "type": "SINGLE",
-          "rpm": 400,
+          "rpm": 280,
           "damage": 10.0,
           "prepareFireAnimations": [
             {
@@ -83,7 +83,7 @@
   "maxAmmoCapacity" : 6,
   "compatibleAmmo" : ["ammo357", "ammocreative"],
   "damage" : 8.0,
-  "rpm" : 400,
+  "rpm" : 280,
   "fireSound" : "nova_firesuppressed",
   "drawCooldownDuration" : 600,
   "gunRecoilInitialAmplitude" : 0.6,

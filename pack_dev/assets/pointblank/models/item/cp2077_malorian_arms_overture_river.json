@@ -1,37 +1,37 @@
 {
 "loader": "forge:separate_transforms",
   "gui_light": "front",
-  "base": 
+  "base":
 {
   "credit": "Made with Blockbench",
   "parent": "builtin/entity",
   "texture_size": [
-    128,
-    128
+    256,
+    256
   ],
   "display": {
     "thirdperson_righthand": {
       "translation": [
-        0.25,
-        -4.25,
-        0.5
+        0,
+        -5,
+        1
       ],
       "scale": [
-        0.25,
-        0.25,
-        0.25
+        0.3,
+        0.3,
+        0.3
       ]
     },
     "thirdperson_lefthand": {
       "translation": [
-        0.25,
-        -4.25,
-        0.5
+        0,
+        -5,
+        1
       ],
       "scale": [
-        0.25,
-        0.25,
-        0.25
+        0.3,
+        0.3,
+        0.3
       ]
     },
     "firstperson_righthand": {
@@ -41,9 +41,9 @@
         3.5
       ],
       "translation": [
-        4.75,
-        -22,
-        -22
+        4,
+        -21,
+        -20
       ]
     },
     "firstperson_lefthand": {
@@ -53,15 +53,15 @@
         3.5
       ],
       "translation": [
-        4.75,
-        -22,
-        -21
+        4,
+        -21,
+        -20
       ]
     },
     "ground": {
       "translation": [
         0,
-        -6,
+        -4,
         2.5
       ],
       "scale": [
@@ -96,19 +96,19 @@
     },
     "fixed": {
       "rotation": [
-        180,
-        -90,
-        180
+        0,
+        90,
+        0
       ],
       "translation": [
-        -5.5,
-        -10.25,
-        0.5
+        11.25,
+        -15.25,
+        0
       ],
       "scale": [
-        0.62,
-        0.62,
-        0.62
+        1,
+        1,
+        1
       ]
     }
   }

@@ -59,9 +59,9 @@
 						"0.0": {
 							"vector": [0, 0, 0]
 						},
-						"0.0667": {
-							"vector": ["-5-math.sin(query.anim_time * 1200) * 5", "math.sin(query.anim_time * 1000)", "math.sin(query.anim_time * 2000)* 2"],
-							"easing": "linear"
+						"0.1667": {
+							"vector": ["-15-math.sin(query.anim_time * 1200) * 5", "math.sin(query.anim_time * 1000)", "math.sin(query.anim_time * 2000)* 2"],
+							"easing": "easeOutCubic"
 						},
 						"0.5": {
 							"vector": [0, 0, 0],
@@ -72,9 +72,9 @@
 						"0.0": {
 							"vector": [0, 0, 0]
 						},
-						"0.0333": {
-							"vector": [0, 0, 3],
-							"easing": "linear"
+						"0.0667": {
+							"vector": [0, 0, 5],
+							"easing": "easeOutCubic"
 						},
 						"0.4667": {
 							"vector": [0, 0, 0],

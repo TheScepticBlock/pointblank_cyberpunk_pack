@@ -3,7 +3,13 @@
   "type": "Gun",
   "compatibleAttachmentGroups": [
     "smg_muzzle",
+    "hg_sights",
+    "cp2077_short_scope",
+    "cp2077_long_scope",
     "chimera"
+  ],
+  "defaultAttachments": [
+    "cp2077_type_2067"
   ],
   "features": [
     {
@@ -12,13 +18,13 @@
         "condition": {
           "allOf": [
             {
-              "doesNotHaveAttachment": "moa_hg"
-            },
-            {
               "doesNotHaveAttachmentGroup": "cp2077_short_scope"
             },
             {
               "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+            },
+            {
+              "doesNotHaveAttachmentGroup": "hg_sights"
             }
           ]
         }
@@ -32,30 +38,24 @@
       }
     },
     {
-      "type": "Reticle",
-      "texture": "textures/item/reticle_type_2067.png",
-      "parallax": true,
-      "maxAngularOffset": 1.75
-    },
-    {
       "type": "PartVisibility",
       "parts": [
         {
-          "name": "rail",
-          "visible": true,
+          "name": "RAIL",
+          "visible": false,
           "condition": {
           "allOf": [
-              {
-                "doesNotHaveAttachment": "moa_hg"
-              },
-              {
-                "doesNotHaveAttachmentGroup": "cp2077_short_scope"
-              },
-              {
-                "doesNotHaveAttachmentGroup": "cp2077_long_scope"
-              }
-            ]
-          }
+            {
+              "doesNotHaveAttachmentGroup": "cp2077_short_scope"
+            },
+            {
+              "doesNotHaveAttachmentGroup": "cp2077_long_scope"
+            },
+            {
+              "doesNotHaveAttachmentGroup": "hg_sights"
+            }
+          ]
+        }
         }
       ]
     },
@@ -79,29 +79,47 @@
         }
     }
   ],
-  "ammoUi": "cp2077_ui_base",
+  "ammoUi": "cp2077_ui_overture",
   "maxAmmoCapacity" : 6,
   "compatibleAmmo" : ["ammo357", "ammocreative"],
   "damage" : 16.0,
-  "rpm" : 100,
+  "rpm" : 220,
   "fireModes" : ["SINGLE"],
   "fireSound" : "overture_fire",
-  "drawCooldownDuration" : 830,
+  "drawCooldownDuration" : 600,
   "gunRecoilInitialAmplitude" : 0.8,
   "shakeRecoilAmplitude" : 0.35,
   "shakeRecoilSpeed" : 2,
   "viewRecoilAmplitude" : 2,
-  "inspectCooldownDuration": 5800,
+  "inspectCooldownDuration": 5200,
+  "prepareFireCooldownDuration": 100,
   "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
   "glowingParts": [
     {
-      "name": "glow"
+      "name": "overture_glow"
+    },
+    {
+      "name": "overture_reloadred"
     }
   ],
   "effects": [
     {
       "phase": "hit_scan_acquired",
       "name": "tracer"
+    }
+  ],
+  "fireAnimations": [
+    {
+      "name": "animation.model.fire1",
+      "condition": "random"
+    },
+    {
+      "name": "animation.model.fire2",
+      "condition": "random"
+    },
+    {
+      "name": "animation.model.fire3",
+      "condition": "random"
     }
   ],
   "phasedReloads": [
@@ -113,9 +131,33 @@
     },
     {
       "phase": "RELOADING",
-      "condition": "reloadIterationIndex > 0",
+      "condition": "reloadIterationIndex == 1",
       "duration": 2300,
-      "animation": "animation.model.reload"
+      "animation": "animation.model.reload1"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 2",
+      "duration": 2300,
+      "animation": "animation.model.reload2"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 3",
+      "duration": 2300,
+      "animation": "animation.model.reload3"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 4",
+      "duration": 2300,
+      "animation": "animation.model.reload4"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 5",
+      "duration": 2300,
+      "animation": "animation.model.reload5"
     }
   ]
 }

@@ -3442,6 +3442,14 @@
             }
         ]
     },
+    "overture_cylinderopenspin": {
+        "sounds": [
+            {
+                "name": "pointblank:overture/overture_cylinderopenspin",
+                "stream": false
+            }
+        ]
+    },
     "overture_cylinderspin": {
         "sounds": [
             {
@@ -3530,6 +3538,22 @@
             },
             {
                 "name": "pointblank:overture/overture_swing3",
+                "stream": false
+            }
+        ]
+    },
+    "overture_trigger": {
+        "sounds": [
+            {
+                "name": "pointblank:overture/overture_trigger1",
+                "stream": false
+            },
+            {
+                "name": "pointblank:overture/overture_trigger2",
+                "stream": false
+            },
+            {
+                "name": "pointblank:overture/overture_trigger3",
                 "stream": false
             }
         ]

@@ -2,21 +2,18 @@
   "name" : "cp2077_techtronika_metel_kurt",
   "type": "Gun",
   "compatibleAttachmentGroups": [
-    "smg_muzzle",
     "chimera"
   ],
   "features": [
     {
-        "type": "Aiming",
-        "zoom": 0.25
+      "type": "SHELL_EJECTION",
+      "model": "entity/shell_casing/ar_shell",
+      "texture": "textures/entity/shell_casing/ar_shell.png",
+      "verticalLiftScale": 3.0
     },
     {
-      "type": "Sound",
-      "fireSound": "overture_firesuppressed",
-      "fireSoundVolume": 1,
-      "condition": {
-        "hasAttachmentGroup": "smg_suppressors"
-      }
+        "type": "Aiming",
+        "zoom": 0.25
     },
     {
       "type": "MuzzleFlash",
@@ -38,7 +35,7 @@
         }
     }
   ],
-  "ammoUi": "cp2077_ui_base",
+  "ammoUi": "cp2077_ui_metel",
   "maxAmmoCapacity" : 8,
   "compatibleAmmo" : ["ammo357", "ammocreative"],
   "damage" : 10.0,
@@ -53,12 +50,12 @@
   "drawAnimations": [
     {
       "name": "animation.model.draw",
-      "duration": 630,
+      "duration": 600,
       "condition": "ammoCount > 0"
     },
     {
       "name": "animation.model.drawempty",
-      "duration": 630,
+      "duration": 600,
       "condition": "ammoCount == 0"
     }
   ],
@@ -77,12 +74,12 @@
   "inspectAnimations": [
     {
       "name": "animation.model.inspect",
-      "duration": 5300,
+      "duration": 4700,
       "condition": "ammoCount > 0"
     },
     {
       "name": "animation.model.inspectempty",
-      "duration": 5300,
+      "duration": 4700,
       "condition": "ammoCount == 0"
     }
   ],
@@ -110,7 +107,7 @@
   ],
   "glowingParts": [
     {
-      "name": "glow"
+      "name": "metel_glow"
     }
   ],
   "effects": [
@@ -123,13 +120,13 @@
     {
       "phase": "RELOADING",
       "condition": "reloadIterationIndex == 0",
-      "duration": 3100,
+      "duration": 3200,
       "animation": "animation.model.reloadempty"
     },
     {
       "phase": "RELOADING",
       "condition": "reloadIterationIndex > 0",
-      "duration": 2500,
+      "duration": 2000,
       "animation": "animation.model.reload"
     }
   ]
