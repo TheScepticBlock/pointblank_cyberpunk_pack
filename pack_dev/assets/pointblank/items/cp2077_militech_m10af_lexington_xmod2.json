@@ -1,12 +1,10 @@
 {
   "name" : "cp2077_militech_m10af_lexington_xmod2",
   "type": "Gun",
-  "compatibleAttachments": [
-    "moa_hg"
-  ],
   "compatibleAttachmentGroups": [
     "smg_muzzle",
     "sights_group",
+    "hg_sights",
     "cp2077_short_scope",
     "cp2077_long_scope",
     "chimera"
@@ -16,12 +14,18 @@
   ],
   "features": [
     {
+      "type": "SHELL_EJECTION",
+      "model": "entity/shell_casing/pistol_shell",
+      "texture": "textures/entity/shell_casing/ar_shell.png",
+      "verticalLiftScale": 1.5
+    },
+    {
         "type": "Aiming",
         "zoom": 0.25,
         "condition": {
           "allOf": [
             {
-              "doesNotHaveAttachment": "moa_hg"
+              "doesNotHaveAttachmentGroup": "hg_sights"
             },
             {
               "doesNotHaveAttachmentGroup": "sights_group"
@@ -41,18 +45,23 @@
       "type": "PartVisibility",
       "parts": [
         {
-          "name": "rail",
+          "name": "RAIL",
           "visible": false,
           "condition": {
           "allOf": [
               {
-                "doesNotHaveAttachment": "moa_hg"
+                "doesNotHaveAttachment": "hg_sights"
               },
               {
                 "doesNotHaveAttachmentGroup": "sights_group"
               }
             ]
           }
+        },
+        {
+          "name": "bullet",
+          "visible": true,
+          "condition": "ammoCount >= 1"
         }
       ]
     },
@@ -69,12 +78,12 @@
           "fireAnimations": [
             {
               "name": "animation.model.fireempty",
-              "duration": 300,
+              "duration": 500,
               "condition": "ammoCount == 0"
             },
             {
               "name": "animation.model.firelowammo",
-              "duration": 300,
+              "duration": 500,
               "condition": "ammoCount <= 7"
             }
           ]
@@ -89,12 +98,12 @@
           "fireAnimations": [
             {
               "name": "animation.model.fireempty",
-              "duration": 300,
+              "duration": 500,
               "condition": "ammoCount == 0"
             },
             {
               "name": "animation.model.firelowammo",
-              "duration": 300,
+              "duration": 500,
               "condition": "ammoCount <= 7"
             }
           ]
@@ -128,7 +137,7 @@
   "fireSound" : "lexington_fire",
   "rpm": 450,
   "damage": 4,
-  "gunRecoilInitialAmplitude" : 0.7,
+  "gunRecoilInitialAmplitude" : 0.3,
   "shakeRecoilAmplitude" : 0.35,
   "shakeRecoilSpeed" : 2,
   "viewRecoilAmplitude" : 0.7,
@@ -136,12 +145,12 @@
   "drawAnimations": [
     {
       "name": "animation.model.draw",
-      "duration": 630,
+      "duration": 600,
       "condition": "ammoCount > 0"
     },
     {
       "name": "animation.model.drawempty",
-      "duration": 630,
+      "duration": 600,
       "condition": "ammoCount == 0"
     }
   ],
@@ -160,18 +169,21 @@
   "inspectAnimations": [
     {
       "name": "animation.model.inspect",
-      "duration": 5100,
+      "duration": 5300,
       "condition": "ammoCount > 0"
     },
     {
       "name": "animation.model.inspectempty",
-      "duration": 3400,
+      "duration": 4700,
       "condition": "ammoCount == 0"
     }
   ],
   "glowingParts": [
     {
-      "name": "glow"
+      "name": "lexington_glow"
+    },
+    {
+      "name": "lexington_glow3"
     }
   ],
   "effects": [
@@ -184,13 +196,13 @@
     {
       "phase": "RELOADING",
       "condition": "reloadIterationIndex == 0",
-      "duration": 2700,
+      "duration": 2800,
       "animation": "animation.model.reloadempty"
     },
     {
       "phase": "RELOADING",
       "condition": "reloadIterationIndex > 0",
-      "duration": 2200,
+      "duration": 2000,
       "animation": "animation.model.reload"
     }
   ]
