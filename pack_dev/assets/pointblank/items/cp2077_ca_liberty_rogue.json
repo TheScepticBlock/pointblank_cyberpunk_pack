@@ -138,12 +138,12 @@
   "inspectAnimations": [
     {
       "name": "animation.model.inspect",
-      "duration": 3700,
+      "duration": 3500,
       "condition": "ammoCount > 0"
     },
     {
       "name": "animation.model.inspectempty",
-      "duration": 3700,
+      "duration": 3500,
       "condition": "ammoCount == 0"
     }
   ],

@@ -518,10 +518,14 @@
 				},
 				"leftarm": {
 					"rotation": {
-						"vector": ["easeOutQuart", "easeOutQuart", "easeOutQuart"]
+						"0.0": {
+							"vector": [-26.13726, -51.6477, -30.6132]
+						}
 					},
 					"position": {
-						"vector": ["easeInOutQuad", "easeInOutQuad", "easeInOutQuad"]
+						"0.0": {
+							"vector": [22, -13, 62]
+						}
 					}
 				}
 			}
@@ -574,10 +578,14 @@
 				},
 				"leftarm": {
 					"rotation": {
-						"vector": ["easeOutQuart", "easeOutQuart", "easeOutQuart"]
+						"0.0": {
+							"vector": [-26.13726, -51.6477, -30.6132]
+						}
 					},
 					"position": {
-						"vector": ["easeInOutQuad", "easeInOutQuad", "easeInOutQuad"]
+						"0.0": {
+							"vector": [22, -13, 62]
+						}
 					}
 				}
 			}

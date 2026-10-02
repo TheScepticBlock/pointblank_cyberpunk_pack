@@ -18,5 +18,10 @@
       "parallax": true,
       "maxAngularOffset": 1.75
     }
+  ],
+  "glowingParts": [
+    {
+      "name": "type2067_glass"
+    }
   ]
 }
