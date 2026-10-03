@@ -1,7 +1,7 @@
 Credits:
 CD PROJEKT RED for sfx from Cyberpunk 2077
 
-ZenZenless (zenzen3647 on Discord) for their amazing retexture of the original Militech M-179 Achilles model (thank you so much! :D )
+ZenZenless (zenzen3647 on Discord) for their amazing retexture of the original Militech M-179 Achilles model prior to version 1.16
 
 warlordish (warlordish on Discord) suggestion to add weapon mods/cyberware as attachments
 

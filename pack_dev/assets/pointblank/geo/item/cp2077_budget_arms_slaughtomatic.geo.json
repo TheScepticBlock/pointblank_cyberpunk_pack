@@ -177,6 +177,11 @@
 					]
 				},
 				{
+					"name": "_shelleject_",
+					"parent": "gun",
+					"pivot": [0, 23, 0.75]
+				},
+				{
 					"name": "bullet",
 					"parent": "gun",
 					"pivot": [0, 21.33486, 0.64664],

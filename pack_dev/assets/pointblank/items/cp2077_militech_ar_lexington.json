@@ -104,17 +104,17 @@
       ]
     }
   ],
-  "ammoUi": "cp2077_ui_base",
+  "ammoUi": "cp2077_ui_lexington",
   "maxAmmoCapacity" : 20,
   "compatibleAmmo" : ["ammo9mm", "ammocreative"],
   "fireModes" : ["AUTOMATIC"],
   "fireSound" : "toygun_fire",
   "rpm": 450,
   "damage": 0,
-  "gunRecoilInitialAmplitude" : 0.7,
+  "gunRecoilInitialAmplitude" : 0,
   "shakeRecoilAmplitude" : 0.35,
-  "shakeRecoilSpeed" : 2,
-  "viewRecoilAmplitude" : 0.7,
+  "shakeRecoilSpeed" : 1,
+  "viewRecoilAmplitude" : 0,
   "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
   "drawAnimations": [
     {

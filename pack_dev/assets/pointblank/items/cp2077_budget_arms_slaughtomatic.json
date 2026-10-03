@@ -3,6 +3,12 @@
   "type": "Gun",
   "features": [
     {
+      "type": "SHELL_EJECTION",
+      "model": "entity/shell_casing/pistol_shell",
+      "texture": "textures/entity/shell_casing/ar_shell.png",
+      "verticalLiftScale": 3
+    },
+    {
       "type": "PartVisibility",
       "parts": [
         {

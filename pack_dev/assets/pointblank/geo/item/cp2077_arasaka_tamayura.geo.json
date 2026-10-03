@@ -108,6 +108,11 @@
 					]
 				},
 				{
+					"name": "_shelleject_",
+					"parent": "gun",
+					"pivot": [0, 24.49401, -0.24062]
+				},
+				{
 					"name": "tamayuraSightGlowF",
 					"parent": "gun",
 					"pivot": [0, 26.59538, -20.74186],

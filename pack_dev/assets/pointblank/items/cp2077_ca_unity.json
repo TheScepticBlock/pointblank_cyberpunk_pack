@@ -20,7 +20,7 @@
         "condition": {
           "allOf": [
             {
-              "doesNotHaveAttachment": "moa_hg"
+              "doesNotHaveAttachmentGroup": "hg_sights"
             },
             {
               "doesNotHaveAttachmentGroup": "cp2077_short_scope"
@@ -48,7 +48,7 @@
           "condition": {
           "allOf": [
             {
-              "doesNotHaveAttachment": "moa_hg"
+              "doesNotHaveAttachmentGroup": "hg_sights"
             },
             {
               "doesNotHaveAttachmentGroup": "cp2077_short_scope"

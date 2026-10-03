@@ -1,22 +1,26 @@
 {
   "name" : "cp2077_arasaka_tamayura",
   "type": "Gun",
-  "compatibleAttachments": [
-    "moa_hg"
-  ],
   "compatibleAttachmentGroups": [
+    "hg_sights",
     "smg_muzzle",
     "cp2077_short_scope",
     "chimera"
   ],
   "features": [
     {
+      "type": "SHELL_EJECTION",
+      "model": "entity/shell_casing/pistol_shell",
+      "texture": "textures/entity/shell_casing/ar_shell.png",
+      "verticalLiftScale": 1.5
+    },
+    {
         "type": "Aiming",
         "zoom": 0.25,
         "condition": {
           "allOf": [
             {
-              "doesNotHaveAttachment": "moa_hg"
+              "doesNotHaveAttachmentGroup": "hg_sights"
             },
             {
               "doesNotHaveAttachmentGroup": "cp2077_short_scope"
@@ -44,7 +48,7 @@
           "condition": {
           "allOf": [
             {
-              "doesNotHaveAttachment": "moa_hg"
+              "doesNotHaveAttachmentGroup": "hg_sights"
             },
             {
               "doesNotHaveAttachmentGroup": "cp2077_short_scope"

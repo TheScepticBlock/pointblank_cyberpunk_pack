@@ -95,6 +95,11 @@
 					]
 				},
 				{
+					"name": "_shelleject_",
+					"parent": "gun",
+					"pivot": [0, 24, -0.5]
+				},
+				{
 					"name": "nueGlow",
 					"parent": "gun",
 					"pivot": [0.875, 22.45327, 6.79496],
@@ -165,7 +170,7 @@
 							"uv": {
 								"north": {"uv": [141, 29], "uv_size": [0, 2]},
 								"east": {"uv": [27, 161], "uv_size": [-27, 2]},
-								"south": {"uv": [150, 29], "uv_size": [0, 2]},
+								"south": {"uv": [149, 29], "uv_size": [0, 2]},
 								"west": {"uv": [141, 29], "uv_size": [9, 2]},
 								"up": {"uv": [141, 20], "uv_size": [0, 9]},
 								"down": {"uv": [141, 29], "uv_size": [0, -9]}
@@ -556,7 +561,7 @@
 							"uv": {
 								"north": {"uv": [75, 44], "uv_size": [0, 2]},
 								"east": {"uv": [85, 173], "uv_size": [84, 8]},
-								"south": {"uv": [96, 44], "uv_size": [0, 2]},
+								"south": {"uv": [96, 46], "uv_size": [0, 2]},
 								"west": {"uv": [169, 164], "uv_size": [-84, 8]},
 								"up": {"uv": [75, 23], "uv_size": [0, 21]},
 								"down": {"uv": [75, 44], "uv_size": [0, -21]}

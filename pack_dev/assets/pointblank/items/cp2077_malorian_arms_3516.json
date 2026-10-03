@@ -6,6 +6,12 @@
   ],
   "features": [
     {
+      "type": "SHELL_EJECTION",
+      "model": "entity/shell_casing/ar_shell",
+      "texture": "textures/entity/shell_casing/ar_shell.png",
+      "verticalLiftScale": 2.5
+    },
+    {
       "type": "Sound",
       "fireSound": "3516_firealt",
       "fireSoundVolume": 1,

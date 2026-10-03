@@ -130,7 +130,7 @@
         }
     }
   ],
-  "ammoUi": "cp2077_ui_base",
+  "ammoUi": "cp2077_ui_lexington",
   "maxAmmoCapacity" : 20,
   "compatibleAmmo" : ["ammo9mm", "ammocreative"],
   "fireModes" : ["AUTOMATIC"],
