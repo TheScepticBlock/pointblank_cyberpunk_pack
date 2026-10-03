@@ -1,5 +1,5 @@
 # Cyberpunk 2077 Guns for Vic's Point Blank
-This is a content pack for the Vic's Point Blank mod for Minecraft 1.20.1 and 1.21.1 that aims to recreate Cyberpunk 2077's weaponry and put them into Minecraft.
+This is a content pack for the Vic's Point Blank mod for Minecraft 1.20.1, 1.21.1, and 26.1.2 that aims to recreate Cyberpunk 2077's weaponry and put them into Minecraft.
 
 This repository will contain every model I have created so far for the pack along with everything I will (eventually) add for Pointblank: Jelly, a fork of Vic's Point Blank.
 
