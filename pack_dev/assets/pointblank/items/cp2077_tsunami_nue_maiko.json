@@ -107,6 +107,42 @@
             }
           ]
         }
+    },
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "burst",
+          "displayName": "label.pointblank.fireMode.burst",
+          "type": "BURST",
+          "rpm": 500,
+          "damage": 6.0,
+          "burstShots": 2,
+          "isUsingDefaultMuzzle": true,
+          "fireAnimations": [
+            {
+              "name": "animation.model.fireempty",
+              "duration": 500,
+              "condition": "ammoCount == 0"
+            },
+            {
+              "name": "animation.model.fire",
+              "duration": 500,
+              "condition": "random"
+            },
+            {
+              "name": "animation.model.fireleft",
+              "duration": 500,
+              "condition": "random"
+            },
+            {
+              "name": "animation.model.fireright",
+              "duration": 500,
+              "condition": "random"
+            }
+          ]
+        }
+      ]
     }
   ],
   "ammoUi": "cp2077_ui_nue",
@@ -114,7 +150,6 @@
   "compatibleAmmo" : ["ammo45acp", "ammocreative"],
   "damage" : 6,
   "rpm" : 500,
-  "fireModes" : ["SINGLE"],
   "fireSound" : "nue_fire",
   "gunRecoilInitialAmplitude" : 0.8,
   "shakeRecoilAmplitude" : 0.55,
