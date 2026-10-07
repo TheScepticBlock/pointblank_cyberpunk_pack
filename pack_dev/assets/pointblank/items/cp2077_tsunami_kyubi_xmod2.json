@@ -125,7 +125,7 @@
       }
     }
   ],
-  "ammoUi": "cp2077_ui_base",
+  "ammoUi": "cp2077_ui_kyubi_xmod2",
   "maxAmmoCapacity" : 16,
   "compatibleAmmo" : ["ammo556", "ammocreative"],
   "damage" : 5.0,

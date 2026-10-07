@@ -109,7 +109,7 @@
       }
     }
   ],
-  "ammoUi": "cp2077_ui_base",
+  "ammoUi": "cp2077_ui_ajax",
   "maxAmmoCapacity" : 20,
   "compatibleAmmo" : ["ammo556", "ammocreative"],
   "damage" : 7.0,

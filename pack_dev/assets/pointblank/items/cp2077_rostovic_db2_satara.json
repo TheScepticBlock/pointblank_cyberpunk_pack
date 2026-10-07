@@ -85,7 +85,7 @@
       "name": "DECAL"
     }
   ],
-  "ammoUi": "cp2077_ui_base",
+  "ammoUi": "cp2077_ui_satara",
   "maxAmmoCapacity" : 2,
   "compatibleAmmo" : ["ammo12gauge", "ammolasercharge", "ammocreative"],
   "damage" : 90,

@@ -29,7 +29,7 @@
   "defaultAttachments": [
     "cp2077_mk2x_grandstand"
   ],
-  "ammoUi": "cp2077_ui_base",
+  "ammoUi": "cp2077_ui_grad",
   "maxAmmoCapacity" : 3,
   "compatibleAmmo" : ["ammo50bmg", "ammocreative"],
   "damage" : 45.0,

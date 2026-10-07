@@ -42,7 +42,7 @@
       ]
     }
   ],
-  "ammoUi": "cp2077_ui_base",
+  "ammoUi": "cp2077_ui_igla",
   "maxAmmoCapacity" : 2,
   "compatibleAmmo" : ["ammo12gauge", "ammocreative"],
   "rpm": 900,

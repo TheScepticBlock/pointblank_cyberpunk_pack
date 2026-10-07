@@ -101,7 +101,7 @@
       "duration": 100
     }
   ],
-  "ammoUi": "cp2077_ui_base",
+  "ammoUi": "cp2077_ui_tomahawk_agaou",
   "maxAmmoCapacity" : "infinite",
   "compatibleAmmo" : ["ammocreative"],
   "drawCooldownDuration" : 600,

@@ -139,7 +139,7 @@
       ]
     }
   ],
-  "ammoUi": "cp2077_ui_base",
+  "ammoUi": "cp2077_ui_senkoh_proto",
   "maxAmmoCapacity" : 30,
   "compatibleAmmo" : ["ammo9mm", "ammolasercharge",  "ammocreative"],
   "fireSound" : "senkoh_fire",

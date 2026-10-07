@@ -2824,7 +2824,7 @@
 							"easing": "easeInOutQuad"
 						},
 						"1.5667": {
-							"vector": [-1.5, 4, "1,25"],
+							"vector": [-1.5, 4, 1.25],
 							"easing": "easeInOutSine"
 						},
 						"2.0": {
@@ -3046,7 +3046,7 @@
 							"easing": "easeInOutQuad"
 						},
 						"1.5667": {
-							"vector": [-1.5, 4, "1,25"],
+							"vector": [-1.5, 4, 1.25],
 							"easing": "easeInOutSine"
 						},
 						"2.0": {
