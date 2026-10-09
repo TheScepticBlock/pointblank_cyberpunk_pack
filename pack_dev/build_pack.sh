@@ -9,7 +9,7 @@
 # This script was written for Linux. Windows users might have to use WSL to get this to work or port it to Powershell somehow.
 
 # Change this to whatever you want the pack version to be
-pack_version="1.20.1"
+pack_version="1.20.2"
 
 # Name of the zip file (Do NOT include any file extensions! That will be handled by the script, mainly because I wanted to be able to build .jar files as well for Pointblank: Jelly)
 zip_name="Cyberpunk_2077_Guns_Pack"

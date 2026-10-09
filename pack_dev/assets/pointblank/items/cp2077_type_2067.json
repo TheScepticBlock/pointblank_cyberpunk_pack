@@ -4,6 +4,7 @@
   "category": "scope",
   "groups": [
     "sights_group",
+    "deagle_sights",
     "hg_sights",
     "cp2077_short_scope"
   ],
@@ -16,7 +17,7 @@
       "type": "Reticle",
       "texture": "textures/item/reticle_type_2067.png",
       "parallax": true,
-      "maxAngularOffset": 1.75
+      "maxAngularOffset": 2.5
     }
   ],
   "glowingParts": [
