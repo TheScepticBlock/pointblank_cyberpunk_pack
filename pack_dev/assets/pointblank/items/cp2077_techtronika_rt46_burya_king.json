@@ -1,0 +1,392 @@
+{
+  "name" : "cp2077_techtronika_rt46_burya_king",
+  "type": "Gun",
+  "compatibleAttachmentGroups": [
+    "chimera"
+  ],
+  "features": [
+    {
+        "type": "Aiming",
+        "zoom": 0.25
+    },
+    {
+      "type": "FireMode",
+      "fireModes": [
+        {
+          "name": "cp2077_quickshot",
+          "displayName": "label.pointblank.fireMode.cp2077_quickshot",
+          "type": "SINGLE",
+          "rpm": 160,
+          "damage": 8.0,
+  "fireAnimations": [
+    {
+      "name": "animation.model.fire_king_even",
+      "duration": 600,
+      "condition": "ammoCount == 8"
+    },
+    {
+      "name": "animation.model.fire_king_even",
+      "duration": 600,
+      "condition": "ammoCount == 6"
+    },
+    {
+      "name": "animation.model.fire_king_even",
+      "duration": 600,
+      "condition": "ammoCount == 4"
+    },
+    {
+      "name": "animation.model.fire_king_even",
+      "duration": 600,
+      "condition": "ammoCount == 2"
+    },
+    {
+      "name": "animation.model.fire_king_even",
+      "duration": 600,
+      "condition": "ammoCount == 0"
+    },
+    {
+      "name": "animation.model.fire_king_odd",
+      "duration": 600,
+      "condition": "ammoCount == 7"
+    },
+    {
+      "name": "animation.model.fire_king_odd",
+      "duration": 600,
+      "condition": "ammoCount == 5"
+    },
+    {
+      "name": "animation.model.fire_king_odd",
+      "duration": 600,
+      "condition": "ammoCount == 3"
+    },
+    {
+      "name": "animation.model.fire_king_odd",
+      "duration": 600,
+      "condition": "ammoCount == 1"
+    }
+  ]
+        },
+        {
+          "name": "single",
+          "displayName": "label.pointblank.fireMode.single",
+          "type": "SINGLE",
+          "rpm": 160,
+          "damage": 10.0,
+  "fireAnimations": [
+    {
+      "name": "animation.model.fire_king_even",
+      "duration": 600,
+      "condition": "ammoCount == 8"
+    },
+    {
+      "name": "animation.model.fire_king_even",
+      "duration": 600,
+      "condition": "ammoCount == 6"
+    },
+    {
+      "name": "animation.model.fire_king_even",
+      "duration": 600,
+      "condition": "ammoCount == 4"
+    },
+    {
+      "name": "animation.model.fire_king_even",
+      "duration": 600,
+      "condition": "ammoCount == 2"
+    },
+    {
+      "name": "animation.model.fire_king_even",
+      "duration": 600,
+      "condition": "ammoCount == 0"
+    },
+    {
+      "name": "animation.model.fire_king_odd",
+      "duration": 600,
+      "condition": "ammoCount == 7"
+    },
+    {
+      "name": "animation.model.fire_king_odd",
+      "duration": 600,
+      "condition": "ammoCount == 5"
+    },
+    {
+      "name": "animation.model.fire_king_odd",
+      "duration": 600,
+      "condition": "ammoCount == 3"
+    },
+    {
+      "name": "animation.model.fire_king_odd",
+      "duration": 600,
+      "condition": "ammoCount == 1"
+    }
+  ],
+          "prepareFireAnimations": [
+            {
+              "name": "animation.model.preparefirekingeven",
+              "duration": 500,
+              "condition": "ammoCount == 8"
+            },
+            {
+              "name": "animation.model.preparefirekingeven",
+              "duration": 500,
+              "condition": "ammoCount == 6"
+            },
+            {
+              "name": "animation.model.preparefirekingeven",
+              "duration": 500,
+              "condition": "ammoCount == 4"
+            },
+            {
+              "name": "animation.model.preparefirekingeven",
+              "duration": 500,
+              "condition": "ammoCount == 2"
+            },
+            {
+              "name": "animation.model.preparefirekingodd",
+              "duration": 500,
+              "condition": "ammoCount == 7"
+            },
+            {
+              "name": "animation.model.preparefirekingodd",
+              "duration": 500,
+              "condition": "ammoCount == 5"
+            },
+            {
+              "name": "animation.model.preparefirekingodd",
+              "duration": 500,
+              "condition": "ammoCount == 3"
+            },
+            {
+              "name": "animation.model.preparefirekingodd",
+              "duration": 500,
+              "condition": "ammoCount == 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "AmmoCounter",
+      "textColor": "#ff8300"
+    }
+  ],
+  "ammoUi": "cp2077_ui_burya_king",
+  "maxAmmoCapacity" : 8,
+  "compatibleAmmo" : ["ammo50ae", "ammolasercharge",  "ammocreative"],
+  "fireSound" : "burya_fire",
+  "rpm": 160,
+  "damage": 10.0,
+  "gunRecoilInitialAmplitude" : 0.05,
+  "shakeRecoilAmplitude" : 0.1,
+  "shakeRecoilSpeed" : 1,
+  "viewRecoilAmplitude" : 0.4,
+  "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
+  "glowingParts": [
+    {
+      "name": "burya_glow"
+    },
+    {
+      "name": "burya_sight"
+    }
+  ],
+  "effects": [
+    {
+      "phase": "hit_scan_acquired",
+      "name": "tracer"
+    },
+    {
+      "phase": "firing",
+      "name": "muzzle_flash"
+    }
+  ],
+  "drawAnimations": [
+    {
+      "name": "animation.model.draw",
+      "duration": 900,
+      "condition": "ammoCount == 8"
+    },
+    {
+      "name": "animation.model.draw",
+      "duration": 900,
+      "condition": "ammoCount == 6"
+    },
+    {
+      "name": "animation.model.draw",
+      "duration": 900,
+      "condition": "ammoCount == 4"
+    },
+    {
+      "name": "animation.model.draw",
+      "duration": 900,
+      "condition": "ammoCount == 2"
+    },
+    {
+      "name": "animation.model.draw",
+      "duration": 900,
+      "condition": "ammoCount == 0"
+    },
+    {
+      "name": "animation.model.draw_king_odd",
+      "duration": 900,
+      "condition": "ammoCount == 7"
+    },
+    {
+      "name": "animation.model.draw_king_odd",
+      "duration": 900,
+      "condition": "ammoCount == 5"
+    },
+    {
+      "name": "animation.model.draw_king_odd",
+      "duration": 900,
+      "condition": "ammoCount == 3"
+    },
+    {
+      "name": "animation.model.draw_king_odd",
+      "duration": 900,
+      "condition": "ammoCount == 1"
+    }
+  ],
+  "inspectAnimations": [
+    {
+      "name": "animation.model.inspect",
+      "duration": 4500,
+      "condition": "ammoCount == 8"
+    },
+    {
+      "name": "animation.model.inspect",
+      "duration": 4500,
+      "condition": "ammoCount == 6"
+    },
+    {
+      "name": "animation.model.inspect",
+      "duration": 4500,
+      "condition": "ammoCount == 4"
+    },
+    {
+      "name": "animation.model.inspect",
+      "duration": 4500,
+      "condition": "ammoCount == 2"
+    },
+    {
+      "name": "animation.model.inspect",
+      "duration": 4500,
+      "condition": "ammoCount == 0"
+    },
+    {
+      "name": "animation.model.inspect_king_odd",
+      "duration": 4500,
+      "condition": "ammoCount == 7"
+    },
+    {
+      "name": "animation.model.inspect_king_odd",
+      "duration": 4500,
+      "condition": "ammoCount == 5"
+    },
+    {
+      "name": "animation.model.inspect_king_odd",
+      "duration": 4500,
+      "condition": "ammoCount == 3"
+    },
+    {
+      "name": "animation.model.inspect_king_odd",
+      "duration": 4500,
+      "condition": "ammoCount == 1"
+    }
+  ],
+  "idleAnimations": [
+    {
+      "name": "animation.model.idlekingeven",
+      "duration": 0,
+      "condition": "ammoCount == 8"
+    },
+    {
+      "name": "animation.model.idlekingeven",
+      "duration": 0,
+      "condition": "ammoCount == 6"
+    },
+    {
+      "name": "animation.model.idlekingeven",
+      "duration": 0,
+      "condition": "ammoCount == 4"
+    },
+    {
+      "name": "animation.model.idlekingeven",
+      "duration": 0,
+      "condition": "ammoCount == 2"
+    },
+    {
+      "name": "animation.model.idlekingeven",
+      "duration": 0,
+      "condition": "ammoCount == 0"
+    },
+    {
+      "name": "animation.model.idlekingodd",
+      "duration": 0,
+      "condition": "ammoCount == 7"
+    },
+    {
+      "name": "animation.model.idlekingodd",
+      "duration": 0,
+      "condition": "ammoCount == 5"
+    },
+    {
+      "name": "animation.model.idlekingodd",
+      "duration": 0,
+      "condition": "ammoCount == 3"
+    },
+    {
+      "name": "animation.model.idlekingodd",
+      "duration": 0,
+      "condition": "ammoCount == 1"
+    }
+  ],
+  "phasedReloads": [
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 0",
+      "duration": 3400,
+      "animation": "animation.model.reloademptyking"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 6",
+      "duration": 2600,
+      "animation": "animation.model.reloadkingeven"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 4",
+      "duration": 2600,
+      "animation": "animation.model.reloadkingeven"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 2",
+      "duration": 2600,
+      "animation": "animation.model.reloadkingeven"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 7",
+      "duration": 2600,
+      "animation": "animation.model.reloadkingodd"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 5",
+      "duration": 2600,
+      "animation": "animation.model.reloadkingodd"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 3",
+      "duration": 2600,
+      "animation": "animation.model.reloadkingodd"
+    },
+    {
+      "phase": "RELOADING",
+      "condition": "reloadIterationIndex == 1",
+      "duration": 2600,
+      "animation": "animation.model.reloadkingodd"
+    }
+  ]
+}
