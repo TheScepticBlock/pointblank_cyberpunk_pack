@@ -124,6 +124,7 @@
   "viewRecoilAmplitude" : 3.25,
   "inspectCooldownDuration": 5000,
   "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
+  "dualWielding": true,
   "fireAnimations": [
     {
       "name": "animation.model.fire",
