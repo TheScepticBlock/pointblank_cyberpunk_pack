@@ -125,6 +125,12 @@
   "inspectCooldownDuration": 5000,
   "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
   "dualWielding": true,
+  "idleAnimations": [
+    {
+      "name": "animation.model.idle",
+      "duration": 0
+    }
+  ],
   "fireAnimations": [
     {
       "name": "animation.model.fire",

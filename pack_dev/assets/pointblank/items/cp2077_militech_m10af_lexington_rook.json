@@ -143,6 +143,7 @@
   "shakeRecoilSpeed" : 2,
   "viewRecoilAmplitude" : 0.7,
   "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
+  "dualWielding": true,
   "drawAnimations": [
     {
       "name": "animation.model.draw",

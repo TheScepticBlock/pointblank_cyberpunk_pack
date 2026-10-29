@@ -30,17 +30,29 @@
   "rpm" : 400,
   "fireModes" : ["AUTOMATIC"],
   "fireSound" : "slaughtomatic_fire",
-  "drawCooldownDuration" : 500,
   "gunRecoilInitialAmplitude" : 0.4,
   "shakeRecoilAmplitude" : 0.35,
   "shakeRecoilSpeed" : 1,
   "viewRecoilAmplitude" : 2.5,
   "inspectCooldownDuration": 4100,
   "firstPersonFallbackAnimations": "cp2077_fpp_weapon_light",
+  "dualWielding": true,
   "fireAnimations": [
     {
       "name": "animation.model.fireempty",
       "duration": 270,
+      "condition": "ammoCount == 0"
+    }
+  ],
+  "drawAnimations": [
+    {
+      "name": "animation.model.draw",
+      "duration": 500,
+      "condition": "ammoCount > 0"
+    },
+    {
+      "name": "animation.model.drawempty",
+      "duration": 500,
       "condition": "ammoCount == 0"
     }
   ],

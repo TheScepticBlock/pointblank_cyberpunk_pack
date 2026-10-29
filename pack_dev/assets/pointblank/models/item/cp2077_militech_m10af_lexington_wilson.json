@@ -23,6 +23,11 @@
       ]
     },
     "thirdperson_lefthand": {
+      "translation": [
+        0,
+        -5.25,
+        0
+      ],
       "scale": [
         0.3,
         0.3,
