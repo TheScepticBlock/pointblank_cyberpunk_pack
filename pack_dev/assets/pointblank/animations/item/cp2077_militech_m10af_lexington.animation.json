@@ -309,10 +309,10 @@
 				},
 				"leftarm": {
 					"rotation": {
-						"vector": [7.0151, -16.0014, 4.5529]
+						"vector": [10.5753, -8.794, 9.6325]
 					},
 					"position": {
-						"vector": [-6.75, 4.14225, 1.07436]
+						"vector": [-5.5, 3.31246, 4.16984]
 					}
 				},
 				"_camera_left": {
@@ -332,6 +332,16 @@
 							"vector": [0, 0, 0],
 							"easing": "easeInOutQuad"
 						}
+					}
+				},
+				"slide": {
+					"position": {
+						"vector": [0, 0, 4]
+					}
+				},
+				"slide2": {
+					"position": {
+						"vector": [0, 0, 2]
 					}
 				}
 			},

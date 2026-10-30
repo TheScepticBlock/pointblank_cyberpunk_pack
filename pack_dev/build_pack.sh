@@ -52,11 +52,11 @@ folder_subdir="$folder_to_zip/$zip_directory"
 
 # Zip everything together
 echo "Zipping pack together..."
-(cd "$folder_to_zip" && zip -urq "$zip_full_name" ./* -x '*.zip' '*.sh' 'fabric.mod.json' 'META-INF' 'icon.png') # Exclude zip files and the build script itself (also exclude some PB:J related JAR files)
+cd "$folder_to_zip" && zip -rq "$zip_full_name" ./* -x '*.zip' '*.sh' 'fabric.mod.json' 'icon.png' $folder_to_zip/META-INF/ # Exclude zip files and the build script itself (also exclude some PB:J related JAR files)
 
 # Gets rid of everything inside "assets/pointblank/items" so the items can be re-inserted into the right order
 echo "Deleting the items because they are unorganized... (Don't worry, they'll be re-inserted back into the archive in the order you specified!)"
-zip --delete -q "$zip_full_name" "$zip_directory/*"
+zip -dq "$zip_full_name" "$zip_directory/*"
 
 # Re-insert all of the weapons back into the archive
 echo "Re-inserting Pistols..."
